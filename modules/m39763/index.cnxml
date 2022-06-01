@@ -1,0 +1,190 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Straight line functions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39763</md:content-id>
+  <md:title>Straight line functions</md:title>
+  <md:abstract/>
+  <md:uuid>50fbc9fa-cf04-4bdc-97d6-f25348a9fb6b</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id189263">The gradient of a straight line graph is calculated as:</para>
+      <equation id="uid1">
+        <m:math overflow="scroll" mode="display">
+          <m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>-</m:mo>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>-</m:mo>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfrac>
+        </m:math>
+      </equation>
+      <para id="id189656">for two points <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> on the graph.</para>
+      <para id="id189717">We can now define the <emphasis effect="italics">average gradient</emphasis> between two points even if they are defined by a function which is not a straight line, <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> as:</para>
+      <equation id="uid2">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfrac>
+            <m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id189835">This is the same as <link target-id="uid1"/>.</para>
+    </section>
+    <section id="cid3">
+      <title>Straight-Line Functions</title>
+<section id="secfhsst_id141"><title> Investigation : Average Gradient - Straight Line Function </title>
+      <para id="id189861">Fill in the table by calculating the average gradient over the indicated
+intervals for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>. Note that (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math>;<m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:math>) is the co-ordinates of the first point and (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>;<m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:math>) is the co-ordinates of the second point. So for AB, (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math>;<m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:math>) is the co-ordinates of point A and (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>;<m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:math>) is the co-ordinates of point B.</para>
+      <para id="id189893">
+        <table id="id189899" summary="">
+          <tgroup cols="6">
+            <tbody>
+              <row>
+                <entry/>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msub>
+                        <m:mo>-</m:mo>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mn>1</m:mn>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msub>
+                        <m:mo>-</m:mo>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mn>1</m:mn>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>A-B</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>A-C</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>B-C</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <figure id="id190171">
+          <media id="id190171_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C12_001.png" id="id190171_onlineimage" width="130"><!-- NOTE: attribute width changes image size online (pixels). original width is 130. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C12_001.eps" id="id190171_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id190178">What do you notice about the gradients over each interval?
+ </para>
+</section>
+      <para id="id190187">The average gradient of a straight-line function is the same over any two intervals on the function.</para>
+    </section>
+
+  </content>
+</document>

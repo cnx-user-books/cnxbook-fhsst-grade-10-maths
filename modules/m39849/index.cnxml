@@ -1,0 +1,730 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Polygons</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39849</md:content-id>
+  <md:title>Polygons</md:title>
+  <md:abstract/>
+  <md:uuid>cdc808bd-ae3b-4c92-a32e-35d8a6b91729</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid4">
+      <title>Polygons</title>
+      <para id="id64553">Polygons are all around us. A stop sign is in the shape of an octagon, an eight-sided polygon. The honeycomb of a beehive consists of hexagonal cells. The top of a desk is a rectangle. </para>
+      <para id="id64557">In this section, you will learn about similar polygons.</para>
+      <section id="uid25">
+        <title>Similarity of Polygons</title>
+<section id="secfhsst_id491"><title> Discussion : Similar Triangles </title>
+        <para id="id64577">Fill in the table using the diagram and then answer the questions that follow.</para>
+        <table id="id64584" summary="Table of values">
+<tgroup cols="3"><tbody>
+              <row>
+                <entry><m:math overflow="scroll"><m:mrow><m:mfrac><m:mi> AB </m:mi><m:mi> DE </m:mi></m:mfrac></m:mrow></m:math>=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>D</m:mi><m:mo>^</m:mo></m:mover></m:math>...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry><m:math overflow="scroll"><m:mrow><m:mfrac><m:mi> BC </m:mi><m:mi> EF </m:mi></m:mfrac></m:mrow></m:math>=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry><m:math overflow="scroll"><m:mrow><m:mfrac><m:mi> AC </m:mi><m:mi> DF </m:mi></m:mfrac></m:mrow></m:math>=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math>...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>F</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup>
+</table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id65008">
+          <figure id="id65011">
+            <media id="id65011_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_010.png" id="id65011_onlineimage" width="356"><!-- NOTE: attribute width changes image size online (pixels). original width is 356. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_010.eps" id="id65011_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <list id="id65017" display="block" list-type="enumerated">
+          <item id="uid26">What can you say about the numbers you calculated for: <m:math overflow="scroll"><m:mfrac><m:mi> AB </m:mi><m:mi> DE </m:mi></m:mfrac></m:math>, <m:math overflow="scroll"><m:mfrac><m:mi> BC </m:mi><m:mi> EF </m:mi></m:mfrac></m:math>, <m:math overflow="scroll"><m:mfrac><m:mi> AC </m:mi><m:mi> DF </m:mi></m:mfrac></m:math>?
+</item>
+          <item id="uid27">What can you say about <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math> and <m:math overflow="scroll"><m:mover accent="true"><m:mi>D</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+          <item id="uid28">What can you say about <m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math> and <m:math overflow="scroll"><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+          <item id="uid29">What can you say about <m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math> and <m:math overflow="scroll"><m:mover accent="true"><m:mi>F</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+        </list>
+        
+</section>
+        <para id="id65212">If two polygons are <emphasis effect="italics">similar</emphasis>, one is an enlargement of the other. This means that the two polygons will have the same angles and their sides will be in the same proportion.</para>
+        <para id="id65223">We use the symbol <m:math overflow="scroll"><m:mo>≡</m:mo></m:math> to mean <emphasis effect="italics">is similar to</emphasis>.</para>
+<definition id="fhsst_id537"><term id="termfhsst_id537"> Similar Polygons </term> <meaning id="meaningfhsst_id537">
+        <para id="id65247">Two polygons are similar if:</para>
+        <list id="id65253" display="block" list-type="enumerated">
+          <item id="uid30">their corresponding angles are equal, <emphasis effect="bold">and</emphasis></item>
+          <item id="uid31">the ratios of corresponding sides are equal.
+</item>
+        </list>
+        
+        </meaning></definition>
+<exercise id="secfhsst_id546"><title> Similarity of Polygons </title>
+        <problem id="probfhsst_id547">
+        <para id="id65309">Show that the following two polygons are similar.</para>
+        <para id="id65315">
+          <figure id="id65318">
+            <media id="id65318_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_011.png" id="id65318_onlineimage" width="307"><!-- NOTE: attribute width changes image size online (pixels). original width is 307. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_011.eps" id="id65318_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id559"> <list id="listfhsst_id559" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is required </label>
+        <para id="id65346">We are required to show that the pair of polygons is similar. We can do this by showing that the ratio of corresponding sides is equal and by showing that corresponding angles are equal.</para>
+        </item> <item> <label> Corresponding angles </label>
+        <para id="id65355">We are given the angles. So, we can show that corresponding angles are equal.</para>
+        </item> <item> <label> Show that corresponding angles are equal </label>
+        <para id="id65363">All angles are given to be 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> and</para>
+        <equation id="id65380">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>E</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>F</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>G</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>H</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Show that corresponding sides have equal ratios </label>
+        <para id="id65511">We first need to see which sides correspond. The rectangles have two equal long sides and two equal short sides. We need to compare the ratio of the long side lengths of the two different rectangles as well as the ratio of the short side lenghts.</para>
+        <para id="id65517">Long sides, large rectangle values over small rectangle values:</para>
+        <equation id="id65521"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Ratio</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>L</m:mi>
+                    </m:mrow>
+                    <m:mi>L</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65569">Short sides, large rectangle values over small rectangle values:</para>
+        <equation id="id65572"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Ratio</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi>L</m:mi>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mi>L</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65644">The ratios of the corresponding sides are equal, 2 in this case.</para>
+        </item> <item> <label> Final answer </label>
+        <para id="id65652">Since corresponding angles are equal and the ratios of the corresponding sides are equal the polygons ABCD and EFGH are similar. </para>
+        </item> </list> </solution>
+</exercise>
+<note id="notfhsst_id731" type="tip">All squares are similar.</note>
+<exercise id="secfhsst_id732"><title> Similarity of Polygons </title>
+        <problem id="probfhsst_id733">
+        <para id="id65687">If two pentagons ABCDE and GHJKL are similar, determine the lengths of the sides and angles labelled with letters:</para>
+        <para id="id65694">
+          <figure id="id65697">
+            <media id="id65697_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_012.png" id="id65697_onlineimage" width="249"><!-- NOTE: attribute width changes image size online (pixels). original width is 249. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_012.eps" id="id65697_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id745"> <list id="listfhsst_id745" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given </label>
+        <para id="id65725">We are given that ABCDE and GHJKL are similar. This means that:</para>
+        <equation id="id65729">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mfrac>
+                <m:mi> AB </m:mi>
+                <m:mi> GH </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> BC </m:mi>
+                <m:mi> HJ </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> CD </m:mi>
+                <m:mi> JK </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> DE </m:mi>
+                <m:mi> KL </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> EA </m:mi>
+                <m:mi> LG </m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id65782">and</para>
+        <equation id="id65787">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>G</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>H</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>J</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>K</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>E</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>L</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Determine what is required </label>
+        <para id="id65948">We are required to determine the</para>
+        <list id="id65951" display="block" list-type="enumerated">
+          <item id="uid32"><label>lengths</label><m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math>, <m:math overflow="scroll"><m:mi>c</m:mi></m:math> and <m:math overflow="scroll"><m:mi>d</m:mi></m:math>, and
+</item>
+          <item id="uid33"><label>angles</label><m:math overflow="scroll"><m:mi>e</m:mi></m:math>, <m:math overflow="scroll"><m:mi>f</m:mi></m:math> and <m:math overflow="scroll"><m:mi>g</m:mi></m:math>.
+</item>
+        </list>
+        </item> <item> <label> Decide how to approach the problem </label>
+        <para id="id66048">The corresponding angles are equal, so no calculation is needed. We are given one pair of sides <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>K</m:mi><m:mi>J</m:mi></m:mrow></m:math> that correspond. <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow><m:mrow><m:mi>K</m:mi><m:mi>J</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> so we know that all sides of <m:math overflow="scroll"><m:mrow><m:mi>K</m:mi><m:mi>J</m:mi><m:mi>H</m:mi><m:mi>G</m:mi><m:mi>L</m:mi></m:mrow></m:math> are 1,5 times smaller than <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math>.</para>
+        </item> <item> <label> Calculate lengths </label>
+        <equation id="id66160">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>b</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>25</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>6</m:mn>
+                      <m:mi>c</m:mi>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>÷</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Calculate angles </label>
+        <equation id="id66368">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>e</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>92</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi mathvariant="sans-serif">corresponds</m:mi>
+                      <m:mi mathvariant="sans-serif">to</m:mi>
+                      <m:mi mathvariant="sans-serif">H</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>f</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>120</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi mathvariant="sans-serif">corresponds</m:mi>
+                      <m:mi mathvariant="sans-serif">to</m:mi>
+                      <m:mi mathvariant="sans-serif">D</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>g</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>40</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi mathvariant="sans-serif">corresponds</m:mi>
+                      <m:mi mathvariant="sans-serif">to</m:mi>
+                      <m:mi mathvariant="sans-serif">E</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer </label>
+        <equation id="id66506">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>a</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>3</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>b</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>25</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>c</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>4</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>d</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>e</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>92</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>f</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>120</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>g</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>40</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1187"><title> Similarity of Equilateral Triangles </title>
+<para id="uid34283409"> Working in pairs, show that all equilateral triangles are similar. </para>
+        
+</section>
+<section id="secfhsst_id1190"><title> Polygons-mixed </title>
+        <list id="id66690" display="block" list-type="enumerated"><item id="uid34">Find the values of the unknowns in each case. Give reasons.
+<figure id="id66710"><media id="id66710_media" alt=""><image mime-type="image/png" src="../../media/mg10c14_2.png" id="id66710_onlineimage" width="443"><!-- NOTE: attribute width changes image size online (pixels). original width is 443. --></image><image mime-type="application/postscript" for="pdf" src="../../media/mg10c14_2.eps" id="id66710_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/liD">Click here for the solution</link></item>
+          <item id="uid35">
+Find the angles and lengths marked with letters in the following figures:
+<figure id="id66733"><media id="id66733_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_014.png" id="id66733_onlineimage" width="297"><!-- NOTE: attribute width changes image size online (pixels). original width is 297. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_014.eps" id="id66733_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/liW">Click here for the solution</link></item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

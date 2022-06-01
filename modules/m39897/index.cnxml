@@ -1,0 +1,153 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Misuse of statistics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39897</md:content-id>
+  <md:title>Misuse of statistics</md:title>
+  <md:abstract/>
+  <md:uuid>3af4f98d-c55b-4f4e-8303-8c3637c92518</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid8">
+      <title>Misuse of Statistics</title>
+      <para id="id215969">In many cases groups can gain an advantage by misleading people with the misuse of statistics.</para>
+      <para id="id215973">Common techniques used include:</para>
+      <list id="id215979" display="block" list-type="bulleted">
+        <item id="uid105">Three dimensional graphs.
+</item>
+        <item id="uid106">Axes that do not start at zero.
+</item>
+        <item id="uid107">Axes without scales.
+</item>
+        <item id="uid108">Graphic images that convey a negative or positive mood.
+</item>
+        <item id="uid109">Assumption that a correlation shows a necessary causality.
+</item>
+        <item id="uid110">Using statistics that are not truly representative of the entire population.
+</item>
+        <item id="uid111">Using misconceptions of mathematical concepts
+</item>
+      </list>
+      <para id="id216070">For example, the following pairs of graphs show identical information but look very different. Explain why.</para>
+      <para id="id216074">
+        <figure id="id216077">
+          <media id="id216077_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C16_010.png" id="id216077_onlineimage" width="473"><!-- NOTE: attribute width changes image size online (pixels). original width is 473. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_010.eps" id="id216077_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <section id="uid112">
+        <title>Exercises - Misuse of Statistics</title>
+        <list id="id216093" display="block" list-type="enumerated"><item id="uid113">A company has tried to give a visual representation of the increase in their earnings from one year to the next. Does the graph below convince you? Critically analyse the graph.
+<figure id="id216113"><media id="id216113_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_011.png" id="id216113_onlineimage" width="228"><!-- NOTE: attribute width changes image size online (pixels). original width is 228. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_011.eps" id="id216113_printimage"/></media></figure><link window="new" class="fullmarks" url=" http://www.fhsst.org/la5">Click here for the solution</link></item>
+          <item id="uid114">In a study conducted on a busy highway, data was collected about drivers breaking the speed limit and the colour of the car they were driving. The data were collected during a 20 minute time interval during the middle of the day, and are presented in a table and pie chart below.
+<!--Table that contain tables are not converted.--><list id="id216251" display="block" list-type="bulleted"><item id="uid115"><label/>Conclusions made by a novice based on the data are summarised as follows:
+</item><item id="uid116"><label/>“People driving white cars are more likely to break the speed limit.”
+</item><item id="uid117"><label/>“Drivers in blue and red cars are more likely to stick to the speed limit.”
+</item><item id="uid118"><label/>Do you agree with these conclusions? Explain.
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/laN">Click here for the solution</link></item>
+          <item id="uid119">A record label produces a graphic, showing their advantage in sales over their competitors. Identify at least three devices they have used to influence and mislead the readers impression.
+<figure id="id216327"><media id="id216327_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_013.png" id="id216327_onlineimage" width="295"><!-- NOTE: attribute width changes image size online (pixels). original width is 295. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_013.eps" id="id216327_printimage"/></media></figure><link window="new" class="fullmarks" url=" http://www.fhsst.org/laR">Click here for the solution</link></item>
+          <item id="uid120">In an effort to discredit their competition, a tour bus company prints the graph shown below. Their claim is that the competitor is losing business. Can you think of a better explanation?
+<figure id="id216351"><media id="id216351_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_014.png" id="id216351_onlineimage" width="316"><!-- NOTE: attribute width changes image size online (pixels). original width is 316. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_014.eps" id="id216351_printimage"/></media></figure><link window="new" class="fullmarks" url=" http://www.fhsst.org/lan">Click here for the solution</link></item>
+          <item id="uid121">To test a theory, 8 different offices were monitored for noise levels and productivity of the employees in the office. The results are graphed below.
+<figure id="id216374"><media id="id216374_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_015.png" id="id216374_onlineimage" width="189"><!-- NOTE: attribute width changes image size online (pixels). original width is 189. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_015.eps" id="id216374_printimage"/></media></figure>
+The following statement was then made:
+“If an office environment is noisy, this leads to poor productivity.”
+Explain the flaws in this thinking.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/laQ">Click here for the solution</link>
+</item>
+        </list>
+      </section>
+    </section>
+    <section id="cid9">
+      <title>Summary of Definitions</title>
+      <list id="id216407" display="block" list-type="labeled-item">
+        <item id="uid122"><label>mean</label>The mean of a data set, <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, denoted by <m:math overflow="scroll"><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>, is the average of the data values, and is calculated as:
+<equation id="id216451"><m:math overflow="scroll" mode="display"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>sum </m:mi><m:mi> of </m:mi><m:mi> values </m:mi></m:mrow><m:mrow><m:mi>number </m:mi><m:mi> of </m:mi><m:mi> values </m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation></item>
+        <item id="uid123"><label>median</label>The median is the centre data value in a data set that has been ordered from lowest to highest
+</item>
+        <item id="uid124"><label>mode</label>The mode is the data value that occurs most often in a data set.
+</item>
+      </list><para id="eip-813">The following presentation summarises what you have learnt in this chapter. Ignore the chapter number and any exercise numbers in the presentation.
+<figure id="slidesharefigure" class="slideshare"><media id="slidesharemedia" alt="Powerpoint presentation on electric circuits">
+    	<flash id="slideshareflash" height="355" width="425" mime-type="application/x-shockwave- flash" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=p0001-wynberggirlshigh-jadegibson-maths-grade-dataanalysisstatistics-100929095944-phpapp01&amp;stripped_title=wynberg-girls-highjade-gibsonmathsdata-analysis-statistics">
+    	<param name="allowScriptAccess" value="always"/>
+    	<param name="allowFullScreen" value="true"/>
+    	</flash>
+    	</media>
+    	</figure></para>
+    </section>
+    <section id="eip-852"><title>Summary</title><list id="eip-343">
+<item>Data types</item><item>
+Collecting data</item><item>
+Samples and populations</item><item>
+Grouping data
+	Tally
+	Frequency
+	bins</item><item>
+Graphing data
+	Bar and compound bar graphs
+	Histograms and frequency polygons
+	Pie charts
+	Line and broken line graphs</item><item>
+Summarising data</item><item>
+	Central tendency
+		Mean
+		Median
+		Mode
+	Dispersion
+		Range
+		Quartiles
+		Inter-quartile range
+		Percentiles</item><item>
+Misuse of stats</item>
+</list></section><section id="cid10">
+      <title>Exercises</title>
+      <list id="id216570" display="block" list-type="enumerated"><item id="uid125">Calculate the mean, median, and mode of Data Set 3.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/laU">Click here for the solution</link>
+</item>
+        <item id="uid126">The tallest 7 trees in a park have heights in metres of 41, 60, 47, 42, 44, 42, and 47. Find the median of their heights.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/laP">Click here for the solution</link>
+</item>
+        <item id="uid127">The students in Bjorn's class have the following ages: 5, 9, 1, 3, 4, 6, 6, 6, 7, 3. Find the mode of their ages.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/laE">Click here for the solution</link>
+</item>
+        <item id="uid128">The masses (in kg, correct to the nearest 0,1 kg) of thirty people were measured as follows:
+<table id="id216624" summary=""><tgroup cols="10"><tbody><row><entry>45,1</entry><entry>57,9</entry><entry>67,9</entry><entry>57,4</entry><entry>50,7</entry><entry>61,1</entry><entry>63,9</entry><entry>67,5</entry><entry>69,7</entry><entry>71,7</entry></row><row><entry>68,0</entry><entry>63,2</entry><entry>58,7</entry><entry>56,9</entry><entry>78,5</entry><entry>59,7</entry><entry>54,4</entry><entry>66,4</entry><entry>51,6</entry><entry>47,7</entry></row><row><entry>70,9</entry><entry>54,8</entry><entry>59,1</entry><entry>60,3</entry><entry>60,1</entry><entry>52,6</entry><entry>74,9</entry><entry>72,1</entry><entry>49,5</entry><entry>49,8</entry></row></tbody></tgroup></table><list id="id216804" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid129">Copy the frequency table below, and complete it.
+<table id="id216820" summary=""><tgroup cols="3"><tbody><row><entry><emphasis effect="bold">Mass (in kg)</emphasis></entry><entry><emphasis effect="bold">Tally</emphasis></entry><entry><emphasis effect="bold">Number of people</emphasis></entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>45</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>m</m:mi><m:mo>&lt;</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry><entry/><entry/></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>m</m:mi><m:mo>&lt;</m:mo><m:mn>55</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry><entry/><entry/></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>55</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>m</m:mi><m:mo>&lt;</m:mo><m:mn>60</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry><entry/><entry/></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>60</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>m</m:mi><m:mo>&lt;</m:mo><m:mn>65</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry><entry/><entry/></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>65</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>m</m:mi><m:mo>&lt;</m:mo><m:mn>70</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry><entry/><entry/></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>70</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>m</m:mi><m:mo>&lt;</m:mo><m:mn>75</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry><entry/><entry/></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>75</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>m</m:mi><m:mo>&lt;</m:mo><m:mn>80</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry><entry/><entry/></row></tbody></tgroup></table></item><item id="uid130">Draw a frequency polygon for this information.
+</item><item id="uid131">What can you conclude from looking at the graph?
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/lam">Click here for the solution</link></item>
+        <item id="uid132">An engineering company has designed two different types of engines for motorbikes. The two different motorbikes are tested for the time it takes (in seconds) for them to accelerate from 0 km/h to 60 km/h.
+<table id="id217268" summary=""><tgroup cols="12"><tbody><row><entry/><entry>Test 1</entry><entry>Test 2</entry><entry>Test 3</entry><entry>Test 4</entry><entry>Test 5</entry><entry>Test 6</entry><entry>Test 7</entry><entry>Test 8</entry><entry>Test 9</entry><entry>Test 10</entry><entry>Average</entry></row><row><entry>Bike 1</entry><entry>1.55</entry><entry>1.00</entry><entry>0.92</entry><entry>0.80</entry><entry>1.49</entry><entry>0.71</entry><entry>1.06</entry><entry>0.68</entry><entry>0.87</entry><entry>1.09</entry><entry/></row><row><entry>Bike 2</entry><entry>0.9</entry><entry>1.0</entry><entry>1.1</entry><entry>1.0</entry><entry>1.0</entry><entry>0.9</entry><entry>0.9</entry><entry>1.0</entry><entry>0.9</entry><entry>1.1</entry><entry/></row></tbody></tgroup></table><list id="id217423" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid133">What measure of central tendency should be used for this information?
+</item><item id="uid134">Calculate the average you chose in the previous question for each motorbike.
+</item><item id="uid135">Which motorbike would you choose based on this information? Take note of accuracy of the numbers from each set of tests.
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/lay">Click here for the solution</link></item>
+        <item id="uid136">The heights of 40 learners are given below.
+<table id="id217478" summary=""><tgroup cols="10"><tbody><row><entry>154</entry><entry>140</entry><entry>145</entry><entry>159</entry><entry>150</entry><entry>132</entry><entry>149</entry><entry>150</entry><entry>138</entry><entry>152</entry></row><row><entry>141</entry><entry>132</entry><entry>169</entry><entry>173</entry><entry>139</entry><entry>161</entry><entry>163</entry><entry>156</entry><entry>157</entry><entry>171</entry></row><row><entry>168</entry><entry>166</entry><entry>151</entry><entry>152</entry><entry>132</entry><entry>142</entry><entry>170</entry><entry>162</entry><entry>146</entry><entry>152</entry></row><row><entry>142</entry><entry>150</entry><entry>161</entry><entry>138</entry><entry>170</entry><entry>131</entry><entry>145</entry><entry>146</entry><entry>147</entry><entry>160</entry></row></tbody></tgroup></table><list id="id217711" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid137">Set up a frequency table using 6 intervals.
+</item><item id="uid138">Calculate the approximate mean.
+</item><item id="uid139">Determine the mode.
+</item><item id="uid140">How many learners are taller than your approximate average in (b)?
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/laV">Click here for the solution</link></item>
+        <item id="uid141">In a traffic survey, a random sample of 50 motorists were asked the distance they drove to work daily. This information is shown in the table below.
+<table id="id217778" summary=""><tgroup cols="10"><tbody><row><entry>Distance in km</entry><entry>1-5</entry><entry>6-10</entry><entry>11-15</entry><entry>16-20</entry><entry>21-25</entry><entry>26-30</entry><entry>31-35</entry><entry>36-40</entry><entry>41-45</entry></row><row><entry>Frequency</entry><entry>4</entry><entry>5</entry><entry>9</entry><entry>10</entry><entry>7</entry><entry>8</entry><entry>3</entry><entry>2</entry><entry>2</entry></row></tbody></tgroup></table><list id="id217956" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid142">Find the approximate mean.
+</item><item id="uid143">What percentage of samples drove
+<list id="id217984" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid144">less than 16 km?
+</item><item id="uid145">more than 30 km?
+</item><item id="uid146">between 16 km and 30 km daily?
+</item></list></item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/lap">Click here for the solution</link></item>
+        <item id="uid147">A company wanted to evaluate the training programme in its factory. They gave the same task to trained and untrained employees and timed each one in seconds.
+<table id="id218040" summary=""><tgroup cols="6"><tbody><row><entry><emphasis effect="bold">Trained</emphasis></entry><entry>121</entry><entry>137</entry><entry>131</entry><entry>135</entry><entry>130</entry></row><row><entry/><entry>128</entry><entry>130</entry><entry>126</entry><entry>132</entry><entry>127</entry></row><row><entry/><entry>129</entry><entry>120</entry><entry>118</entry><entry>125</entry><entry>134</entry></row><row><entry><emphasis effect="bold">Untrained</emphasis></entry><entry>135</entry><entry>142</entry><entry>126</entry><entry>148</entry><entry>145</entry></row><row><entry/><entry>156</entry><entry>152</entry><entry>153</entry><entry>149</entry><entry>145</entry></row><row><entry/><entry>144</entry><entry>134</entry><entry>139</entry><entry>140</entry><entry>142</entry></row></tbody></tgroup></table><list id="id218292" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid148">Find the medians and quartiles for both sets of data.
+</item><item id="uid149">Find the Interquartile Range for both sets of data.
+</item><item id="uid150">Comment on the results.
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/lad">Click here for the solution</link></item>
+        <item id="uid151">A small firm employs nine people. The annual salaries of the employers are:
+<table id="id218346" summary=""><tgroup cols="3"><tbody><row><entry>R600 000</entry><entry>R250 000</entry><entry>R200 000</entry></row><row><entry>R120 000</entry><entry>R100 000</entry><entry>R100 000</entry></row><row><entry>R100 000</entry><entry>R90 000</entry><entry>R80 000</entry></row></tbody></tgroup></table><list id="id218444" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid152">Find the mean of these salaries.
+</item><item id="uid153">Find the mode.
+</item><item id="uid154">Find the median.
+</item><item id="uid155">Of these three figures, which would you use for negotiating salary increases if you were a trade union official? Why?
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/lav">Click here for the solution</link></item>
+        <item id="uid156">The marks for a particular class test are listed here:
+<table id="id218511" summary=""><tgroup cols="10"><tbody><row><entry>67</entry><entry>58</entry><entry>91</entry><entry>67</entry><entry>58</entry><entry>82</entry><entry>71</entry><entry>51</entry><entry>60</entry><entry>84</entry></row><row><entry>31</entry><entry>67</entry><entry>96</entry><entry>64</entry><entry>78</entry><entry>71</entry><entry>87</entry><entry>78</entry><entry>89</entry><entry>38</entry></row><row><entry>69</entry><entry>62</entry><entry>60</entry><entry>73</entry><entry>60</entry><entry>87</entry><entry>71</entry><entry>49</entry><entry/><entry/></row></tbody></tgroup></table><para id="eip-id1167180050127">Complete the frequency table using the given class intervals.
+<table id="id218699" summary=""><tgroup cols="5"><tbody><row><entry>Class</entry><entry>Tally</entry><entry>Frequency</entry><entry>Mid-point</entry><entry>Freq <m:math overflow="scroll"><m:mo>×</m:mo></m:math> Midpt</entry></row><row><entry>30-39</entry><entry/><entry>34,5</entry><entry/><entry/></row><row><entry>40-49</entry><entry/><entry>44,5</entry><entry/><entry/></row><row><entry>50-59</entry><entry/><entry/><entry/><entry/></row><row><entry>60-69</entry><entry/><entry/><entry/><entry/></row><row><entry>70-79</entry><entry/><entry/><entry/><entry/></row><row><entry>80-89</entry><entry/><entry/><entry/><entry/></row><row><entry>90-99</entry><entry/><entry/><entry/><entry/></row><row><entry/><entry/><entry>Sum =</entry><entry/><entry>Sum =</entry></row></tbody></tgroup></table></para><link window="new" class="fullmarks" url=" http://www.fhsst.org/law">Click here for the solution</link></item>
+      </list>
+    </section>
+  </content>
+</document>

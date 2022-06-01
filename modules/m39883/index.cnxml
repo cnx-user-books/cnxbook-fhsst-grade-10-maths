@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Quadrilaterals</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39883</md:content-id>
+  <md:title>Quadrilaterals</md:title>
+  <md:abstract/>
+  <md:uuid>f6a8306d-3585-4a22-9a6f-b5e0e7c0c380</md:uuid>
+</metadata>
+
+<content>
+      <section id="uid52">
+        <title>Quadrilaterals</title>
+        <para id="id318598">A <emphasis effect="italics">quadrilateral</emphasis> is any polygon with four sides. The basic quadrilaterals are the trapezium, parallelogram, rectangle, rhombus, square and kite.</para>
+        <table id="uid53" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>Name of quadrilateral</entry>
+                <entry>Figure</entry>
+              </row>
+              <row>
+                <entry>trapezium</entry>
+                <entry><link target-id="uid55"/></entry>
+              </row>
+              <row>
+                <entry>parallelogram</entry>
+                <entry><link target-id="uid61"/></entry>
+              </row>
+              <row>
+                <entry>rectangle</entry>
+                <entry><link target-id="uid68"/></entry>
+              </row>
+              <row>
+                <entry>rhombus</entry>
+                <entry><link target-id="uid75"/></entry>
+              </row>
+              <row>
+                <entry>square</entry>
+                <entry><link target-id="uid84"/></entry>
+              </row>
+              <row>
+                <entry>kite</entry>
+                <entry><link target-id="uid90"/></entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Examples of quadrilaterals.</caption>
+        </table>
+        <section id="uid54">
+          <title>Trapezium</title>
+          <para id="id318803">A trapezium is a quadrilateral with one pair of parallel opposite sides. It may also be called a <emphasis effect="italics">trapezoid</emphasis>. A special type of trapezium is the <emphasis effect="italics">isosceles trapezium</emphasis>, where one pair of opposite sides is parallel, the other pair of sides is equal in length and the angles at the ends of each parallel side are equal. An isosceles trapezium has one line of symmetry and its diagonals are equal in length.</para>
+          <figure id="uid55">
+            <media id="uid55_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_040.png" id="uid55_onlineimage" width="329"><!-- NOTE: attribute width changes image size online (pixels). original width is 329. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_040.eps" id="uid55_printimage"/>
+            </media>
+            <caption>Examples of trapeziums.</caption>
+          </figure>
+        </section>
+        <section id="uid56">
+          <title>Parallelogram</title>
+          <para id="id318843">A trapezium with both sets of opposite sides parallel is called a <emphasis effect="italics">parallelogram</emphasis>. A summary of the properties of a parallelogram is:</para>
+          <list id="id318853" display="block" list-type="bulleted">
+            <item id="uid57">Both pairs of opposite sides are parallel.
+</item>
+            <item id="uid58">Both pairs of opposite sides are equal in length.
+</item>
+            <item id="uid59">Both pairs of opposite angles are equal.
+</item>
+            <item id="uid60">Both diagonals bisect each other (i.e. they cut each other in half).
+</item>
+          </list>
+          <figure id="uid61">
+            <media id="uid61_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_041.png" id="uid61_onlineimage" width="277"><!-- NOTE: attribute width changes image size online (pixels). original width is 277. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_041.eps" id="uid61_printimage"/>
+            </media>
+            <caption>An example of a parallelogram.</caption>
+          </figure>
+        </section>
+        <section id="uid62">
+          <title>Rectangle</title>
+          <para id="id318929">A <emphasis effect="italics">rectangle</emphasis> is a parallelogram that has all four angles equal to <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>. A summary of the properties of a rectangle is:</para>
+          <list id="id318954" display="block" list-type="bulleted">
+            <item id="uid63">Both pairs of opposite sides are parallel.
+</item>
+            <item id="uid64">Both pairs of opposite sides are of equal length.
+</item>
+            <item id="uid65">Both diagonals bisect each other.
+</item>
+            <item id="uid66">Diagonals are equal in length.
+</item>
+            <item id="uid67">All angles at the corners are right angles.
+</item>
+          </list>
+          <figure id="uid68">
+            <media id="uid68_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_042.png" id="uid68_onlineimage" width="142"><!-- NOTE: attribute width changes image size online (pixels). original width is 142. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_042.eps" id="uid68_printimage"/>
+            </media>
+            <caption>Example of a rectangle.</caption>
+          </figure>
+        </section>
+        <section id="uid69">
+          <title>Rhombus</title>
+          <para id="id319041">A <emphasis effect="italics">rhombus</emphasis> is a parallelogram that has all four sides of equal length. A summary of the properties of a rhombus is:</para>
+          <list id="id319051" display="block" list-type="bulleted">
+            <item id="uid70">Both pairs of opposite sides are parallel.
+</item>
+            <item id="uid71">All sides are equal in length.
+</item>
+            <item id="uid72">Both pairs of opposite angles are equal.
+</item>
+            <item id="uid73">Both diagonals bisect each other at <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>.
+</item>
+            <item id="uid74">Diagonals of a rhombus bisect both pairs of opposite angles.
+</item>
+          </list>
+          <figure id="uid75">
+            <media id="uid75_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_043.png" id="uid75_onlineimage" width="216"><!-- NOTE: attribute width changes image size online (pixels). original width is 216. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_043.eps" id="uid75_printimage"/>
+            </media>
+            <caption>An example of a rhombus. A rhombus is a parallelogram with all sides equal.</caption>
+          </figure>
+        </section>
+        <section id="uid76">
+          <title>Square</title>
+          <para id="id319154">A <emphasis effect="italics">square</emphasis> is a rhombus that has all four angles equal to 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>.</para>
+          <para id="id319177">A summary of the properties of a square is:</para>
+          <list id="id319181" display="block" list-type="bulleted">
+            <item id="uid77">Both pairs of opposite sides are parallel.
+</item>
+            <item id="uid78">All sides are equal in length.
+</item>
+            <item id="uid79">All angles are equal to <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>.
+</item>
+            <item id="uid80">Both pairs of opposite angles are equal.
+</item>
+            <item id="uid81">Both diagonals bisect each other at <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>.
+</item>
+            <item id="uid82">Diagonals are equal in length.
+</item>
+            <item id="uid83">Diagonals bisect both pairs of opposite angles (ie. all <m:math overflow="scroll"><m:msup><m:mn>45</m:mn><m:mo>∘</m:mo></m:msup></m:math>).
+</item>
+          </list>
+          <figure id="uid84">
+            <media id="uid84_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_044.png" id="uid84_onlineimage" width="286"><!-- NOTE: attribute width changes image size online (pixels). original width is 286. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_044.eps" id="uid84_printimage"/>
+            </media>
+            <caption>An example of a square. A square is a rhombus with all angles equal to 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>.</caption>
+          </figure>
+        </section>
+        <section id="uid85">
+          <title>Kite</title>
+          <para id="id319349">A <emphasis effect="italics">kite</emphasis> is a quadrilateral with two pairs of adjacent sides equal.</para>
+          <para id="id319359">A summary of the properties of a kite is:</para>
+          <list id="id319362" display="block" list-type="bulleted">
+            <item id="uid86">Two pairs of adjacent sides are equal in length.
+</item>
+            <item id="uid87">One pair of opposite angles are equal where the angles are between unequal sides.
+</item>
+            <item id="uid88">One diagonal bisects the other diagonal and one diagonal bisects one pair of opposite angles.
+</item>
+            <item id="uid89">Diagonals intersect at right-angles.
+</item>
+          </list>
+          <figure id="uid90">
+            <media id="uid90_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_045.png" id="uid90_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 202. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_045.eps" id="uid90_printimage"/>
+            </media>
+            <caption>An example of a kite.</caption>
+          </figure>
+        </section>
+      </section>
+
+  </content>
+</document>

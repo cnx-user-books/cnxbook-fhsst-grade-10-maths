@@ -1,0 +1,592 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Applications</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39906</md:content-id>
+  <md:title>Applications</md:title>
+  <md:abstract/>
+  <md:uuid>58e905e0-3b2b-4d50-bd7f-77b30aa0d24e</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid6">
+      <title>Simple Applications of Trigonometric Functions</title>
+      <para id="id81626">Trigonometry was probably invented in ancient civilisations to solve practical problems such as building construction and navigating by the stars. In this section we will show how trigonometry can be used to solve some other practical problems.</para>
+      <section id="uid25">
+        <title>Height and Depth</title>
+        <figure id="uid26">
+          <media id="uid26_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_012.png" id="uid26_onlineimage" width="201"><!-- NOTE: attribute width changes image size online (pixels). original width is 201. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_012.eps" id="uid26_printimage"/>
+          </media>
+          <caption>Determining the height of a building using trigonometry.</caption>
+        </figure>
+        <para id="id81653">One simple task is to find the height of a building by using trigonometry. We could just use a tape measure lowered from the roof, but this is impractical (and dangerous) for tall buildings. It is much more sensible to measure a distance along the ground and use trigonometry to find the height of the building.</para>
+        <para id="id81658"><link target-id="uid26"/> shows a building whose height we do not know. We have walked 100 m away from the building and measured the angle from the ground up to the top of the building. This angle is found to be <m:math overflow="scroll"><m:mrow><m:mn>38</m:mn><m:mo>,</m:mo><m:msup><m:mn>7</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. We call this angle the <emphasis effect="italics">angle of elevation</emphasis>. As you can see from <link target-id="uid26"/>, we now have a right-angled triangle. As we know the length of one side and an angle, we can calculate the height of the triangle, which is the height of the building we are trying to find.</para>
+        <para id="id81702">If we examine the figure, we see that we have the <emphasis effect="italics">opposite</emphasis> and the <emphasis effect="italics">adjacent</emphasis> of the angle of elevation and we can write:</para>
+        <equation id="id81717">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mn>38</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi> opposite </m:mi>
+                    <m:mi> adjacent </m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi> height </m:mi>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mspace width="0.166667em"/>
+                      <m:mi mathvariant="normal">m</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mi> height </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mrow>
+                      <m:mn>38</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>7</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>80</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<exercise id="secfhsst_id1381"><title> Height of a tower </title>
+        <problem id="probfhsst_id1382">
+        <para id="id81869">A block of flats is 100m away from a cellphone tower. Someone stands at <m:math overflow="scroll"><m:mi>B</m:mi></m:math>. They measure the angle from <m:math overflow="scroll"><m:mi>B</m:mi></m:math> up to the top of the tower <m:math overflow="scroll"><m:mi>E</m:mi></m:math> to be 62 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. This is the angle of elevation. They then measure the angle from <m:math overflow="scroll"><m:mi>B</m:mi></m:math> down to the bottom of the tower at <m:math overflow="scroll"><m:mi>C</m:mi></m:math> to be 34 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. This is the angle of depression.What is the height of the cellph one tower correct to 1 decimal place?</para>
+        <para id="id81948">
+          <figure id="id81949">
+            <media id="id81949_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C15_013.png" id="id81949_onlineimage" width="303"><!-- NOTE: attribute width changes image size online (pixels). original width is 303. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_013.eps" id="id81949_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id1394"> <list id="listfhsst_id1394" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Identify a strategy </label>
+        <para id="id81976">To find the height of the tower, all we have to do is find the length of <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math>. We see that <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>B</m:mi><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>B</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:math> are both right-angled triangles. For each of the triangles, we have an angle and we have the length <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi></m:mrow></m:math>. Thus we can calculate the sides of the triangles.</para>
+        </item> <item> <label> Calculate <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> </label>
+        <para id="id82067">We are given that the length <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> is 100m. <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>D</m:mi></m:mrow></m:math> is a rectangle so <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi><m:mspace width="4pt"/><m:mo>=</m:mo><m:mspace width="4pt"/><m:mi>A</m:mi><m:mi>C</m:mi><m:mspace width="4pt"/><m:mo>=</m:mo><m:mspace width="4pt"/><m:mn>100</m:mn><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.</para>
+        <equation id="id82138">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>D</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>C</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mi>C</m:mi>
+                    <m:mi>D</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>D</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>D</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:msup>
+                      <m:mn>34</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id82283">Use your calculator to find that <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:msup><m:mn>34</m:mn><m:mo>∘</m:mo></m:msup><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>6745</m:mn></m:mrow></m:math>. Using this, we find that <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>67</m:mn><m:mo>,</m:mo><m:mn>45</m:mn></m:mrow></m:math>m</para>
+        </item> <item> <label> Calculate <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math> </label>
+        <equation id="id82354">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>D</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>D</m:mi>
+                      <m:mi>E</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mi>D</m:mi>
+                    <m:mi>E</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>D</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>D</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:msup>
+                      <m:mn>62</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>188</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>07</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Combine the previous answers </label>
+        <para id="id82527">We have that the height of the tower
+<m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>D</m:mi><m:mo>+</m:mo><m:mi>D</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>67</m:mn><m:mo>,</m:mo><m:mn>45</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>+</m:mo><m:mn>188</m:mn><m:mo>,</m:mo><m:mn>07</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>=</m:mo><m:mn>255</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+      </section>
+      <section id="uid27">
+        <title>Maps and Plans</title>
+        <para id="id82626">Maps and plans are usually scale drawings. This means that they are an exact copy of the real thing, but are usually smaller. So, only lengths are changed, but all angles are the same. We can use this idea to make use of maps and plans by adding information from the real world.</para>
+<exercise id="secfhsst_id1596"><title> Scale Drawing </title>
+        <problem id="probfhsst_id1597">
+        <para id="id82645">A ship approaching Cape Town Harbour reaches point A on the map, due south of Pretoria and due east of Cape Town. If the distance from Cape Town to Pretoria is 1000km, use trigonometry to find out how far east the ship is from Cape Town, and hence find the scale of the map.</para>
+        <para id="id82652">
+          <figure id="id82657">
+            <media id="id82657_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C15_014.png" id="id82657_onlineimage" width="301"><!-- NOTE: attribute width changes image size online (pixels). original width is 301. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_014.eps" id="id82657_printimage" print-width="1">
+                <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+              </image>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id1611"> <list id="listfhsst_id1611" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Identify what happens in the question </label>
+        <para id="id82688">We already know the distance between Cape Town and <m:math overflow="scroll"><m:mi>A</m:mi></m:math> in blocks from the given map (it is 5 blocks). Thus if we work out how many kilometers this same distance is, we can calculate how many kilometers each block represents, and thus we have the scale of the map.</para>
+        </item> <item> <label> Identify given information </label>
+        <para id="id82707">Let us denote Cape Town with <m:math overflow="scroll"><m:mi>C</m:mi></m:math> and Pretoria with <m:math overflow="scroll"><m:mi>P</m:mi></m:math>.
+We can see that triangle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>P</m:mi><m:mi>C</m:mi></m:mrow></m:math> is a right-angled triangle. Furthermore, we see that the distance <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> and distance <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>P</m:mi></m:mrow></m:math> are both 5 blocks. Thus it is an isoceles triangle, and so <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mover accent="true"><m:mi>P</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>45</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>.</para>
+        </item> <item> <label> Carry out the calculation </label>
+        <equation id="id82816">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mi>A</m:mi>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mi>P</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>C</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>P</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mn>1000</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mn>45</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1000</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi> km </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id82923">To work out the scale, we see that</para>
+        <equation id="id82929">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mspace width="4pt"/>
+                    <m:mtext>blocks</m:mtext>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1000</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mtext>km</m:mtext>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="4pt"/>
+                    <m:mtext>block</m:mtext>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>200</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mtext>km</m:mtext>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1745"><title> Building plan </title>
+        <problem id="probfhsst_id1746">
+        <para id="id83053">Mr Nkosi has a garage at his house, and he decides that he wants to add a corrugated iron roof to the side of the garage. The garage is 4m high, and his sheet for the roof is 5m long. If he wants the roof to be at an angle of <m:math overflow="scroll"><m:msup><m:mn>5</m:mn><m:mo>∘</m:mo></m:msup></m:math>, how high must he build the wall <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi></m:mrow></m:math>, which is holding up the roof? Give the answer to 2 decimal places.</para>
+        <para id="id83089">
+          <figure id="id83090">
+            <media id="id83090_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C15_015.png" id="id83090_onlineimage" width="222"><!-- NOTE: attribute width changes image size online (pixels). original width is 222. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_015.eps" id="id83090_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id1758"> <list id="listfhsst_id1758" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Set out strategy </label>
+        <para id="id83116">We see that the triangle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> is a right-angled triangle. As we have one side and an angle of this triangle, we can calculate <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math>. The height of the wall is then the height of the garage minus <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math>.</para>
+        </item> <item> <label> Execute strategy </label>
+        <para id="id83164">If <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>=5m, and angle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, then</para>
+        <equation id="id83209">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>C</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0871</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mn>4358</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id83338">Thus we have that the height of the wall <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>4358</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>56</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1847"><title> Applications of Trigonometric Functions </title>
+        <list id="id83420" display="block" list-type="enumerated"><item id="uid28">A boy flying a kite is standing 30 m from a point directly under the
+kite. If the string to the kite is 50 m long, find the angle of
+elevation of the kite.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lcY">Click here for the solution.</link>
+</item>
+          <item id="uid29">What is the angle of elevation of the sun when a tree 7,15 m tall
+casts a shadow 10,1 m long?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lcr">Click here for the solution.</link>
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+ 
+  </content>
+</document>

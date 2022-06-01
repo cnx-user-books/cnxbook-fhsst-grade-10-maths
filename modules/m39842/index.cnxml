@@ -1,0 +1,1228 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Notation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39842</md:content-id>
+  <md:title>Notation</md:title>
+  <md:abstract/>
+  <md:uuid>18ef7bc0-54eb-492d-bdf3-26f571a582fe</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid4"><title>Notation</title><figure id="numberpatterns-3" class="khanacademy"><title>Khan Academy video on Number Patterns</title><media id="yt-media3" display="block" alt="video on number patterns">
+	  <flash id="yt-video3" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/_3BnyEr5fG4&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure>
+      <para id="id63992">A sequence does not have to follow a pattern but when it does, we can often write down a formula to calculate the <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:math>-term, <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:math>. In the sequence</para>
+      <equation id="id64025">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>;</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo>;</m:mo>
+            <m:mn>9</m:mn>
+            <m:mo>;</m:mo>
+            <m:mn>16</m:mn>
+            <m:mo>;</m:mo>
+            <m:mn>25</m:mn>
+            <m:mo>;</m:mo>
+            <m:mo>...</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id64058">where the sequence consists of the squares of integers, the formula for the <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:math>-term is</para>
+      <equation id="uid15">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msub>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mi>n</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id64117">You can check this by looking at:</para>
+      <equation id="id64122">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>4</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>4</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>16</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>5</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>5</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>25</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mo>...</m:mo>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id64323">Therefore, using <link target-id="uid15"/>, we can generate a pattern, namely squares of integers.</para>
+<exercise id="secfhsst_id574"><title>Study Table continued .... </title><problem id="probfhsst_id575">
+      <para id="id64346">As before, you and 3 friends are studying for Maths, and you are seated at a square table. A few minutes later, 2 other friends join you and add another table to the existing one. Now 6 of you can sit together. A short time later 2 more of your friends join your table, and you add a third table to the existing tables. Now 8 of you can sit comfortably as shown:</para>
+      <figure id="uid16">
+        <media id="uid16_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C7_003.png" id="uid16_onlineimage" width="273"><!-- NOTE: attribute width changes image size online (pixels). original width is 273. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C7_003.eps" id="uid16_printimage"/>
+        </media>
+        <caption>For each table added, two more people can be seated.</caption>
+      </figure>
+      <para id="id64366">Find the expression for the number of people seated at <m:math overflow="scroll"><m:mi>n</m:mi></m:math> tables. Then, use the general formula to determine how many people can sit around 12 tables and how many tables are needed for 20 people. </para>
+      </problem>
+      <solution id="solfhsst_id586"> <list id="listfhsst_id586" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Tabulate a few terms to see if there is a pattern </label>
+      <table id="id64395" summary="">
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Number of Tables</emphasis>, <m:math overflow="scroll"><m:mi>n</m:mi></m:math></entry>
+              <entry>
+                <emphasis effect="bold">Number of people seated</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Formula</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mo>⋮</m:mo>
+                </m:math>
+              </entry>
+              <entry>               <m:math overflow="scroll"><m:mo>⋮</m:mo></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mo>⋮</m:mo>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mi>n</m:mi>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      </item> <item> <label> Describe the pattern </label>
+      <para id="id64900">The number of people seated at <m:math overflow="scroll"><m:mi>n</m:mi></m:math> tables is:</para>
+      <equation id="id64913">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msub>
+              <m:mi>a</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>·</m:mo>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate the <m:math overflow="scroll"><m:msup><m:mn>12</m:mn><m:mi> th </m:mi></m:msup></m:math> term </label>
+      <para id="id64970">Considering the example from the previous section, how many people can sit around say 12 tables? We are looking for <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mn>12</m:mn></m:msub></m:math>, that is, where <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>:</para>
+      <equation id="id65003">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>12</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mn>12</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>11</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>22</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>26</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate the number of terms if <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> </label>
+      <equation id="id65172">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mn>20</m:mn>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>20</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>16</m:mn>
+                  <m:mo>÷</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>8</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mi>n</m:mi>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>n</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>9</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Final Answer </label>
+      <para id="id65362">26 people can be seated at 12 tables and 9 tables are needed to seat 20 people. </para>
+      </item> </list> </solution>
+</exercise>
+      <para id="id65378">It is also important to note the difference between <m:math overflow="scroll"><m:mi>n</m:mi></m:math> and <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:math>. <m:math overflow="scroll"><m:mi>n</m:mi></m:math> can be compared to a place holder, while <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:math> is the value at the place “held” by <m:math overflow="scroll"><m:mi>n</m:mi></m:math>. Like our “Study Table” example above, the first table (Table 1) holds 4 people. Thus, at place <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the value of <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> and so on:</para>
+      <table id="id65473" summary="">
+        <tgroup cols="6">
+          <tbody>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mi>n</m:mi>
+                </m:math>
+              </entry>
+              <entry>1</entry>
+              <entry>2</entry>
+              <entry>3</entry>
+              <entry>4</entry>
+              <entry>...</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>4</entry>
+              <entry>6</entry>
+              <entry>8</entry>
+              <entry>10</entry>
+              <entry>...</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+<section id="secfhsst_id1060"><title> Investigation : General Formula </title>
+      <list id="id65612" display="block" list-type="enumerated">
+        <item id="uid17">Find the general formula for the following sequences and then find <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mn>10</m:mn></m:msub></m:math>, <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mn>50</m:mn></m:msub></m:math> and <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mn>100</m:mn></m:msub></m:math>:
+<list id="id65671" display="block" list-type="enumerated"><item id="uid18"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid19"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid20"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mo>...</m:mo></m:mrow></m:math></item></list></item>
+        <item id="uid21">The general term has been given for each sequence below. Work out the missing terms.
+<list id="id65820" display="block" list-type="enumerated"><item id="uid22"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>;</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>;</m:mo><m:mn>15</m:mn><m:mo>;</m:mo><m:mn>24</m:mn></m:mrow></m:math>       <m:math overflow="scroll"><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid23"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>       <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></item><item id="uid24"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>11</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math>       <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>13</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:math></item></list></item>
+      </list>
+      
+</section>
+      <section id="uid25">
+        <title>Patterns and Conjecture</title>
+        <para id="eip-362"><figure id="numberpatterns-2" class="khanacademy"><title>Khan Academy video on Number Patterns - 2</title><media id="yt-media2" display="block" alt="video on number patterns 2">
+	  <flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/zIcxrhyJs6M&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><para id="id66036">In mathematics, a conjecture is a mathematical statement which appears to be true, but has not been formally proven to be true. A conjecture can be seen as an educated guess or an idea about a pattern. </para>
+        <para id="id66042">For example: Make a <emphasis effect="bold">conjecture</emphasis> about the next number based on the pattern <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>;</m:mo><m:mn>11</m:mn><m:mo>;</m:mo><m:mn>17</m:mn><m:mo>:</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+        <para id="id66085">The numbers increase by 4, 5, and 6.</para>
+        <para id="id66090"><emphasis effect="bold">Conjecture:</emphasis> The next number will increase by 7. So, it will be <m:math overflow="scroll"><m:mrow><m:mn>17</m:mn><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math> or 24.</para>
+<exercise id="secfhsst_id1075"><title> Number patterns </title>
+        <problem id="probfhsst_id1076">
+        <para id="id66127">Consider the following pattern.</para>
+        <equation id="id66133">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <list id="id66291" display="block" list-type="enumerated">
+          <item id="uid26">Add another two rows to the end of the pattern.
+</item>
+          <item id="uid27">Make a conjecture about this pattern. Write your conjecture in words.
+</item>
+          <item id="uid28">Generalise your conjecture for this pattern (in other words, write your conjecture algebraically).
+</item>
+          <item id="uid29">Prove that your conjecture is true.
+</item>
+        </list>
+        
+        </problem>
+        <solution id="solfhsst_id1196"> <list id="listfhsst_id1196" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> The next two rows </label>
+        <equation id="id66367">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>6</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>6</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Conjecture </label>
+        <para id="id66445">Squaring a number and adding the same number gives the same result as squaring the next number and subtracting that number.</para>
+        </item> <item> <label> Generalise </label>
+        <para id="id66453">We have chosen to use <m:math overflow="scroll"><m:mi>x</m:mi></m:math> here. You could choose any letter to generalise the pattern.</para>
+        <equation id="id66467">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Proof </label>
+        <equation id="id66525">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>L</m:mi>
+              <m:mi>e</m:mi>
+              <m:mi>f</m:mi>
+              <m:mi>t</m:mi>
+              <m:mspace width="3.33333pt"/>
+              <m:mi>s</m:mi>
+              <m:mi>i</m:mi>
+              <m:mi>d</m:mi>
+              <m:mi>e</m:mi>
+              <m:mo>:</m:mo>
+              <m:mspace width="3.33333pt"/>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id66572">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mi>i</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>h</m:mi>
+              <m:mi>t</m:mi>
+              <m:mspace width="3.33333pt"/>
+              <m:mi>s</m:mi>
+              <m:mi>i</m:mi>
+              <m:mi>d</m:mi>
+              <m:mi>e</m:mi>
+              <m:mo>:</m:mo>
+              <m:mspace width="3.33333pt"/>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id66641">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mi>i</m:mi>
+                    <m:mi>g</m:mi>
+                    <m:mi>h</m:mi>
+                    <m:mi>t</m:mi>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mi>s</m:mi>
+                    <m:mi>i</m:mi>
+                    <m:mi>d</m:mi>
+                    <m:mi>e</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>l</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mi>f</m:mi>
+                    <m:mi>t</m:mi>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mi>s</m:mi>
+                    <m:mi>i</m:mi>
+                    <m:mi>d</m:mi>
+                    <m:mi>e</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>T</m:mi>
+                    <m:mi>h</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mi>r</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mi>f</m:mi>
+                    <m:mi>o</m:mi>
+                    <m:mi>r</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mspace width="3.33333pt"/>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+      </section>
+    </section>
+    <section id="eip-817"><title>Summary</title><list id="uid08213123"><item>There are several special sequences of numbers: <list id="uid8271312"><item>Triangular numbers  <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>15</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>21</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>28</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>36</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>45</m:mn>
+                <m:mo>,</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math></item>
+<item>Square numbers <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>9</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>16</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>25</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>36</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>49</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>64</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>81</m:mn>
+                <m:mo>,</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math></item>
+<item>Cube numbers <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>27</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>64</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>125</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>216</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>343</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>512</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>729</m:mn>
+                <m:mo>,</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math></item>
+<item>Fibonacci numbers <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>13</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>21</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>34</m:mn>
+                <m:mo>,</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math></item>
+</list></item>
+<item>General formula is <m:math> <m:msub><m:mi>a</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+<m:mo>=</m:mo>
+ <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow></m:math> where <m:math><m:mi>d</m:mi></m:math> is the common difference between terms and <m:math><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:math> is the <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:math>-term</item>
+</list></section><section id="cid5">
+      <title>Exercises</title>
+      <list id="id66867" display="block" list-type="enumerated"><item id="uid30">Find the <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mi> th </m:mi></m:msup></m:math> term for: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>15</m:mn><m:mo>,</m:mo><m:mo>...</m:mo></m:mrow></m:math>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcl">Click here for the solution</link></item>
+        <item id="uid31">Find the general term of the following sequences:
+<list id="id66935" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid32"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid33"><m:math overflow="scroll"><m:mrow><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>15</m:mn><m:mo>,</m:mo><m:mn>19</m:mn><m:mo>,</m:mo><m:mn>23</m:mn><m:mo>,</m:mo><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid34">sequence with <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>8</m:mn></m:msub><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math></item><item id="uid35">sequence with <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>8</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>10</m:mn></m:msub><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcq">Click here for the solution</link></item>
+        <item id="uid36">The seating in a section of a sports stadium can be arranged so the first row has 15 seats, the second row has 19 seats, the third row has 23 seats and so on. Calculate how many seats are in the row 25.
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lqi">Click here for the solution</link></item>
+        <item id="uid43">A single square is made from 4 matchsticks. Two squares in a row need 7 matchsticks and 3 squares in a row need 10 matchsticks. Determine:
+<list id="id67360" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid44">the first term
+</item><item id="uid45">the common difference
+</item><item id="uid46">the formula for the general term
+</item><item id="uid47">how many matchsticks are in a row of 25 squares
+</item></list><figure id="id67417"><media id="id67417_media" alt=""><image mime-type="image/png" src="../../media/MG10C7_004.png" id="id67417_onlineimage" width="233"><!-- NOTE: attribute width changes image size online (pixels). original width is 233. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C7_004.eps" id="id67417_printimage"/></media></figure>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lc3">Click here for the solution</link></item>
+        <item id="uid48">You would like to start saving some money, but because you have never tried to save money before, you have decided to start slowly. At the end of the first week you deposit R5 into your bank account. Then at the end of the second week you deposit R10 into your bank account. At the end of the third week you deposit R15. After how many weeks do you deposit R50 into your bank account?
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcO">Click here for the solution</link></item>
+        <item id="uid49">A horizontal line intersects a piece of string at
+four points and divides it into five parts, as shown below.
+<figure id="id67455"><media id="id67455_media" alt=""><image mime-type="image/png" src="../../media/MG10C7_005.png" id="id67455_onlineimage" width="198"><!-- NOTE: attribute width changes image size online (pixels). original width is 198. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C7_005.eps" id="id67455_printimage"/></media></figure>
+If the piece of string is intersected in this way by 19 parallel
+lines, each of which intersects it at four points, find the number
+of parts into which the string will be divided.
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcc">Click here for the solution</link></item>
+      </list>
+    </section>
+  </content>
+</document>

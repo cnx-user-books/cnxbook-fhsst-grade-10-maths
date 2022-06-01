@@ -1,0 +1,435 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Right prisms and cylinders</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39850</md:content-id>
+  <md:title>Right prisms and cylinders</md:title>
+  <md:abstract/>
+  <md:uuid>41c0973e-f1ef-4dcd-83d8-c4784c8756a2</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id62184">Geometry (Greek: geo = earth, metria = measure) arose as the field of knowledge dealing with spatial relationships. It was one of the two fields of pre-modern mathematics, the other being the study of numbers. In modern times, geometric concepts have become very complex and abstract and are barely recognizable as the descendants of early geometry.</para>
+<section id="secfhsst_id69"><title> Research Project : History of Geometry </title>
+      <para id="id62198">Work in pairs or groups and investigate the history of the foundation of geometry. Describe the various stages of development and how the following cultures used geometry to improve their lives. This list should serve as a guideline and provide the minimum requirement, there are many other people who contributed to the foundation of geometry.</para>
+      <list id="id62543" display="block" list-type="enumerated">
+        <item id="uid1">Ancient Indian geometry (c. 3000 - 500 B.C.)
+<list id="id62557" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid2">Harappan geometry
+</item><item id="uid3">Vedic geometry
+</item></list></item>
+        <item id="uid4">Classical Greek geometry (c. 600 - 300 B.C.)
+<list id="id62596" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid5">Thales and Pythagoras
+</item><item id="uid6">Plato
+</item></list></item>
+        <item id="uid7">Hellenistic geometry (c. 300 B.C - 500 C.E.)
+<list id="id62634" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid8">Euclid
+</item><item id="uid9">Archimedes
+</item></list></item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid3">
+      <title>Right Prisms and Cylinders</title>
+      <para id="id62680">In this section we study how to calculate the surface areas and volumes of right prisms and cylinders. A right prism is a polygon that has been stretched out into a tube so that the height of the tube is perpendicular to the base. A square prism has a base that is a square and a triangular prism has a base that is a triangle.</para>
+      <figure id="uid10">
+        <media id="uid10_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C14_001.png" id="uid10_onlineimage" width="260"><!-- NOTE: attribute width changes image size online (pixels). original width is 260. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_001.eps" id="uid10_printimage"/>
+        </media>
+        <caption>Examples of a right square prism, a right triangular prism and a cylinder.</caption>
+      </figure>
+      <para id="id62698">It is relatively simple to calculate the surface areas and volumes of prisms.</para>
+      <section id="uid11">
+        <title>Surface Area</title>
+        <para id="id62710">The term <emphasis effect="italics">surface area</emphasis> refers to the total area of the exposed or outside surfaces of a prism. This is easier to understand if you imagine the prism as a solid object.</para>
+        <para id="id62720">If you examine the prisms in <link target-id="uid10"/>, you will see that each face of a prism is a simple polygon. For example, the triangular prism has two faces that are triangles and three faces that are rectangles. Therefore, in order to calculate the surface area of a prism you simply have to calculate the area of each face and add it up. In the case of a cylinder the top and bottom faces are circles, while the curved surface flattens into a rectangle.</para>
+        <para id="id62732">
+          <emphasis effect="bold">Surface Area of Prisms</emphasis>
+        </para>
+        <para id="id62738">Calculate the area of each face and add the areas together to get the surface area. To do this you need to determine the correct shape of each and every face of the prism and then for each one determine the surface area. The sum of the surface areas of all the faces will give you the total surface area of the prism.</para>
+<section id="secfhsst_id107"><title> Discussion : surface areas </title>
+        <para id="id62753">In pairs, study the following prisms and the adjacent image showing the various surfaces that make up the prism. Explain to your partner, how each relates to the other. </para>
+        <!--empty paragraphs get left behind.-->
+        <para id="id62766"><figure id="id62767"><media id="id62767_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_002.png" id="id62767_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_002.eps" id="id62767_printimage"/></media></figure>
+ </para>
+</section>
+<section id="secfhsst_id113"><title> Surface areas </title>
+        <list id="id62786" display="block" list-type="enumerated"><item id="uid12">Calculate the surface area in each of the following:
+<figure id="id62804"><media id="id62804_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_003.png" id="id62804_onlineimage" width="355"><!-- NOTE: attribute width changes image size online (pixels). original width is 355. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_003.eps" id="id62804_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqH">Click here for the solution</link></item>
+          <item id="uid13"> If a litre of paint covers an area of <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, how much paint does a painter need to cover:
+<list id="id62841" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid14">A rectangular swimming pool with dimensions <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>×</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math>, inside walls and floor only.
+</item><item id="uid15">The inside walls and floor
+of a circular reservoir with diameter <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi></m:mrow></m:math> and height <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math></item></list><figure id="id62926"><media id="id62926_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_004.png" id="id62926_onlineimage" width="97"><!-- NOTE: attribute width changes image size online (pixels). original width is 97. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_004.eps" id="id62926_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lq6">Click here for the solution</link></item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid16"><title>Volume</title><para id="id62951">The volume of a right prism is calculated by multiplying the area of the base by the height. So, for a square prism of side length <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and height <m:math overflow="scroll"><m:mi>h</m:mi></m:math> the volume is <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow></m:math>.</para>
+        <para id="id63000">
+          <emphasis effect="bold">Volume of Prisms</emphasis>
+        </para>
+        <para id="id63006">Calculate the area of the base and multiply by the height to get the volume of a prism.</para>
+<section id="secfhsst_id132"><title> Volume </title>
+        <list id="id63019" display="block" list-type="enumerated"><item id="uid17">Write down the formula for each of the following volumes:
+<figure id="id63037"><media id="id63037_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_005.png" id="id63037_onlineimage" width="328"><!-- NOTE: attribute width changes image size online (pixels). original width is 328. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_005.eps" id="id63037_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqF">Click here for the solution</link></item>
+          <item id="uid18">Calculate the following volumes:
+<figure id="id63058"><media id="id63058_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_006.png" id="id63058_onlineimage" width="328"><!-- NOTE: attribute width changes image size online (pixels). original width is 328. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_006.eps" id="id63058_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqL">Click here for the solution</link></item>
+          <item id="uid19">A cube is a special prism that has all edges equal. This means that each face is a square. An example of a cube is a die. Show that for a cube with side length <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, the surface area is <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and the volume is <m:math overflow="scroll"><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:math>.
+<figure id="id63117"><media id="id63117_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_007.png" id="id63117_onlineimage" width="77"><!-- NOTE: attribute width changes image size online (pixels). original width is 77. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_007.eps" id="id63117_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqM">Click here for the solution</link></item>
+        </list>
+        
+</section>
+        <para id="id63133">Now, what happens to the surface area if one dimension is multiplied by a constant? For example, how does the surface area change when the height of a rectangular prism is divided by 2?</para>
+ <para id="is08324">       <figure id="id63644234"><media id="id63644234_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_008.png" id="id63644234_onlineimage" width="190"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_008.eps" id="id63644234_printimage"/>
+            </media>
+
+          <caption>Rectangular prisms</caption></figure></para>
+ <para id="id9879372">       <figure id="id237912873"><media id="id237912873_media" alt="">
+              <image mime-type="image/png" src="../../media/CG10C14_1.png" id="id237912873_onlineimage" width="650"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/CG10C14_1.eps" id="id237912873_printimage"/>
+            </media>
+
+          <caption>Rectangular prisms 2</caption></figure></para>
+<exercise id="secfhsst_id147"><title> Scaling the dimensions of a prism </title>
+        <problem id="probfhsst_id148">
+        <para id="id63614">The size of a prism is specified by the length of its sides. The prism in the diagram has sides of lengths <m:math overflow="scroll"><m:mi>L</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> and <m:math overflow="scroll"><m:mi>h</m:mi></m:math>.</para>
+        <para id="id63643">
+          <figure id="id63644">
+            <media id="id63644_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_009.png" id="id63644_onlineimage" width="101"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_009.eps" id="id63644_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <list id="id63651" display="block" list-type="enumerated"><item id="uid21">Consider enlarging all sides of the prism by a constant factor <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, where <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Calculate the volume and surface area of the enlarged prism as a function of the factor <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and the volume of the original volume.
+</item>
+          <item id="uid22">In the same way as above now consider the case, where <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Now calculate the reduction factor in the volume and the surface area.
+</item>
+        </list>
+        
+        </problem>
+        <solution id="solfhsst_id166"> <list id="listfhsst_id166" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Identify </label>
+        <para id="id63750">The volume of a prism is given by:
+<m:math overflow="scroll"><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi></m:mrow></m:math></para>
+        <para id="id63774">The surface area of the prism is given by:
+<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mo>(</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>)</m:mo></m:mrow></m:math></para>
+        </item> <item> <label> Rescale </label>
+        <para id="id63826">If all the sides of the prism get rescaled, the new sides will be:</para>
+        <equation id="id63830">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>L</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>b</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>h</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id63916">The new volume will then be given by:</para>
+        <equation id="id63920">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>V</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>V</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id64062">The new surface area of the prism will be given by:</para>
+        <equation id="id64066">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>A</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>L</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>L</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>h</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>h</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Interpreting the above results </label>
+        <list id="id64313" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid23">We found above that the new volume is given by:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>V</m:mi><m:mo>'</m:mo></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>×</m:mo><m:mi>V</m:mi></m:mrow></m:math>
+Since <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the volume of the prism will be increased by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math>.
+The surface area of the rescaled prism was given by:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mo>'</m:mo></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>×</m:mo><m:mi>A</m:mi></m:mrow></m:math>
+Again, since <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the surface area will be increased by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math>. Surface areas which are two dimensional increase with the square of the factor while volumes, which are three dimensional, increase with the cube of the factor.
+</item>
+          <item id="uid24">The answer here is based on the same ideas as above.
+In analogy, since here <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the volume will be reduced by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math> and the surface area will be decreased by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math></item>
+        </list>
+        
+        </item> </list> </solution>
+</exercise>
+        <para id="id64533">When the length of one of the sides is multiplied by a constant the effect is to multiply the original volume by that constant, as for the example in <link target-id="id63644234"/>.</para>
+      </section>
+    </section>
+
+  </content>
+</document>
