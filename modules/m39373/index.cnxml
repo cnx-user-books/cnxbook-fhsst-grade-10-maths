@@ -1,0 +1,726 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability: Part 2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39373</md:content-id>
+  <md:title>Probability: Part 2</md:title>
+  <md:abstract/>
+  <md:uuid>9274ec36-d3c3-4424-9988-ade50d803920</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid5">
+      <title>Relative Frequency <emphasis effect="italics">vs.</emphasis>
+Probability</title>
+      <para id="id112458">There are two approaches to determining the
+probability associated with any particular event of a random experiment:</para>
+      <list id="id112462" display="block" list-type="enumerated">
+        <item id="uid54">determining the total number of possible outcomes and
+calculating the probability of each outcome using the definition of probability
+</item>
+        <item id="uid55">performing the experiment and calculating the relative
+frequency of each outcome
+</item>
+      </list>
+      <para id="id112492"><emphasis effect="italics">Relative
+frequency</emphasis> is defined as the number of times an event happens in a
+statistical experiment divided by the number of trials conducted.</para>
+      <para id="id112501">It takes a very large number of trials before the
+relative frequency of obtaining a head on a toss of a coin approaches the
+probability of obtaining a head on a toss of a coin (in fact, if the probability of an event occurring is something other than 1, i.e. it is always true, or 0, i.e. it is never true, then probability is only absolutely accurate when an infinite number of trials is conducted). For example, the data in
+<link target-id="uid56"/> represent the outcomes of repeating 100 trials of a
+statistical experiment 100 times, i.e. tossing a coin 100 times.</para>
+      <table id="uid56" summary="">
+        <tgroup cols="10">
+          <tbody>
+            <row>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+            </row>
+            <row>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+            </row>
+            <row>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+            </row>
+            <row>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+            </row>
+            <row>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+            </row>
+            <row>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+            </row>
+            <row>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+            </row>
+            <row>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+            </row>
+            <row>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+            </row>
+            <row>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>T</entry>
+              <entry>H</entry>
+              <entry>T</entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <caption>Results of 100 tosses of a fair coin. H means that the coin
+landed heads-up and T means that the coin landed tails-up.</caption>
+      </table>
+      <para id="id113359">The following two worked examples show that the
+relative frequency of an event is not necessarily equal to the probability of
+the same event. Relative frequency should therefore be seen as an approximation
+to probability.</para>
+<exercise id="secfhsst_id504"><title> Relative Frequency and Probability
+</title>
+      <problem id="probfhsst_id505">
+      <para id="id113377">Determine the relative frequencies associated with
+each outcome of the statistical experiment detailed in <link target-id="uid56"/>. </para>
+      </problem>
+      <solution id="solfhsst_id508"> <list id="listfhsst_id508" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify the different outcomes </label>
+      <para id="id113407">There are two unique outcomes: H and T.</para>
+      </item> <item> <label> Count how many times each outcome occurs. </label>
+      <table id="id113415" summary="">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Outcome</entry>
+              <entry>Frequency</entry>
+            </row>
+            <row>
+              <entry>H</entry>
+              <entry>44</entry>
+            </row>
+            <row>
+              <entry>T</entry>
+              <entry>56</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      </item> <item> <label> Determine the total number of trials. </label>
+      <para id="id113492">The statistical experiment of tossing the coin was
+performed 100 times. Therefore, there were 100 trials, in total.</para>
+      </item> <item> <label> Calculate the relative frequency of each outcome
+</label>
+      <equation id="id113501"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Probability of H</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi> frequency of outcome</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi> number of trials</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>44</m:mn>
+                  <m:mn>100</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>44</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Relative Frequency of T</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi> frequency of outcome</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi> number of trials</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>56</m:mn>
+                  <m:mn>100</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>56</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id113660">The relative frequency of the coin landing heads-up is
+0,44 and the relative frequency of the coin landing tails-up is 0,56. </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id649"><title> Probability </title>
+      <problem id="probfhsst_id650">
+      <para id="id113689">Determine the probability associated with an evenly
+weighted coin landing on either of its faces. </para>
+      </problem>
+      <solution id="solfhsst_id653"> <list id="listfhsst_id653" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify the different outcomes </label>
+      <para id="id113713">There are two unique outcomes: H and T.</para>
+      </item> <item> <label> Determine the total number of outcomes. </label>
+      <para id="id113721">There are two possible outcomes.</para>
+      </item> <item> <label> Calculate the probability of each outcome </label>
+      <equation id="id113728"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Relative Frequency of H</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi> number of favourable outcomes</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi> total number of outcomes</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Relative Frequency of T</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi> number of favourable outcomes</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi> total number of outcomes</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id113899">The probability of an evenly weighted coin landing on
+either face is <m:math><m:mn>0,5</m:mn></m:math>. </para>
+      </item> </list> </solution>
+</exercise>
+    </section>
+    <section id="cid6">
+      <title>Project Idea</title>
+      <para id="id113925">Perform an experiment to show that as the number of
+trials increases, the relative frequency approaches the probability of a coin
+toss. Perform 10, 20, 50, 100, 200 trials of tossing a coin.</para>
+    </section>
+  
+<section id="secfhsst_id1154"><title>Interpretation of Probability Values - (not in CAPS, included for completeness)</title>
+      <para id="id115830">The probability of an event is generally represented
+as a real number between 0 and 1, inclusive. An impossible event has a
+probability of exactly 0, and a certain event has a probability of 1, but the
+converses are not always true: probability 0 events are not always impossible,
+nor probability 1 events certain. There is a rather subtle distinction between
+"certain" and "probability 1". </para>
+      <para id="eip-550">For example, we can say that the sun will always rise in the east. This is a certain event, the sun will not suddenly rise in the north. But if we looked at the event of Penny Heyns winning a swimming race against your maths teacher, then this event is almost certain, since there is a very small chance that your teacher could win the race. </para><para id="id115839">Most probabilities that occur in practice are numbers
+between 0 and 1, indicating the event's position on the continuum between
+impossibility and certainty. The closer an event's probability is to 1, the more
+likely it is to occur.</para>
+      <para id="id115844">For example, if two mutually exclusive events are
+assumed equally probable, such as a flipped or spun coin landing heads-up or
+tails-up, we can express the probability of each event as "1 in 2", or,
+equivalently, "50%" or "1/2".</para>
+      <para id="id115849">Probabilities are equivalently expressed as odds,
+which is the ratio of the probability of one event to the probability of all
+other events. The odds of heads-up, for the tossed/spun coin, are (1/2)/(1 -
+1/2), which is equal to 1/1. This is expressed as "1 to 1 odds" and often
+written "1:1".</para>
+      <para id="id115855">Odds a:b for some event are equivalent to probability
+a/(a+b). For example, 1:1 odds are equivalent to probability 1/2, and 3:2 odds
+are equivalent to probability 3/5.
+ </para>
+    </section>
+    <section id="eip-512"><title>Summary</title><list id="eip-106"><item>The
+term <emphasis effect="italics">random experiment</emphasis> or <emphasis effect="italics">statistical experiment</emphasis> is used to describe any
+repeatable process, the results of which are analyzed in some way.</item><item>
+An outcome of an experiment is a single result of that experiment.</item><item>
+The sample space of an experiment is the complete set of possible outcomes of
+the experiment.</item><item>
+An event is any set of outcomes of an experiment.</item><item>
+A Venn diagram can be used to show the relationship between the possible
+outcomes of a random experiment and the sample space. Venn diagrams can also be
+used to indicate the union and intersection between events in a sample space.
+</item><item>
+When all outcomes are equally likely, they have an equal chance of happening.
+<m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math> gives us the
+probability of an equally likely outcome happening.</item><item>
+<emphasis effect="italics">Relative frequency</emphasis> is defined as the
+number of times an event happens in a statistical experiment divided by the
+number of trials conducted.</item>
+<item>The following results apply to probabilities, for the sample space <m:math overflow="scroll"><m:mi>S</m:mi></m:math> and two events <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, within <m:math overflow="scroll"><m:mi>S</m:mi></m:math>.
+      <equation id="uid3457">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>S</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="uid5853">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>×</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="uid4559">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+
+</item>
+<item>
+Mutually exclusive events are events, which cannot be true at the same
+time.</item><item>
+<m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msup>
+                <m:mi>A</m:mi>
+                <m:mo>'</m:mo>
+              </m:msup>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>A</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:math> is the probability that A will not occur. This is known as a
+complementary event.</item>
+</list><para id="eip-199">We can summarize some of the key concepts in this chapter in the following table:</para><table id="eip-360" summary="summary of probabilities">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry>Term</entry>
+    <entry>Meaning</entry>
+    <entry>Representation</entry>
+    <entry>Venn diagram</entry>
+  </row>
+  <row>
+<entry>Union</entry>
+    <entry>Everything in A and B</entry>
+    <entry><m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi></m:mrow></m:math></entry>
+    <entry><figure id="uid14547"><media id="uid14547_media" alt="">
+              <image mime-type="image/png" src="../../media/union.png" id="uid14547_onlineimage" width="131"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/union.eps" id="uid14547_printimage"/>
+            </media>
+          </figure></entry>
+  </row>
+  <row>
+    <entry>Intersection</entry>
+    <entry>Everything in A or B</entry>
+    <entry><m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:mrow></m:math></entry>
+    <entry><figure id="uid14587"><media id="uid14587_media" alt="">
+              <image mime-type="image/png" src="../../media/intersect.png" id="uid14587_onlineimage" width="131"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/intersect.eps" id="uid14587_printimage"/>
+            </media>
+          </figure></entry>
+  </row>
+  <row>
+    <entry>Complement</entry>
+    <entry>Everything that is not in A</entry>
+    <entry><m:math><m:msub><m:mi>A</m:mi><m:mi>c</m:mi></m:msub></m:math></entry>
+    <entry> <figure id="uid14567"><media id="uid14567_media" alt="">
+              <image mime-type="image/png" src="../../media/complement.png" id="uid14567_onlineimage" width="131"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/complement.eps" id="uid14567_printimage"/>
+            </media>
+          </figure></entry>
+  </row>
+  <row>
+    <entry>Only one</entry>
+    <entry>All that is only in A</entry>
+    <entry><m:math><m:mi>A</m:mi><m:mo>-</m:mo><m:mi>B</m:mi></m:math></entry>
+    <entry><figure id="uid14767"><media id="uid14767_media" alt="">
+              <image mime-type="image/png" src="../../media/a-b.png" id="uid14767_onlineimage" width="131"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/a-b.eps" id="uid14767_printimage"/>
+            </media>
+          </figure></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></section><section id="cid10"><title>End of Chapter Exercises</title><list id="id115876" display="block" list-type="enumerated"><item id="uid104">A group of 45 children were asked if they eat Frosties and/or
+Strawberry Pops. 31 eat both and 6 eat only Frosties. What is the probability
+that a child chosen at random will eat only Strawberry Pops?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lqh">Click here for the
+solution.</link>
+</item>
+        <item id="uid105">In a group of 42 pupils, all but 3 had a packet of
+chips or a Fanta or both. If 23 had a packet of chips and 7 of these also had a
+Fanta, what is the probability that one pupil chosen at random has:
+<list id="id115906" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid106">Both chips and Fanta
+</item><item id="uid107">has only Fanta?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llq">Click here for the solution.</link></item>
+        <item id="uid108">Use a Venn diagram to work out the following
+probabilities from a die being rolled:
+<list id="id115948" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid109">A multiple of 5 and an odd number
+</item><item id="uid110">a number that is neither a multiple of 5 nor an odd
+number
+</item><item id="uid111">a number which is not a multiple of 5, but is odd.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lll">Click here for the solution.</link></item>
+        <item id="uid112">A packet has yellow and pink sweets. The probability
+of taking out a pink sweet is 7/12.
+<list id="id116002" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid113">What is the probability of taking
+out a yellow sweet
+</item><item id="uid114">If 44 if the sweets are yellow, how many sweets are
+pink?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lli">Click here for the solution.</link></item>
+        <item id="uid115">In a car park with 300 cars, there are 190 Opels. What
+is the probability that the first car to leave the car park is:
+<list id="id116044" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid116">an Opel
+</item><item id="uid117">not an Opel
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/ll3">Click here for the solution.</link></item>
+        <item id="uid118">Tamara has 18 loose socks in a drawer. Eight of these
+are orange and two are pink. Calculate the probability that the first sock taken
+out at random is:
+<list id="id116086" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid119">Orange
+</item><item id="uid120">not orange
+</item><item id="uid121">pink
+</item><item id="uid122">not pink
+</item><item id="uid123">orange or pink
+</item><item id="uid124">not orange or pink
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llO">Click here for the solution.</link></item>
+        <item id="uid125">A plate contains 9 shortbread cookies, 4 ginger
+biscuits, 11 chocolate chip cookies and 18 Jambos. If a biscuit is selected at
+random, what is the probability that:
+<list id="id116177" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid126">it is either a ginger biscuit of a
+Jambo?
+</item><item id="uid127">it is NOT a shortbread cookie.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llc">Click here for the solution.</link></item>
+        <item id="uid128">280 tickets were sold at a raffle. Ingrid bought 15
+tickets. What is the probability that Ingrid:
+<list id="id116219" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid129">Wins the prize
+</item><item id="uid130">Does not win the prize?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llx">Click here for the solution.</link></item>
+        <item id="uid131">The children in a nursery school were classified by
+hair and eye colour. 44 had red hair and not brown eyes, 14 had brown eyes and
+red hair, 5 had brown eyes but not red hair and 40 did not have brown eyes or
+red hair.
+<list id="id116261" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid132">How many children were in the
+school
+</item><item id="uid133">What is the probility that a child chosen at random
+has:
+<list id="id116289" display="block" list-type="enumerated"><item id="uid134">Brown eyes
+</item><item id="uid135">Red hair
+</item></list></item><item id="uid136">A child with brown eyes is chosen
+randomly. What is the probability that this child will have red hair
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lla">Click here for the solution.</link></item>
+        <item id="uid137">A jar has purple, blue and black sweets in it. The
+probability that a sweet, chosen at random, will be purple is 1/7 and the
+probability that it will be black is 3/5.
+<list id="id116346" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid138">If I choose a sweet at random what
+is the probability that it will be:
+<list id="id116362" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid139">purple or blue
+</item><item id="uid140">Black
+</item><item id="uid141">purple
+</item></list></item><item id="uid142">If there are 70 sweets in the jar how
+many purple ones are there?
+</item><item id="uid143">1/4 if the purple sweets in b) have streaks on them and
+rest do not. How many purple sweets have streaks?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llC">Click here for the solution.</link></item>
+        <item id="uid144">For each of the following, draw a Venn diagram to
+represent the situation and find an example to illustrate the situation.
+<list id="id116443" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid145">A sample space in which there are
+two events that are not mutually exclusive
+</item><item id="uid146">A sample space in which there are two events that are
+complementary.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/ll1">Click here for the solution.</link></item>
+        <item id="uid147">Use a Venn diagram to prove that the probability of
+either event A or B occuring is given by: (A and B are not exclusive)
+P(A or B) = P(A) + P(B) - P(A and B)<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/llr">Click here for the solution.</link>
+</item>
+        <item id="uid148">All the clubs are taken out of a pack of cards. The
+remaining cards are then shuffled and one card chosen. After being chosen, the
+card is replaced before the next card is chosen.
+<list id="id116505" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid149">What is the sample space?
+</item><item id="uid150">Find a set to represent the event, P, of drawing a
+picture card.
+</item><item id="uid151">Find a set for the event, N, of drawing a numbered
+card.
+</item><item id="uid152">Represent the above events in a Venn diagram
+</item><item id="uid153">What description of the sets P and N is suitable?
+(Hint: Find any elements of P in N and N in P.)
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llY">Click here for the solution.</link></item>
+        <item id="uid154">Thuli has a bag containing five orange, three purple
+and seven pink blocks. The bag is shaken and a block is withdrawn. The colour of
+the block is noted and the block is replaced.
+<list id="id116586" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid155">What is the sample space for this
+experiment?
+</item><item id="uid156">What is the set describing the event of drawing a pink
+block, P?
+</item><item id="uid157">Write down a set, O or B, to represent the event of
+drawing either a orange or a purple block.
+</item><item id="uid158">Draw a Venn diagram to show the above information.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llg">Click here for the solution.</link></item>
+      </list>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,584 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Mathematical models</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39262</md:content-id>
+  <md:title>Mathematical models</md:title>
+  <md:abstract/>
+  <md:uuid>b582f615-481b-46c0-9bd8-c9ff04507399</md:uuid>
+</metadata>
+
+<content>
+<section id="cid8">
+      <title>Equations and inequalities: Mathematical models</title>
+<section id="uid102">
+        <title>Introduction</title>
+        <para id="id161557">Tom and Jane are friends. Tom picked up Jane's Physics test paper, but will not tell Jane what her marks are. He knows that Jane hates maths so he decided to tease her. Tom says: 'I have 2 marks more than you do and the sum of both our marks is equal to 14. How much did we get?'</para>
+        <para id="id161565">Let's help Jane find out what her marks are. We have two unknowns, Tom's mark (which we shall call <m:math overflow="scroll"><m:mi>t</m:mi></m:math>) and Jane's mark (which we shall call <m:math overflow="scroll"><m:mi>j</m:mi></m:math>). Tom has 2 more marks than Jane. Therefore,</para>
+        <equation id="id161587">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>t</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>j</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id161608">Also, both marks add up to 14. Therefore,</para>
+        <equation id="id161614">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>t</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>j</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>14</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id161635">The two equations make up a set of linear (because the highest power is one) simultaneous equations, which we know how to solve! Substitute for <m:math overflow="scroll"><m:mi>t</m:mi></m:math> in the second equation to get:</para>
+        <equation id="id161648">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>j</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>14</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>j</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>14</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>14</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>14</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>7</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>j</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>6</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id161806">Then,</para>
+        <equation id="id161812">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>t</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>8</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id161871">So, we see that Tom scored 8 on his test and Jane scored 6.</para>
+        <para id="id161878">This problem is an example of a simple <emphasis effect="italics">mathematical model</emphasis>. We took a problem and we were able to write a set of equations that represented the problem mathematically. The solution of the equations then gave the solution to the problem.</para>
+      </section>
+      <section id="uid103">
+        <title>Problem Solving Strategy</title>
+        <para id="id161898">The purpose of this section is to teach you the skills that you need to be able to take a problem and formulate it mathematically in order to solve it. The general steps to follow are:</para>
+        <list id="id161903" display="block" list-type="enumerated"><item id="uid104">Read ALL of the question !
+</item>
+          <item id="uid105">Find out what is requested.
+</item>
+          <item id="uid106">Use a variable(s) to denote the unknown quantity/quantities that has/have been requested e.g., <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.
+</item>
+          <item id="uid107">Rewrite the information given in terms of the variable(s). That is, translate the words into algebraic expressions. 
+</item>
+          <item id="uid108">Set up an equation or set of equations (i.e. a mathematical sentence or model) to solve the required variable.
+</item>
+          <item id="uid109">Solve the equation algebraically to find the result.
+</item>
+        </list>
+
+      </section>
+      <section id="uid110"><title>Application of Mathematical Modelling</title><exercise id="secfhsst_id6176"><title> Mathematical Modelling: Two variables </title>
+        <problem id="probfhsst_id6177">
+        <para id="id162387">Three rulers and two pens have a total cost of R 21,00. One ruler and one pen have a total cost of R 8,00. How much does a ruler costs on its own and how much does a pen cost on its own? </para>
+        </problem>
+        <solution id="solfhsst_id6180"> <list id="listfhsst_id6180" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Translate the problem using variables </label>
+        <para id="id162412">Let the cost of one ruler be <m:math overflow="scroll"><m:mi>x</m:mi></m:math> rand and the cost of one pen be <m:math overflow="scroll"><m:mi>y</m:mi></m:math> rand.</para>
+        </item> <item> <label> Rewrite the information in terms of the variables </label>
+        <equation id="uid111">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>21</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>8</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Solve the equations simultaneously </label>
+        <para id="id162503">First solve the second equation for <m:math overflow="scroll"><m:mi>y</m:mi></m:math>:</para>
+        <equation id="id162516">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>8</m:mn>
+              <m:mo>-</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id162536">and substitute the result into the first equation:</para>
+        <equation id="id162542">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>21</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>16</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>21</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>5</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id162631">therefore</para>
+        <equation id="id162637">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>3</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Present the final answers </label>
+        <para id="id162689">Â Â Â Â Â Â Â Â Â Â Â Â One ruler costs R 5,00 and one pen costs R 3,00.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id6031"><title>Mathematical Modelling: One variable </title><problem id="probfhsst_id6032">
+        <para id="id162036">A fruit shake costs R2,00 more than a chocolate milkshake. If three fruit shakes and 5 chocolate milkshakes cost R78,00, determine the individual prices. </para>
+        </problem>
+        <solution id="solfhsst_id6035"> <list id="listfhsst_id6035" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Summarise the information in a table </label>
+        <para id="eip-121">Let the price of a chocolate milkshake be <m:math><m:mi>x</m:mi></m:math> and the price of a fruitshake be <m:math><m:mi>y</m:mi></m:math>.</para><table id="id162061" summary="">
+          <tgroup cols="4">
+            <tbody>
+              <row>
+                <entry/>
+                <entry>Price</entry>
+                <entry>number</entry>
+                <entry>Total</entry>
+              </row>
+              <row>
+                <entry>Fruit</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>3</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>Chocolate</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>x</m:mi>
+                  </m:math>
+                </entry>
+                <entry>5</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        </item> <item> <label> Set up a pair of algebraic equations </label>
+        <equation id="id162231">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>78</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation><para id="eip-840"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:math></para>
+        </item> <item> <label> Solve the equations </label>
+        <equation id="id162280"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>78</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>78</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>72</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>9</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>x+2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>9</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>11</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Present the final answer </label>
+        <para id="id162358">One chocolate milkshake costs R 9,00 and one Fruitshake costs R 11,00
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id6331"><title> Mathematical Models </title>
+        <list id="id162712" display="block" list-type="enumerated"><item id="uid112">Stephen has 1Â l of a mixture containing 69% of salt. How much water must Stephen add to make the mixture 50% salt? Write your answer as a fraction of a litre.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcy">Click here for the solution</link>
+</item>
+          <item id="uid113">The diagonal of a rectangle is 25Â cm more than its width. The length of the rectangle is 17Â cm more than its width. What are the dimensions of the rectangle?
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcV">Click here for the solution</link>
+</item>
+          <item id="uid114">The sum of 27 and 12 is 73 more than an unknown number. Find the unknown number.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcp">Click here for the solution</link>
+</item>
+          <item id="uid115">The two smaller angles in a right-angled triangle are in the ratio of 1:2. What are the sizes of the two angles?
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcw">Click here for the solution</link>
+</item>
+          <item id="uid116">George owns a bakery that specialises in wedding cakes. For each wedding cake, it costs George R150 for ingredients, R50 for overhead, and R5 for advertising. George's wedding cakes cost R400 each. As a percentage of George's costs, how much profit does he make for each cake sold?
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcd">Click here for the solution</link>
+</item>
+          <item id="uid117">If 4 times a number is increased by 7, the result is 15 less than the square of the number. Find the numbers that satisfy this statement, by formulating an equation and then solving it.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcf">Click here for the solution</link>
+</item>
+          <item id="uid118">The length of a rectangle is 2Â cm more than the width of the rectangle. The perimeter of the rectangle is 20Â cm. Find the length and the width of the rectangle.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcv">Click here for the solution</link>
+</item>
+        </list>
+        
+</section>
+      </section>
+</section></content></document>

@@ -1,0 +1,1374 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Compound interest</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39334</md:content-id>
+  <md:title>Compound interest</md:title>
+  <md:abstract/>
+  <md:uuid>6e177b00-73b0-4b42-9548-44a8adfaea9f</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid6">
+      <title>Compound Interest</title>
+      <para id="id71967">To explain the concept of compound interest, the following example is discussed:</para>
+<exercise id="secfhsst_id1776"><title> Using Simple Interest to lead to the concept Compound Interest </title>
+      <problem id="probfhsst_id1777">
+      <para id="id71984">I deposit R1 000 into a special bank account which pays a Simple Interest of 7%. What if I empty the bank account after a year, and then take the principal and the interest and invest it back into the same account again. Then I take it all out at the end of the second year, and then put it all back in again? And then I take it all out at the end of 3 years? </para>
+      </problem>
+      <solution id="solfhsst_id1780"> <list id="listfhsst_id1780" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Determine what is given and what is required </label>
+      <list id="id72013" display="block" list-type="bulleted">
+        <item id="uid58">opening balance, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>1</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+        <item id="uid59">interest rate, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>%</m:mo></m:mrow></m:math></item>
+        <item id="uid60">period of time, <m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mspace width="3.33333pt"/><m:mi> year </m:mi></m:mrow></m:math> at a time, for 3 years
+</item>
+      </list>
+      <para id="id72108">We are required to find the closing balance at the end of three years.</para>
+      </item> <item> <label> Determine how to approach the problem </label>
+      <para id="id72115">We know that:</para>
+      <equation id="id72119"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi mathvariant="normal">A</m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi mathvariant="normal">i</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi mathvariant="normal">n</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Determine the closing balance at the end of the first year </label>
+      <equation id="id72165"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>7</m:mn>
+                  <m:mo>%</m:mo>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>070</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Determine the closing balance at the end of the second year </label>
+      <para id="id72277">After the first year, we withdraw all the money and re-deposit it. The opening balance for the second year is therefore <m:math overflow="scroll"><m:mrow><m:mi mathvariant="normal">R</m:mi><m:mn>1</m:mn><m:mspace width="3.33333pt"/><m:mn>070</m:mn></m:mrow></m:math>, because this is the balance after the first year.</para>
+      <equation id="id72302"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>070</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>7</m:mn>
+                  <m:mo>%</m:mo>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>144</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>90</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Determine the closing balance at the end of the third year </label>
+      <para id="id72418">After the second year, we withdraw all the money and re-deposit it. The opening balance for the third year is therefore <m:math overflow="scroll"><m:mrow><m:mi mathvariant="normal">R</m:mi><m:mn>1</m:mn><m:mspace width="3.33333pt"/><m:mn>144</m:mn><m:mo>,</m:mo><m:mn>90</m:mn></m:mrow></m:math>, because this is the balance after the first year.</para>
+      <equation id="id72447"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>144</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>90</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>7</m:mn>
+                  <m:mo>%</m:mo>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>225</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>04</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write the final answer </label>
+      <para id="id72567">The closing balance after withdrawing all the money and re-depositing each year for 3 years of saving R1 000 at an interest rate of 7% is R1 225,04. </para>
+      </item> </list> </solution>
+</exercise>
+      <para id="id72585">In the two worked examples using simple interest (<link target-id="secfhsst_id1168"/> and <link target-id="secfhsst_id1776"/>), we have basically the same problem because <m:math overflow="scroll"><m:mi>P</m:mi></m:math>=R1 000, <m:math overflow="scroll"><m:mi>i</m:mi></m:math>=7% and <m:math overflow="scroll"><m:mi>n</m:mi></m:math>=3 years for both problems. Except in the second situation, we end up with R1 225,04 which is more than R1 210 from the first example. What has changed?</para>
+      <para id="id72618">In the first example I earned R70 interest each year - the same in the first, second and third year. But in the second situation, when I took the money out and then re-invested it, I was actually earning interest in the second year on my interest (R70) from the first year. (And interest on the interest on my interest in the third year!)</para>
+      <para id="id72624">This more realistically reflects what happens in the real world, and is known as Compound Interest. It is this concept which underlies just about everything we do - so we will look at it more closely next.</para>
+<definition id="fhsst_id2023"><term id="termfhsst_id2023"> Compound Interest </term> <meaning id="meaningfhsst_id2023">
+      <para id="id72635">Compound interest is the interest payable on the principal and its accumulated interest. </para>
+      </meaning></definition>
+      <para id="id72647">Compound interest is a double-edged sword, though - great if you are earning interest on cash you have invested, but more serious if you are stuck having to pay interest on money you have borrowed!</para>
+      <para id="id72652">In the same way that we developed a formula for Simple Interest, let us find one for Compound Interest.</para>
+      <para id="id72656">If our opening balance is <m:math overflow="scroll"><m:mi>P</m:mi></m:math> and we have an interest rate of <m:math overflow="scroll"><m:mi>i</m:mi></m:math> then, the closing balance at the end of the first year is:</para>
+      <equation id="id72678"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+              <m:mn> 1 </m:mn><m:mspace width="2pt"/>
+              <m:mi> year </m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi mathvariant="normal">i</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id72719">This is the same as Simple Interest because it only covers a single year. Then, if we take that out and re-invest it for another year - just as you saw us doing in the worked example above - then the balance after the second year will be:</para>
+      <equation id="id72727"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+                  <m:mn>2</m:mn><m:mspace width="2pt"/>
+                  <m:mi> years </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>[</m:mo>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                  <m:mo>]</m:mo>
+                  <m:mo>×</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id72823">And if we take that money out, then invest it for another year, the balance becomes:</para>
+      <equation id="id72827"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+                  <m:mn>3</m:mn><m:mspace width="2pt"/>
+                  <m:mi> years </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>[</m:mo>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>]</m:mo>
+                  <m:mo>×</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id72931">We can see that the power of the term <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>i</m:mi><m:mo>)</m:mo></m:mrow></m:math> is the same as the number of years. Therefore,</para>
+      <equation id="uid61"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+              <m:mi>n</m:mi><m:mspace width="2pt"/>
+              <m:mi> years </m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi mathvariant="normal">i</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mi mathvariant="normal">n</m:mi>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <section id="uid62">
+        <title>Fractions add up to the Whole</title>
+        <para id="id73019">It is easy to show that this formula works even when <m:math overflow="scroll"><m:mi>n</m:mi></m:math> is a fraction of a year. For example, let us invest the money for 1 month, then for 4 months, then for 7 months.</para>
+        <equation id="id73033"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+                    <m:mn>1</m:mn><m:mspace width="2pt"/>
+                    <m:mi> month </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>12</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+                    <m:mn>5</m:mn><m:mspace width="2pt"/>
+                    <m:mi> months </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+                    <m:mn>1</m:mn><m:mspace width="2pt"/>
+                    <m:mi> month invested for </m:mi><m:mspace width="2pt"/>
+                    <m:mn>4</m:mn><m:mspace width="2pt"/>
+                    <m:mi> months more </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow>
+                      <m:mo>[</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mi>i</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:msup>
+                      <m:mo>]</m:mo>
+                    </m:mrow>
+<m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mi>i</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mfrac>
+                          <m:mn>4</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:msup>
+                    
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                        <m:mo>+</m:mo>
+                        <m:mfrac>
+                          <m:mn>4</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>5</m:mn>
+                        <m:mn>12</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+                    <m:mn>12</m:mn><m:mspace width="2pt"/>
+                    <m:mi> months </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+                    <m:mn>5</m:mn><m:mspace width="2pt"/>
+                    <m:mi> months invested for </m:mi><m:mspace width="2pt"/>
+                    <m:mn>7</m:mn><m:mspace width="2pt"/>
+                    <m:mi> months more </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow>
+                      <m:mo>[</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mi>i</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mfrac>
+                          <m:mn>5</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:msup>
+                      <m:mo>]</m:mo>
+                    </m:mrow><m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mi>i</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mfrac>
+                          <m:mn>7</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:msup>
+                    
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>5</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                        <m:mo>+</m:mo>
+                        <m:mfrac>
+                          <m:mn>7</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>12</m:mn>
+                        <m:mn>12</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id73464">which is the same as investing the money for a year.</para>
+        <para id="id73470">Look carefully at the long equation above. It is not as complicated as it looks! All we are doing is taking the opening amount (<m:math overflow="scroll"><m:mi>P</m:mi></m:math>), then adding interest for just 1 month. Then we are taking that new balance and adding interest for a further 4 months, and then finally we are taking the new balance after a total of 5 months, and adding interest for 7 more months. Take a look again, and check how easy it really is.</para>
+        <para id="id73487">Does the final formula look familiar? Correct - it is the same result as you would get for simply investing <m:math overflow="scroll"><m:mi>P</m:mi></m:math> for one full year. This is exactly what we would expect, because:</para>
+        <para id="id73500">1 month + 4 months + 7 months = 12 months, which is a year.</para>
+        <para id="id73506">Can you see that? Do not move on until you have understood this point.</para>
+      </section>
+      <section id="uid63">
+        <title>The Power of Compound Interest</title>
+        <para id="id73519">To see how important this “interest on interest" is, we shall compare the difference in closing balances for money earning simple interest and money earning compound interest. Consider an amount of R10 000 that you have to invest for 10 years, and assume we can earn interest of 9%. How much would that be worth after 10 years?</para>
+        <para id="id73528">The closing balance for the money earning simple interest is:</para>
+        <equation id="id73532"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>%</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mn>10</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>19</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id73640">The closing balance for the money earning compound interest is:</para>
+        <equation id="id73644"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>9</m:mn>
+                        <m:mo>%</m:mo>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>10</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>23</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>673</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>64</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id73760">So next time someone talks about the “magic of compound interest", not only will you know what they mean - but you will be able to prove it mathematically yourself!</para>
+        <para id="id73766">Again, keep in mind that this is good news and bad news. When you are earning interest on money you have invested, compound interest helps that amount to increase exponentially. But if you have borrowed money, the build up of the amount you owe will grow exponentially too.</para>
+<exercise id="secfhsst_id2645"><title> Taking out a Loan </title>
+        <problem id="probfhsst_id2646">
+        <para id="id73785">Mr Lowe wants to take out a loan of R 350 000.
+He does not want to pay back more than R625 000 altogether on the loan. If the
+interest rate he is offered is 13%, over what period should he take the loan. </para>
+        </problem>
+        <solution id="solfhsst_id2651"> <list id="listfhsst_id2651" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Determine what has been provided and what is required </label>
+        <list id="id73812" display="block" list-type="bulleted">
+          <item id="uid64">opening balance, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>350</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+          <item id="uid65">closing balance, <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>625</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+          <item id="uid66">interest rate, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>13</m:mn><m:mo>%</m:mo><m:mspace width="3.33333pt"/><m:mrow><m:mi> per </m:mi><m:mi> year </m:mi></m:mrow></m:mrow></m:math></item>
+        </list>
+        <para id="id73922">
+We are required to find the time period(<m:math overflow="scroll"><m:mi>n</m:mi></m:math>).</para>
+        </item> <item> <label> Determine how to approach the problem </label>
+        <para id="id73942">We know from <link target-id="uid61"/> that:</para>
+        <equation id="id73949"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi mathvariant="normal">i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi mathvariant="normal">n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id74003">We need to find <m:math overflow="scroll"><m:mi>n</m:mi></m:math>.</para>
+        <para id="id74019">Therefore we convert the formula to:</para>
+        <equation id="id74024">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mfrac>
+                <m:mi mathvariant="normal">A</m:mi>
+                <m:mi mathvariant="normal">P</m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id74064">and then find <m:math overflow="scroll"><m:mi>n</m:mi></m:math> by trial and error.</para>
+        </item> <item> <label> Solve the problem </label>
+        <equation id="id74083"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mi mathvariant="normal">A</m:mi>
+                    <m:mi mathvariant="normal">P</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mn>625000</m:mn>
+                    <m:mn>350000</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>13</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>785</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>13</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd/>
+                <m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Try </m:mi><m:mspace width="2pt"/>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>:</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>13</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>44</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Try </m:mi><m:mspace width="2pt"/>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>:</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>13</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>63</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Try </m:mi><m:mspace width="2pt"/>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>:</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>13</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>84</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer </label>
+        Mr Lowe should take the loan over four years (If he took the loan over five years, he would end up paying more than he wants to.)
+        </item> </list> </solution>
+</exercise>
+      </section>
+      <section id="uid67">
+        <title>Other Applications of Compound Growth</title>
+<para id="eip-431">The following two examples show how we can take the formula for compound interest and apply it to real life problems involving compound growth or compound decrease.</para><exercise id="secfhsst_id2915"><title> Population Growth </title>
+        <problem id="probfhsst_id2916">
+        <para id="id74449">South Africa's population is increasing by 2,5% per year. If the current population is 43 million, how many more people will there be in South Africa in two years' time ? </para>
+        </problem>
+        <solution id="solfhsst_id2919"> <list id="listfhsst_id2919" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what has been provided and what is required </label>
+        <list id="id74474" display="block" list-type="bulleted"><item id="uid68">initial value (opening balance), <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>43</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+          <item id="uid69">period of time, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="3.33333pt"/><m:mi> year </m:mi></m:mrow></m:math></item>
+          <item id="uid70">rate of increase, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>%</m:mo><m:mspace width="3.33333pt"/><m:mrow><m:mi> per year</m:mi></m:mrow></m:mrow></m:math></item>
+        </list>
+        <para id="id74586">We are required to find the final value (closing balance <m:math overflow="scroll"><m:mi>A</m:mi></m:math>).</para>
+        </item> <item> <label> Determine how to approach the problem </label>
+        <para id="id74605">We know from <link target-id="uid61"/> that:</para>
+        <equation id="id74612">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Solve the problem </label>
+        <equation id="id74650">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>43</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>025</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>45</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>176</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>875</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id74768">There will be <m:math overflow="scroll"><m:mrow><m:mn>45</m:mn><m:mspace width="3.33333pt"/><m:mn>176</m:mn><m:mspace width="3.33333pt"/><m:mn>875</m:mn><m:mo>-</m:mo><m:mn>43</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="3.33333pt"/><m:mn>176</m:mn><m:mspace width="3.33333pt"/><m:mn>875</m:mn></m:mrow></m:math> more people in 2 years' time
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id3026"><title> Compound Decrease </title>
+        <problem id="probfhsst_id3027">
+        <para id="id74847">A swimming pool is being treated for a build-up of algae. Initially, <m:math overflow="scroll"><m:mrow><m:mn>50</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> of the pool is covered by algae. With each day of treatment, the algae reduces by 5%. What area is covered by algae after 30 days of treatment ? </para>
+        </problem>
+        <solution id="solfhsst_id3030"> <list id="listfhsst_id3030" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what has been provided and what is required </label>
+        <list id="id74890" display="block" list-type="bulleted"><item id="uid71">Starting amount (opening balance), <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:msup><m:mi mathvariant="normal">m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+          <item id="uid72">period of time, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="3.33333pt"/><m:mi> days </m:mi></m:mrow></m:math></item>
+          <item id="uid73">rate of decrease, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>%</m:mo><m:mspace width="3.33333pt"/><m:mrow><m:mi> per day</m:mi></m:mrow></m:mrow></m:math></item>
+        </list>
+        <para id="id74996">We are required to find the final area covered by algae (closing balance <m:math overflow="scroll"><m:mi>A</m:mi></m:math>).</para>
+        </item> <item> <label> Determine how to approach the problem </label>
+        <para id="id75016">We know from <link target-id="uid61"/> that:</para>
+        <equation id="id75023"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi mathvariant="normal">i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi mathvariant="normal">n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id75077">But this is compound <emphasis effect="bold">decrease</emphasis> so we can use the formula:</para>
+        <equation id="id75089"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mi mathvariant="normal">i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi mathvariant="normal">n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Solve the problem </label>
+        <equation id="id75148">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>-</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>50</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>-</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>05</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>30</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>73</m:mn>
+                    <m:msup>
+                      <m:mi>m</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id75256">Therefore the area still covered with algae is <m:math overflow="scroll"><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>73</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id3169"><title>Compound Interest </title><list id="id75300" display="block" list-type="enumerated"><item id="uid74">An amount of R3 500 is invested in a savings account which pays compound interest at a rate of 7,5% per annum. Calculate the balance accumulated by the end of 2 years.<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lcW">Click here for the solution</link>
+</item>
+          <item id="uid75">If the average rate of inflation for the past few years was 7,3% and your water and electricity account is R 1 425 on average, what would you expect to pay in 6 years time ?<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lcZ">Click here for the solution</link>
+</item>
+          <item id="uid76">Shrek wants to invest some money at 11% per annum compound interest. How much money (to the nearest rand) should he invest if he wants to reach a sum of R 100 000 in five year's time ?<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lcB">Click here for the solution</link>
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+  <para id="eip-523">The next section on exchange rates is included for completeness. However, you should know about fluctuating exchange rates and the impact that this has on imports and exports. Fluctuating exchange rates lead to things like increases in the cost of petrol. You can read more about this in <link target-id="uid17">Fluctuating exchange rates</link>.</para>
+  </content>
+</document>

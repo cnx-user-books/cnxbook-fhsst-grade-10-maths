@@ -1,0 +1,1166 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Measurement</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39357</md:content-id>
+  <md:title>Measurement</md:title>
+  <md:abstract/>
+  <md:uuid>a777ab67-b1db-48e9-8ea4-44a4630ec2da</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid3">
+      <title>Measurement</title>
+ <section id="uid97">
+          <title>Areas of Polygons</title>
+          <list id="id319719" display="block" list-type="enumerated"><item id="uid98">Area of triangle: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo></m:mrow></m:math> base <m:math overflow="scroll"><m:mo>×</m:mo></m:math> perpendicular height
+<figure id="id319762"><media id="id319762_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_047.png" id="id319762_onlineimage" width="153"><!-- NOTE: attribute width changes image size online (pixels). original width is 53. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_047-dc51.eps" id="id319762_printimage"/></media></figure></item>
+            <item id="uid99">Area of trapezium: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo></m:mrow></m:math> (sum of <m:math overflow="scroll"><m:mo>∥</m:mo></m:math> (parallel) sides) <m:math overflow="scroll"><m:mo>×</m:mo></m:math> perpendicular height
+<figure id="id319816"><media id="id319816_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_048.png" id="id319816_onlineimage" width="163"><!-- NOTE: attribute width changes image size online (pixels). original width is 63. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_048-9f39.eps" id="id319816_printimage"/></media></figure></item>
+            <item id="uid100">Area of parallelogram and rhombus: base <m:math overflow="scroll"><m:mo>×</m:mo></m:math> perpendicular height
+<figure id="id319845"><media id="id319845_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_049.png" id="id319845_onlineimage" width="160"><!-- NOTE: attribute width changes image size online (pixels). original width is 60. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_049-9712.eps" id="id319845_printimage"/></media></figure></item>
+            <item id="uid101">Area of rectangle: length <m:math overflow="scroll"><m:mo>×</m:mo></m:math> breadth
+<figure id="id319874"><media id="id319874_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_050.png" id="id319874_onlineimage" width="153"><!-- NOTE: attribute width changes image size online (pixels). original width is 53. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_050-8e20.eps" id="id319874_printimage"/></media></figure></item>
+            <item id="uid102">Area of square: length of side <m:math overflow="scroll"><m:mo>×</m:mo></m:math> length of side
+<figure id="id319903"><media id="id319903_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_051.png" id="id319903_onlineimage" width="136"><!-- NOTE: attribute width changes image size online (pixels). original width is 36. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_051-2428.eps" id="id319903_printimage"/></media></figure></item>
+            <item id="uid103">Area of circle: <m:math overflow="scroll"><m:mi>π</m:mi></m:math> x radius<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math><figure id="id319945"><media id="id319945_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_052.png" id="id319945_onlineimage" width="141"><!-- NOTE: attribute width changes image size online (pixels). original width is 41. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_052-cac3.eps" id="id319945_printimage"/></media></figure></item>
+          </list>
+<para id="eip-964"><figure id="area1" class="khanacademy"><title>Khan Academy video on area and perimeter</title><media id="yt-media5" display="block" alt="video on area and perimeter">
+	  <flash id="yt-video5" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/kqqmJiJez6o&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><para id="eip-199"><figure id="area-2" class="khanacademy"><title>Khan Academy video on area of a circle</title><media id="yt-media6" display="block" alt="video on circuits 1">
+	  <flash id="yt-video6" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/tCrDyJsSFok&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><exercise id="eip-468"><title>Finding areas</title><problem id="eip-373">
+  <para id="eip-83">
+    Find the area of the following figure:
+<figure id="id8732"><media id="id8732_media" alt="">
+            <image mime-type="image/png" src="../../media/area1.png" id="id8732_onlineimage" width="150"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/area1.eps" id="id8732_printimage"/>
+            </media>
+            </figure>
+  </para>
+</problem>
+
+<solution id="eip-208">
+  <list id="eip-995" list-type="enumerated" number-style="arabic" class="stepwise">
+   <item><label>Find the height</label> We first need to find the height, BE, of the parallelogram. We can use Pythagoras to do this: 
+<equation id="eip-id1165701596266"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mtext>BE</m:mtext><m:mn>2</m:mn></m:msup></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo>
+</m:mtd><m:mtd columnalign="left"><m:msup><m:mtext>AB</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mtext>AE</m:mtext><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msup><m:mtext>BE</m:mtext><m:mn>2</m:mn></m:msup></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msup><m:mtext>BE</m:mtext><m:mn>2</m:mn></m:msup></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>16</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mtext>BE</m:mtext></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item><label> Apply the formula</label>We apply the formula for the area of a parallelogram to find the area:
+      <equation id="id1166232495800">
+        <m:math><m:mtable><m:mtr><m:mtd columnalign="right">
+                        <m:mtext>Area</m:mtext></m:mtd>
+                        <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mi>h</m:mi>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mi>b</m:mi></m:mtd>
+                        </m:mtr>
+<m:mtr><m:mtd/>
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mn>4</m:mn>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:mn>7</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+<m:mtr><m:mtd/>
+                    <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                    <m:mtd columnalign="left"><m:mn>28</m:mn>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+        </m:math>
+      </equation></item>
+  </list>
+</solution>
+</exercise><section id="secfhsst_id1097"><title> Polygons </title>
+          <list id="id319959" display="block" list-type="enumerated"><item id="uid104">For each case below, say whether the statement is true or false. For false statements, give a counter-example to prove it:
+<list id="id319975" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid10566">All squares are rectangles
+</item><item id="uid10666">All rectangles are squares
+</item><item id="uid10766">All pentagons are similar
+</item><item id="uid10866">All equilateral triangles are similar
+</item><item id="uid10966">All pentagons are congruent
+</item><item id="uid11066">All equilateral triangles are congruent
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lxJ">Click here for the solution</link></item>
+            <item id="uid111666">Find the areas of each of the given figures - remember area is measured in square units (cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>, m<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>, mm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>).
+<figure id="id320109"><media id="id320109_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_064-743a.png" id="id320109_onlineimage" width="423"><!-- NOTE: attribute width changes image size online (pixels). original width is 423. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_064-63f3.eps" id="id320109_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/lxS">Click here for the solution</link></item>
+          </list>
+          
+</section>
+        </section>
+      </section>
+
+<section id="id73452"><title>Right prisms and cylinders</title>
+      <para id="id62680">In this section we study how to calculate the surface areas and volumes of right prisms and cylinders. A right prism is a polygon that has been stretched out into a tube so that the height of the tube is perpendicular to the base (the definition is motivated by the fact that the angle between base and side form a right angle). A square prism has a base that is a square and a triangular prism has a base that is a triangle.</para>
+      <figure id="uid10"><media id="uid10_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C14_001.png" id="uid10_onlineimage" width="320"><!-- NOTE: attribute width changes image size online (pixels). original width is 260. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_001.eps" id="uid10_printimage"/>
+        </media>
+        
+      <caption>Examples of a right square prism, a right triangular prism and a cylinder.</caption></figure>
+      <para id="id62698">It is relatively simple to calculate the surface areas and volumes of prisms.</para>
+      <section id="uid11">
+        <title>Surface Area</title>
+        <para id="id62710">The term <emphasis effect="italics">surface area</emphasis> refers to the total area of the exposed or outside surfaces of a prism. This is easier to understand if you imagine the prism as a solid object.</para>
+        <para id="id62720">If you examine the prisms in <link target-id="uid10"/>, you will see that each face of a prism is a simple polygon. For example, the triangular prism has two faces that are triangles and three faces that are rectangles. Therefore, in order to calculate the surface area of a prism you simply have to calculate the area of each face and add it up. In the case of a cylinder the top and bottom faces are circles, while the curved surface flattens into a rectangle.</para>
+        <para id="id62732">
+          <emphasis effect="bold">Surface Area of Prisms</emphasis>
+        </para>
+        <para id="id62738">Calculate the area of each face and add the areas together to get the surface area. To do this you need to determine the correct shape of each and every face of the prism and then for each one determine the surface area. The sum of the surface areas of all the faces will give you the total surface area of the prism.</para>
+<section id="secfhsst_id107"><title> Discussion : surface areas </title>
+        <para id="id62753">In pairs, study the following prisms and the adjacent image showing the various surfaces that make up the prism. Explain to your partner, how each relates to the other.</para>
+        <!--empty paragraphs get left behind.-->
+        <para id="id6274366"><figure id="id62767"><media id="id62767_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_002.png" id="id62767_onlineimage" width="646"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_002.eps" id="id62767_printimage"/></media></figure>
+ </para>
+</section>
+<section id="eip-630"><title>Activity: Surface areas</title><para id="eip-802">
+Find (or take one yourself) a picture of a building that does not have a well defined shape (i.e. is not simply a rectangle). For example a castle with towers, or a house with gable windows or a porch. Assume you have to paint the outside of the building. How much paint would you need? Think about what you have learnt about surface area and the area of polygons. Can you find regular polygons on your picture and use those to find the surface area?
+</para></section><section id="secfhsst_id113"><title> Surface areas </title>
+        <list id="id62786" display="block" list-type="enumerated"><item id="uid12">Calculate the surface area in each of the following:
+<figure id="id62804"><media id="id62804_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_003.png" id="id62804_onlineimage" width="555"><!-- NOTE: attribute width changes image size online (pixels). original width is 355. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_003.eps" id="id62804_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lT2">Click here for the solution</link></item>
+          <item id="uid13"> If a litre of paint covers an area of <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, how much paint does a painter need to cover:
+<list id="id62841" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid14">A rectangular swimming pool with dimensions <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>×</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math>, inside walls and floor only.
+</item><item id="uid15">The inside walls and floor
+of a circular reservoir with diameter <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi></m:mrow></m:math> and height <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math></item></list><figure id="id62926"><media id="id62926_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_004.png" id="id62926_onlineimage" width="197"><!-- NOTE: attribute width changes image size online (pixels). original width is 97. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_004.eps" id="id62926_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lq6">Click here for the solution</link></item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid16"><title>Volume</title><para id="id62951">The volume of a right prism is calculated by multiplying the area of the base by the height. So, for a square prism of side length <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and height <m:math overflow="scroll"><m:mi>h</m:mi></m:math> the volume is <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow></m:math>.</para>
+        <para id="id63000">
+          <emphasis effect="bold">Volume of Prisms</emphasis>
+        </para>
+        <para id="id63006">Calculate the area of the base and multiply by the height to get the volume of a prism.</para>
+<exercise id="eip-491"><problem id="eip-115">
+  <para id="eip-540">
+  Find the surface area and volume for the a square prism of height <m:math><m:mn>4</m:mn><m:mspace width="2pt"/><m:mi>cm</m:mi></m:math> and base length, <m:math><m:mn>3</m:mn><m:mspace width="2pt"/><m:mi>cm</m:mi></m:math>.
+<figure id="id6348"><media id="id6348_media" alt="">
+            <image mime-type="image/png" src="../../media/squareprism.png" id="id6348_onlineimage" width="150"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/squareprism.eps" id="id6348_printimage"/>
+            </media>
+            </figure>
+  </para>
+</problem>
+
+<solution id="eip-51">
+  <list id="eip-226" list-type="enumerated" number-style="arabic" class="stepwise">
+   <item><label>Find the surface area</label>We use the formula for the surface area of a prism:
+      <equation id="id1166229703568">
+        <m:math><m:mtable>
+                    <m:mtr><m:mtd columnalign="right"><m:mi>S.A.</m:mi></m:mtd>
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left"><m:mn>2</m:mn>
+                    <m:mfenced open="[" close="]">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mi>L</m:mi>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mi>b</m:mi>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mi>h</m:mi>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mfenced></m:mtd></m:mtr>
+<m:mtr><m:mtd/>  
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left"><m:mn>2</m:mn>
+                    <m:mfenced open="[" close="]">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mfenced></m:mtd></m:mtr>
+                    <m:mtr><m:mtd/>  
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left"><m:msup>
+                        <m:mrow><m:mn>72</m:mn><m:mspace width="2pt"/><m:mi>cm</m:mi></m:mrow>
+                            <m:mn>2</m:mn></m:msup>
+</m:mtd></m:mtr>
+ </m:mtable>
+        </m:math>
+      </equation></item>
+<item><label>Find the volume</label>To find the volume of the prism, we find the area of the base and multiply it by the height:
+      <equation id="id1166232868439">
+        <m:math><m:mtable><m:mtr>
+                        <m:mtd columnalign="left"><m:mi>V</m:mi></m:mtd>
+                        <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                        <m:mtd>
+                          <m:msup>
+                            <m:mi>l</m:mi>
+                                <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mi>h</m:mi></m:mtd>
+                        </m:mtr>
+<m:mtr><m:mtd/>
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mfenced open="(" close=")">
+                          <m:msup>
+                            <m:mn>3</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mfenced>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+<m:mtr><m:mtd/>
+                    <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                    <m:mtd columnalign="left"><m:msup>
+                      <m:mrow><m:mn>36</m:mn><m:mspace width="2pt"/><m:mi>cm</m:mi></m:mrow>
+                          <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+</m:mtable>
+        </m:math>
+      </equation></item>
+  </list>
+</solution>
+</exercise><section id="secfhsst_id132"><title> Volume </title>
+        <list id="id63019" display="block" list-type="enumerated"><item id="uid17">Write down the formula for each of the following volumes:
+<figure id="id63037"><media id="id63037_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_005.png" id="id63037_onlineimage" width="400"><!-- NOTE: attribute width changes image size online (pixels). original width is 328. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_005.eps" id="id63037_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lTk">Click here for the solution</link></item>
+          <item id="uid18">Calculate the following volumes:
+<figure id="id63058"><media id="id63058_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_006.png" id="id63058_onlineimage" width="400"><!-- NOTE: attribute width changes image size online (pixels). original width is 328. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_006.eps" id="id63058_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lT0">Click here for the solution</link></item>
+          <item id="uid19">A cube is a special prism that has all edges equal. This means that each face is a square. An example of a cube is a die. Show that for a cube with side length <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, the surface area is <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and the volume is <m:math overflow="scroll"><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:math>.
+<figure id="id63117"><media id="id63117_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_007.png" id="id63117_onlineimage" width="77"><!-- NOTE: attribute width changes image size online (pixels). original width is 77. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_007.eps" id="id63117_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lTT">Click here for the solution</link></item>
+        </list>
+        
+</section>
+        <para id="id63133">Now, what happens to the surface area if one dimension is multiplied by a constant? For example, how does the surface area change when the height of a rectangular prism is divided by 2?</para>
+ <para id="is08324">       <figure id="id63644234"><media id="id63644234_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_008.png" id="id63644234_onlineimage" width="390"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_008.eps" id="id63644234_printimage"/>
+            </media>
+
+          <caption>Rectangular prisms</caption></figure></para>
+ <table id="eip-742" summary="table of surface area">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><m:math><m:mi>Surface area</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mi>l</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>)</m:mo></m:math></entry>
+    <entry><m:math><m:mi>Surface area</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>×</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>h</m:mi></m:mrow><m:mo>+</m:mo><m:mi>l</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mi>Volume</m:mi><m:mo>=</m:mo><m:mi>l</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi></m:math></entry>
+    <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>Volume</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>l</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>h</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo><m:mi>l</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mrow><m:mi>h</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:math></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+<exercise id="secfhsst_id147"><title> Scaling the dimensions of a prism </title>
+        <problem id="probfhsst_id148">
+        <para id="id63614">The size of a prism is specified by the length of its sides. The prism in the diagram has sides of lengths <m:math overflow="scroll"><m:mi>L</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> and <m:math overflow="scroll"><m:mi>h</m:mi></m:math>.</para>
+        <para id="id63643">
+          <figure id="id63644">
+            <media id="id63644_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_009.png" id="id63644_onlineimage" width="101"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_009.eps" id="id63644_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <list id="id63651" display="block" list-type="enumerated"><item id="uid21">Consider enlarging all sides of the prism by a constant factor <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, where <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Calculate the volume and surface area of the enlarged prism as a function of the factor <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and the volume of the original volume.
+</item>
+          <item id="uid22">In the same way as above now consider the case, where <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Now calculate the reduction factor in the volume and the surface area.
+</item>
+        </list>
+        
+        </problem>
+        <solution id="solfhsst_id166"> <list id="listfhsst_id166" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Identify </label>
+        <para id="id63750">The volume of a prism is given by:
+<m:math overflow="scroll"><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi></m:mrow></m:math></para>
+        <para id="id63774">The surface area of the prism is given by:
+<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mo>(</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>)</m:mo></m:mrow></m:math></para>
+        </item> <item> <label> Rescale </label>
+        <para id="id63826">If all the sides of the prism get rescaled, the new sides will be:</para>
+        <equation id="id63830">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>L</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>b</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>h</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id63916">The new volume will then be given by:</para>
+        <equation id="id63920">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>V</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>V</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id64062">The new surface area of the prism will be given by:</para>
+        <equation id="id64066">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>A</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>L</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>L</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>h</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>h</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Interpreting the above results </label>
+        <list id="id64313" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid23">We found above that the new volume is given by:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>V</m:mi><m:mo>'</m:mo></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>×</m:mo><m:mi>V</m:mi></m:mrow></m:math>
+Since <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the volume of the prism will be increased by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math>.
+The surface area of the rescaled prism was given by:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mo>'</m:mo></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>×</m:mo><m:mi>A</m:mi></m:mrow></m:math>
+Again, since <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the surface area will be increased by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math>. Surface areas which are two dimensional increase with the square of the factor while volumes, which are three dimensional, increase with the cube of the factor.
+</item>
+          <item id="uid24">The answer here is based on the same ideas as above.
+In analogy, since here <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the volume will be reduced by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math> and the surface area will be decreased by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math></item>
+        </list>
+        
+        </item> </list> </solution>
+</exercise>
+        <para id="id64533">When the length of one of the sides is multiplied by a constant the effect is to multiply the original volume by that constant, as for the example in <link target-id="id63644234"/>.</para>
+      </section>
+    </section>
+
+  <section id="cid323">
+      <title>Right Pyramids, Right Cones and Spheres</title>
+      <para id="id62623">A pyramid is a geometric solid that has a polygon base and the base is joined to a point, called the apex. Two examples of pyramids are shown in the left-most and centre figures in <link target-id="uid6"/>. The right-most figure has an apex which is joined to a circular base and this type of geometric solid is called a cone. Cones are similar to pyramids except that their bases are circles instead of polygons.</para>
+      <figure id="uid676"><media id="uid676_media" alt="">
+          <image mime-type="image/png" src="../../media/MG11C16_001.png" id="uid676_onlineimage" width="324"><!-- NOTE: attribute width changes image size online (pixels). original width is 224. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_001.eps" id="uid676_printimage"/>
+        </media>
+        
+      <caption>Examples of a square pyramid, a triangular pyramid and a cone.</caption></figure>
+      <para id="id62647">
+        <emphasis effect="bold">Surface Area of a Pyramid</emphasis>
+      </para>
+      <para id="eip-485"><figure id="solid-geometry-volume" class="khanacademy">
+<title>Khan academy video on solid geometry volumes</title>
+<media id="yt-media1" display="block" alt="video on solid geometry volumes">
+<flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/ZqzAOZ9pP9Q&amp;rel=0" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para><para id="id62653">The surface area of a pyramid is calculated by adding the area of each face together.</para>
+<exercise id="secfhsst_id97"><title> Surface Area </title>
+      <problem id="probfhsst_id98">
+      <para id="id62672">If a cone has a height of <m:math overflow="scroll"><m:mi>h</m:mi></m:math> and a base of radius <m:math overflow="scroll"><m:mi>r</m:mi></m:math>, show that the surface area is <m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>π</m:mi><m:mi>r</m:mi><m:msqrt><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math>. </para>
+      </problem>
+      <solution id="solfhsst_id101"> <list id="listfhsst_id101" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Draw a picture </label>
+      <para id="id62752">
+        <figure id="id62755">
+          <media id="id62755_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C16_002.png" id="id62755_onlineimage" width="334"><!-- NOTE: attribute width changes image size online (pixels). original width is 334. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_002.eps" id="id62755_printimage"/>
+          </media>
+        </figure>
+      </para>
+      </item> <item> <label> Identify the faces that make up the cone </label>
+      <para id="id62766">The cone has two faces: the base and the walls. The base is a circle of radius <m:math overflow="scroll"><m:mi>r</m:mi></m:math> and the walls can be opened out to a sector of a circle.</para>
+      <para id="id62778">
+        <figure id="id62779"><media id="id62779_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C16_003.png" id="id62779_onlineimage" width="317"><!-- NOTE: attribute width changes image size online (pixels). original width is 217. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_003.eps" id="id62779_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id62785">This curved surface can be cut into many thin triangles with height close to <m:math overflow="scroll"><m:mi>a</m:mi></m:math> (<m:math overflow="scroll"><m:mi>a</m:mi></m:math> is called the <emphasis effect="italics">slant height</emphasis>). The area of these triangles will add up to <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo></m:mrow></m:math>base<m:math overflow="scroll"><m:mo>×</m:mo></m:math>height(of a small triangle) which is <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo>×</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>a</m:mi></m:mrow></m:math></para>
+      </item> <item> <label> Calculate <m:math overflow="scroll"><m:mi>a</m:mi></m:math> </label>
+      <para id="id62881"><m:math overflow="scroll"><m:mi>a</m:mi></m:math> can be calculated by using the Theorem of Pythagoras. Therefore:</para>
+      <equation id="id62892">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:mo>=</m:mo>
+            <m:msqrt>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>h</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate the area of the circular base </label>
+      <equation id="id62928">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msub>
+              <m:mi>A</m:mi>
+              <m:mi>b</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mi>π</m:mi>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate the area of the curved walls </label>
+      <equation id="id62960">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>A</m:mi>
+                  <m:mi>w</m:mi>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>π</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>π</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>r</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>h</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate surface area A </label>
+      <equation id="id63035">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mi>b</m:mi>
+                  </m:msub>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mi>w</m:mi>
+                  </m:msub>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>π</m:mi>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>π</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>r</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>h</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+      <para id="id63137"><emphasis effect="bold">Volume of a Pyramid:</emphasis> The volume of a pyramid is found by:</para>
+      <equation id="id63144">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>A</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63170">where <m:math overflow="scroll"><m:mi>A</m:mi></m:math> is the area of the base and <m:math overflow="scroll"><m:mi>h</m:mi></m:math> is the height.</para>
+      <para id="id63191">A cone is like a pyramid, so the volume of a cone is given by:</para>
+      <equation id="id63195">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>π</m:mi>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>h</m:mi>
+            <m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id62104">A square pyramid has volume</para>
+      <equation id="id62107">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63440">where <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is the side length of the square base.</para>
+<exercise id="secfhsst_id330"><title>Volume of a Pyramid </title><problem id="probfhsst_id331">
+      <para id="id63465">What is the volume of a square pyramid, 3cm high with a side length of 2cm?
+<figure id="id63587">
+          <media id="id63587_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C16_004.png" id="id63587_onlineimage" width="226"><!-- NOTE: attribute width changes image size online (pixels). original width is 226. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_004.eps" id="id63587_printimage"/>
+          </media>
+        </figure>
+ </para>
+      </problem>
+      <solution id="solfhsst_id335"> <list id="listfhsst_id335" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Determine the correct formula </label>
+      <para id="id63487">The volume of a pyramid is</para>
+      <equation id="id63490">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>A</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>h</m:mi>
+            <m:mo>,</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63518">where <m:math overflow="scroll"><m:mi>A</m:mi></m:math> is the area of the base and <m:math overflow="scroll"><m:mi>h</m:mi></m:math> is the height of the pyramid. For a square base this means</para>
+      <equation id="id63540">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>a</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>a</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63570">where <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is the length of the side of the square base.</para>
+      </item> <item> <label> Substitute the given values </label>
+      <equation id="id63597">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mo>·</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mo>·</m:mo>
+                  <m:mn>12</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:msup>
+                    <m:mi>m</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+      <para id="id63694">We accept the following formulae for volume and surface area of a sphere (ball).</para>
+      <equation id="id63698">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>Surface area</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>π</m:mi>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>Volume</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mi>π</m:mi>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+<exercise id="eip-219"><problem id="probid7634">
+<para id="id663">A triangular pyramid is placed on top of a triangular prism. The prism has an equilateral triangle of side length 20 cm as a base, and has a height of 42 cm. The pyramid has a height of 12 cm.<list id="id63425" list-type="enumerated" number-style="lower-alpha">
+<item>Find the total volume of the object.</item>
+<item>Find the area of each face of the pyramid.</item>
+<item>Find the total surface area of the object.</item></list>
+<figure id="id63921"><media id="id63921_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_006.png" id="id63921_onlineimage" width="50"><!-- NOTE: attribute width changes image size online (pixels). original width is 50. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_006.eps" id="id63921_printimage"/></media></figure></para>
+</problem>
+<solution id="solid7634">
+<list id="id6375" list-type="enumerated" number-style="arabic" class="stepwise">
+<item><label>Find the volume of the triangular prism</label>We use the formula for the volume of a triangular prism:
+<equation id="id6923"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd><m:mi>V</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mn>20</m:mn><m:msup><m:mn>42</m:mn><m:mn>2</m:mn></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>17640</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></item>
+<item><label>Find the volume of the triangular pyramid</label>We use the formula for the volume of a triangular pyramid:
+<equation id="id67423"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd><m:mi>V</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mi>b</m:mi><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mn>20</m:mn><m:msup><m:mn>42</m:mn><m:mn>2</m:mn></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>5880</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></item>
+<item><label>Find the volume</label>We note that we can simply add the volumes of each of the two shapes. So we obtain: <m:math><m:mn>17640</m:mn><m:mo>+</m:mo><m:mn>5880</m:mn><m:mo>=</m:mo><m:mn>23520</m:mn></m:math>. This is the answer to part a.</item>
+<item><label>Find the area of the faces of the pyramid</label>We note that we have four triangles that make up the pyramid. So the area of each face is simply:
+<equation id="id6783"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd><m:mi>Area</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi><m:mi>h</m:mi></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mn>20</m:mn><m:mn>42</m:mn></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>420</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+This is the answer to part b.
+</item>
+<item><label>Find the area of the pyramid</label>The total area of the pyramid is simply <m:math><m:mn>4</m:mn><m:mo>×</m:mo><m:mn>420</m:mn><m:mo>=</m:mo><m:mn>1680</m:mn></m:math></item>
+<item><label>Find the area of the prism</label>The surface area of the prism is:
+<equation id="id69663"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd><m:mi>Surface area</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mi>H</m:mi><m:mo>×</m:mo><m:mi>S</m:mi><m:mo>+</m:mo><m:mi>H</m:mi><m:mo>×</m:mo><m:mi>b</m:mi></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mi>20</m:mi><m:mo>×</m:mo><m:mi>20</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mi>12</m:mi><m:mo>×</m:mo><m:mi>20</m:mi><m:mo>+</m:mo><m:mi>12</m:mi><m:mo>×</m:mo><m:mi>20</m:mi></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>1120</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</item>
+<item><label>Find the total surface area</label>To find the total surface area, we must subtract the area of one face of the pyramid from the area of the prism. We must also subtract the area of one of the triangular faces of the prism. Doing this gives the total surface area as:
+<m:math><m:mn>1120</m:mn><m:mo>-</m:mo><m:mn>420</m:mn><m:mo>+</m:mo><m:mn>1680</m:mn><m:mo>-</m:mo><m:mn>420</m:mn><m:mo>=</m:mo><m:mn>1960</m:mn></m:math> This is the answer to part c.</item>
+</list>
+</solution>
+</exercise><section id="secfhsst_id508"><title> Surface Area and Volume </title>
+      <list id="id63805" display="block" list-type="enumerated"><item id="uid7654">Calculate the volumes and surface areas of the following solids: *Hint for (e): find the perpendicular height using Pythagoras.
+<figure id="id63823"><media id="id63823_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_005.png" id="id63823_onlineimage" width="776"><!-- NOTE: attribute width changes image size online (pixels). original width is 776. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_005.eps" id="id63823_printimage"/></media></figure><link class="fullmarks" url="http://www.fhsst.org/l2D" window="new">Click here for the solution</link></item>
+        <item id="uid8654">Water covers approximately 71% of the Earth's surface. Taking the radius of the Earth to be 6378 km, what is the total area of land (area not covered by water)?<newline/><link class="fullmarks" url="http://www.fhsst.org/l2W" window="new">Click here for the solution</link>
+</item>
+
+      </list>
+      
+</section>
+    </section>  
+
+  </content>
+</document>

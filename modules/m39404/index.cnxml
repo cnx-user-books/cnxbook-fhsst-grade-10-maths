@@ -1,0 +1,136 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Bias, error and misuse</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39404</md:content-id>
+  <md:title>Bias, error and misuse</md:title>
+  <md:abstract/>
+  <md:uuid>337c5434-a20e-4a73-8fc5-3b9600e8f6d7</md:uuid>
+</metadata>
+
+<content> 
+    <section id="eip-820"><title>Bias and error in measurements</title><para id="eip-910">
+All measurements have some error associated with them. Random errors occur in all data sets and are sometimes known as non-systematic errors. Random errors can arise from estimation of data values, imprecision of instruments, etc. For example if you are reading lengths off a ruler, random errors will arise in each measurement as a result of estimating between which two lines the length lies. Bias is also sometimes known as systematic error. Bias in a data set is where a value is consistently under or overestimated. Bias can arise from forgetting to take into account a correction factor or from instruments that are not properly calibrated (calibration is the process of marking off predefined measurements). Bias leads to a sample mean that is either lower or higher than the true mean. 
+</para></section>
+    <section id="eip-443"><title>Data interpretation</title><para id="eip-493">Many people take statistics and just blindly apply it to life or quote it. This, however, is not wise since the data that led to the statistics also needs to be considered. A well known example of several sets of data that lead to the same statistical analysis (the process of examining data and determining values such as central tendency, etc.) but are in fact very different is Anscombe's quartet. This is shown in <link target-id="id7323"/>. In Grade 11 you will learn about the methods used to represent data graphically. For now, however, you should simply appreciate the fact that we can plot data values on the Cartesian plane in a similar way to plotting graphs. If each of the datasets in Anscombe's quartet are analysed statistically, then one finds that the mean, variance, correlation and linear regression (these terms will be explained in later grades) are identical. If, instead of analysing the data statistically, we simply plot the data points we can see that the data sets are very different. This example shows us that it is very important to consider the underlying data set as well as the statistics that we obtain from the data. We cannot simply assume that just because we know the statistics of a data set, we know what the data set is telling us. For general interest, some of the ways that statistics and data can be misinterpreted are given in the following extension section.   
+<figure id="uid3453"><media id="uid3453_media" alt="">
+              <image mime-type="image/png" src="../../media/anscombe.png" id="uid3453_onlineimage" width="528"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/anscombe.eps" id="uid3453_printimage"/>
+            </media>
+            
+          <caption>Anscombe's quartet</caption></figure></para></section>
+<section id="cid8">
+      <title>Misuse of Statistics - For enrichment, not in CAPS</title>
+      <para id="id215969">In many cases groups can gain an advantage by misleading people with the misuse of statistics. Companies misuse statistics to attempt to show that they are performing better than a competitor, advertisers abuse statistics to try to convince you to buy their product, researchers misuse statistics to attempt to show that their data is of better quality than it really is, etc.</para>
+      <para id="id215973">Common techniques used include:</para>
+      <list id="id215979" display="block" list-type="bulleted">
+        <item id="uid105">Three dimensional graphs.
+</item>
+        <item id="uid106">Axes that do not start at zero.
+</item>
+        <item id="uid107">Axes without scales.
+</item>
+        <item id="uid108">Graphic images that convey a negative or positive mood.
+</item>
+        <item id="uid109">Assumption that a correlation shows a necessary causality.
+</item>
+        <item id="uid110">Using statistics that are not truly representative of the entire population.
+</item>
+        <item id="uid111">Using misconceptions of mathematical concepts
+</item>
+      </list>
+      <para id="id216070">For example, the following pairs of graphs show identical information but look very different. Explain why.</para>
+      <para id="id216074">
+        <figure id="id216077"><media id="id216077_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C16_010.png" id="id216077_onlineimage" width="700"><!-- NOTE: attribute width changes image size online (pixels). original width is 1968. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_010.eps" id="id216077_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <section id="uid112">
+        <title>Exercises - Misuse of Statistics</title>
+        <list id="id216093" display="block" list-type="enumerated"><item id="uid113">A company has tried to give a visual representation of the increase in their earnings from one year to the next. Does the graph below convince you? Critically analyse the graph.
+<figure id="id216113"><media id="id216113_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_011.png" id="id216113_onlineimage" width="228"><!-- NOTE: attribute width changes image size online (pixels). original width is 228. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_011.eps" id="id216113_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/l4R">Click here for the solution</link></item>
+          <item id="uid114">In a study conducted on a busy highway, data was collected about drivers breaking the speed limit and the colour of the car they were driving. The data were collected during a 20 minute time interval during the middle of the day, and are presented in a table and pie chart below.
+<!--Table that contain tables are not converted.--><list id="id216251" display="block" list-type="bulleted"><item id="uid115"><label/>Conclusions made by a novice based on the data are summarised as follows:
+</item><item id="uid116"><label/>“People driving white cars are more likely to break the speed limit.”
+</item><item id="uid117"><label/>“Drivers in blue and red cars are more likely to stick to the speed limit.”
+</item><item id="uid118"><label/>Do you agree with these conclusions? Explain.
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/l4n">Click here for the solution</link></item>
+          <item id="uid119">A record label produces a graphic, showing their advantage in sales over their competitors. Identify at least three devices they have used to influence and mislead the readers impression.
+<figure id="id216327"><media id="id216327_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_013.png" id="id216327_onlineimage" width="295"><!-- NOTE: attribute width changes image size online (pixels). original width is 295. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_013.eps" id="id216327_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/l4Q">Click here for the solution</link></item>
+          <item id="uid120">In an effort to discredit their competition, a tour bus company prints the graph shown below. Their claim is that the competitor is losing business. Can you think of a better explanation?
+<figure id="id216351"><media id="id216351_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_014.png" id="id216351_onlineimage" width="316"><!-- NOTE: attribute width changes image size online (pixels). original width is 316. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_014.eps" id="id216351_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/l4U">Click here for the solution</link></item>
+          <item id="uid121">To test a theory, 8 different offices were monitored for noise levels and productivity of the employees in the office. The results are graphed below.
+<figure id="id216374"><media id="id216374_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_015.png" id="id216374_onlineimage" width="189"><!-- NOTE: attribute width changes image size online (pixels). original width is 189. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_015.eps" id="id216374_printimage"/></media></figure>
+The following statement was then made:
+“If an office environment is noisy, this leads to poor productivity.”
+Explain the flaws in this thinking.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/l4P">Click here for the solution</link>
+</item>
+        </list>
+      </section>
+    </section>
+<section id="cid9"><title>End of chapter summary</title><list id="id216407" display="block" list-type="bulleted" bullet-style="bullet"><item>Data types can be divided into primary and secondary data. Primary data may be further divided into qualitative and quantitative data.</item>
+<item id="id97322">We use the following as measures of central tendency:<list id="id67453">
+        <item id="uid122"><label>Mean</label>The mean of a data set, <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, denoted by <m:math overflow="scroll"><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>, is the average of the data values, and is calculated as:
+<equation id="id216451"><m:math overflow="scroll" mode="display"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>sum of values</m:mi></m:mrow><m:mrow><m:mi>number of values</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation></item>
+        <item id="uid123"><label>Median</label>The median is the centre data value in a data set that has been ordered from lowest to highest
+</item>
+        <item id="uid12454"><label>Mode</label>The mode is the data value that occurs most often in a data set.
+</item></list></item>
+<item id="id973243222">The following are measures of dispersion:<list id="id6743453453"><item id="uid12542"><label>Range</label>The range of a data set is the difference between the lowest value and the highest value in the set. </item>
+        <item id="uid123543"><label>Quartiles</label>Quartiles are the three data values that divide an ordered data set into four groups containing equal numbers of data values. The median is the second quartile. 
+</item>
+        <item id="uid124"><label>Percentiles</label>Percentiles are the 99 data values that divide a data set into 100 groups. 
+</item>
+<item id="uid124342"><label>Inter quartile range</label>The inter quartile range is a measure which provides information about the spread of a data set, and is calculated by subtracting the first quartile from the third quartile, giving the range of the middle half of the data set, trimming off the lowest and highest quarters, i.e. <m:math overflow="scroll"><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. Half of this value is the semi-interquartile range.</item>
+</list></item>
+      <item>The five number summary is a way to summarise data. A box and whisker plot is a graphical representation of the five number summary.</item>
+<item>Random errors are found in all sets of data and arise from estimating data values. Bias or systematic error occurs when you consistently under or over estimate data values.</item>
+<item>You must always consider the data and the statistics that summarise the data</item></list>
+    </section>
+    <section id="cid10">
+      <title>Exercises</title>
+      <list id="id216570" display="block" list-type="enumerated"><item id="uid125">Calculate the mean, median, and mode of Data Set 3.<newline/><link window="new" class="fullmarks" url="http://www.fhsst.org/l4E">Click here for the solution</link>
+</item>
+        <item id="uid126">The tallest 7 trees in a park have heights in metres of 41, 60, 47, 42, 44, 42, and 47. Find the median of their heights.<newline/><link window="new" class="fullmarks" url="http://www.fhsst.org/l4m">Click here for the solution</link>
+</item>
+        <item id="uid127">The students in Bjorn's class have the following ages: 5, 6, 7, 5, 4, 6, 6, 6, 7, 4. Find the mode of their ages.<newline/><link window="new" class="fullmarks" url="http://www.fhsst.org/l4y">Click here for the solution</link>
+</item>
+       
+        <item id="uid132">An engineering company has designed two different types of engines for motorbikes. The two different motorbikes are tested for the time it takes (in seconds) for them to accelerate from 0 km/h to 60 km/h.
+<table id="id217268" summary=""><tgroup cols="12"><tbody><row><entry/><entry>Test 1</entry><entry>Test 2</entry><entry>Test 3</entry><entry>Test 4</entry><entry>Test 5</entry><entry>Test 6</entry><entry>Test 7</entry><entry>Test 8</entry><entry>Test 9</entry><entry>Test 10</entry><entry>Average</entry></row><row><entry>Bike 1</entry><entry>1.55</entry><entry>1.00</entry><entry>0.92</entry><entry>0.80</entry><entry>1.49</entry><entry>0.71</entry><entry>1.06</entry><entry>0.68</entry><entry>0.87</entry><entry>1.09</entry><entry/></row><row><entry>Bike 2</entry><entry>0.9</entry><entry>1.0</entry><entry>1.1</entry><entry>1.0</entry><entry>1.0</entry><entry>0.9</entry><entry>0.9</entry><entry>1.0</entry><entry>0.9</entry><entry>1.1</entry><entry/></row></tbody></tgroup></table><list id="id217423" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid133">What measure of central tendency should be used for this information?
+</item><item id="uid134">Calculate the average you chose in the previous question for each motorbike.
+</item><item id="uid135">Which motorbike would you choose based on this information? Take note of accuracy of the numbers from each set of tests.
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/l4p">Click here for the solution</link></item>
+        <item id="uid136">The heights of 40 learners are given below.
+<table id="id217478" summary=""><tgroup cols="10"><tbody><row><entry>154</entry><entry>140</entry><entry>145</entry><entry>159</entry><entry>150</entry><entry>132</entry><entry>149</entry><entry>150</entry><entry>138</entry><entry>152</entry></row><row><entry>141</entry><entry>132</entry><entry>169</entry><entry>173</entry><entry>139</entry><entry>161</entry><entry>163</entry><entry>156</entry><entry>157</entry><entry>171</entry></row><row><entry>168</entry><entry>166</entry><entry>151</entry><entry>152</entry><entry>132</entry><entry>142</entry><entry>170</entry><entry>162</entry><entry>146</entry><entry>152</entry></row><row><entry>142</entry><entry>150</entry><entry>161</entry><entry>138</entry><entry>170</entry><entry>131</entry><entry>145</entry><entry>146</entry><entry>147</entry><entry>160</entry></row></tbody></tgroup></table><list id="id217711" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid137">Set up a frequency table using 6 intervals.
+</item><item id="uid138">Calculate the approximate mean.
+</item><item id="uid139">Determine the mode.
+</item><item id="uid140">How many learners are taller than your approximate average in (b)?
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/l4d">Click here for the solution</link></item>
+        <item id="uid141">In a traffic survey, a random sample of 50 motorists were asked the distance they drove to work daily. This information is shown in the table below.
+<table id="id217778" summary=""><tgroup cols="10"><tbody><row><entry>Distance in km</entry><entry>1-5</entry><entry>6-10</entry><entry>11-15</entry><entry>16-20</entry><entry>21-25</entry><entry>26-30</entry><entry>31-35</entry><entry>36-40</entry><entry>41-45</entry></row><row><entry>Frequency</entry><entry>4</entry><entry>5</entry><entry>9</entry><entry>10</entry><entry>7</entry><entry>8</entry><entry>3</entry><entry>2</entry><entry>2</entry></row></tbody></tgroup></table><list id="id217956" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid142">Find the approximate mean.
+</item><item id="uid143">What percentage of samples drove
+<list id="id217984" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid144">less than 16 km?
+</item><item id="uid145">more than 30 km?
+</item><item id="uid146">between 16 km and 30 km daily?
+</item></list></item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/l4v">Click here for the solution</link></item>
+        <item id="uid147">A company wanted to evaluate the training programme in its factory. They gave the same task to trained and untrained employees and timed each one in seconds.
+<table id="id218040" summary=""><tgroup cols="6"><tbody><row><entry><emphasis effect="bold">Trained</emphasis></entry><entry>121</entry><entry>137</entry><entry>131</entry><entry>135</entry><entry>130</entry></row><row><entry/><entry>128</entry><entry>130</entry><entry>126</entry><entry>132</entry><entry>127</entry></row><row><entry/><entry>129</entry><entry>120</entry><entry>118</entry><entry>125</entry><entry>134</entry></row><row><entry><emphasis effect="bold">Untrained</emphasis></entry><entry>135</entry><entry>142</entry><entry>126</entry><entry>148</entry><entry>145</entry></row><row><entry/><entry>156</entry><entry>152</entry><entry>153</entry><entry>149</entry><entry>145</entry></row><row><entry/><entry>144</entry><entry>134</entry><entry>139</entry><entry>140</entry><entry>142</entry></row></tbody></tgroup></table><list id="id218292" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid148">Find the medians and quartiles for both sets of data.
+</item><item id="uid149">Find the Interquartile Range for both sets of data.
+</item><item id="uid150">Comment on the results.
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/l4w">Click here for the solution</link></item>
+        <item id="uid151">A small firm employs nine people. The annual salaries of the employers are:
+<table id="id218346" summary=""><tgroup cols="3"><tbody><row><entry>R600 000</entry><entry>R250 000</entry><entry>R200 000</entry></row><row><entry>R120 000</entry><entry>R100 000</entry><entry>R100 000</entry></row><row><entry>R100 000</entry><entry>R90 000</entry><entry>R80 000</entry></row></tbody></tgroup></table><list id="id218444" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid152">Find the mean of these salaries.
+</item><item id="uid153">Find the mode.
+</item><item id="uid154">Find the median.
+</item><item id="uid155">Of these three figures, which would you use for negotiating salary increases if you were a trade union official? Why?
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/l4f">Click here for the solution</link></item>
+        <item id="uid156">The marks for a particular class test are listed here:
+<table id="id218511" summary=""><tgroup cols="10"><tbody><row><entry>67</entry><entry>58</entry><entry>91</entry><entry>67</entry><entry>58</entry><entry>82</entry><entry>71</entry><entry>51</entry><entry>60</entry><entry>84</entry></row><row><entry>31</entry><entry>67</entry><entry>96</entry><entry>64</entry><entry>78</entry><entry>71</entry><entry>87</entry><entry>78</entry><entry>89</entry><entry>38</entry></row><row><entry>69</entry><entry>62</entry><entry>60</entry><entry>73</entry><entry>60</entry><entry>87</entry><entry>71</entry><entry>49</entry><entry/><entry/></row></tbody></tgroup></table><para id="eip-id1167180050127">Complete the frequency table using the given class intervals.
+<table id="id218699" summary=""><tgroup cols="5"><tbody><row><entry>Class</entry><entry>Tally</entry><entry>Frequency</entry><entry>Mid-point</entry><entry>Freq <m:math overflow="scroll"><m:mo>×</m:mo></m:math> Midpt</entry></row><row><entry>30-39</entry><entry/><entry>34,5</entry><entry/><entry/></row><row><entry>40-49</entry><entry/><entry>44,5</entry><entry/><entry/></row><row><entry>50-59</entry><entry/><entry/><entry/><entry/></row><row><entry>60-69</entry><entry/><entry/><entry/><entry/></row><row><entry>70-79</entry><entry/><entry/><entry/><entry/></row><row><entry>80-89</entry><entry/><entry/><entry/><entry/></row><row><entry>90-99</entry><entry/><entry/><entry/><entry/></row><row><entry/><entry/><entry>Sum =</entry><entry/><entry>Sum =</entry></row></tbody></tgroup></table></para><link window="new" class="fullmarks" url="http://www.fhsst.org/l4G">Click here for the solution</link></item>
+      </list>
+    </section>
+
+  </content>
+</document>

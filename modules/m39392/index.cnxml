@@ -1,0 +1,656 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Fractions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39392</md:content-id>
+  <md:title>Fractions</md:title>
+  <md:abstract/>
+  <md:uuid>a372c5f2-4e0e-4521-9e3a-05f18bbb87d0</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid7">
+      <title>Simplification of Fractions</title>
+      <para id="id279238">In some cases of simplifying an algebraic expression, the expression will be a fraction. For example,</para>
+      <equation id="id279242">
+        <m:math overflow="scroll" mode="display">
+          <m:mfrac>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:mfrac>
+        </m:math>
+      </equation>
+      <para id="id279276">has a quadratic in the numerator and a binomial in the denominator. You can apply the different factorisation methods to simplify the expression.</para>
+      <equation id="id279282"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mspace width="4pt"/>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd><m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd><m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                
+                  <m:mi>x</m:mi>
+                  </m:mtd><m:mtd columnalign="left">
+                  <m:mi> provided</m:mi><m:mspace width="2pt"/>
+<m:mi>x</m:mi>
+                  <m:mo>≠</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id279389">If <m:math overflow="scroll"><m:mi>x</m:mi></m:math> were 3 then the denominator, <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math>, would be 0 and the fraction undefined.</para>
+<exercise id="secfhsst_id3026"><title> Simplification of Fractions </title>
+      <problem id="probfhsst_id3027">
+      <para id="id279431">Simplify: <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:math> </para>
+      </problem>
+      <solution id="solfhsst_id3030"> <list id="listfhsst_id3030" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Factorise numerator and denominator </label>
+      <para id="id279503">Use <emphasis effect="italics">grouping</emphasis> for numerator and <emphasis effect="italics">common factor</emphasis> for denominator in this example.</para>
+      <equation id="id279518">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>b</m:mi>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Cancel out same factors </label>
+      <para id="id279695">The simplified answer is:</para>
+      <equation id="id279699">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mspace width="1.em"/>
+                  <m:mspace width="1.em"/>
+                  <m:mspace width="1.em"/>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id3174"><title> Simplification of Fractions </title>
+      <problem id="probfhsst_id3175">
+      <para id="id279776">Simplify:<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math> </para>
+      </problem>
+      <solution id="solfhsst_id3178"> <list id="listfhsst_id3178" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Factorise numerators and denominators </label>
+      <equation id="id279872">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>÷</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Multiply by factorised reciprocal </label>
+      <equation id="id279977">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>×</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Cancel out same factors </label>
+      <para id="id280081">The simplified answer is</para>
+      <equation id="id280085">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id3323"><title> Simplification of Fractions </title>
+      <list id="id280133" display="block" list-type="enumerated"><item id="uid53">Simplify:
+<table id="id280148" summary="uid657">
+<tgroup cols="2"><tbody><row><entry>(a) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi></m:mrow><m:mn>15</m:mn></m:mfrac></m:math><space/></entry><entry>(b) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:math><space/></entry></row><row><entry>(c) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:math><space/></entry><entry>(d) <m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:math><space/></entry></row><row><entry>(e) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>9</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:math><space/></entry><entry>(f) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>27</m:mn></m:mrow><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac></m:math><space/></entry></row><row><entry>(g) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>6</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi></m:mrow></m:mfrac></m:math><space/></entry><entry>(h) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:math><space/></entry></row><row><entry>(i) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mi>p</m:mi><m:mo>-</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac></m:math><space/></entry><entry>(j) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mn>14</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:math><space/></entry></row><row><entry>(k) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math><space/></entry><entry>(l) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>p</m:mi></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>12</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math><space/></entry></row><row><entry>(m) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>16</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi></m:mrow><m:mn>12</m:mn></m:mfrac></m:mrow></m:math><space/></entry><entry>(n) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>24</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>8</m:mn></m:mrow><m:mn>12</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:math><space/></entry></row><row><entry>(o) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mn>20</m:mn></m:mfrac></m:mrow></m:math><space/></entry><entry>(p) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>p</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:mn>7</m:mn><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>q</m:mi></m:mrow><m:mrow><m:mn>21</m:mn><m:mi>q</m:mi></m:mrow></m:mfrac></m:mrow></m:math><space/></entry></row><row><entry>(q) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>15</m:mn><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mfrac></m:mrow></m:math><space/></entry><entry>(r) <m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mi>f</m:mi><m:mn>2</m:mn></m:msup><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>f</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>f</m:mi><m:mo>-</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac></m:math></entry></row></tbody>
+
+</tgroup>
+</table><link window="new" class="fullmarks" url="http://www.fhsst.org/lit">Click here for the
+solution</link></item>
+        <item id="uid54">Simplify: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>×</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lie">Click here for the
+solution</link>
+</item>
+      </list>
+      
+</section>
+    </section>
+    <section id="eip-770"><title>Adding and subtracting fractions</title><para id="eip-107">Using the concepts learnt in simplification of fractions, we can now add and subtract simple fractions. To add or subtract fractions we note that we can only add or subtract fractions that have the same denominator. So we must first make all the denominators the same and then perform the addition or subtraction. This is called finding the lowest common denominator or multiple. 
+</para><para id="eip-997">For example, if you wanted to add: <m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math> and <m:math><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:math> we would note that the lowest common denominator is 10. So we must multiply the first fraction by 5 and the second fraction by 2 to get both of these with the same denominator. Doing so gives: <m:math><m:mfrac><m:mn>5</m:mn><m:mn>10</m:mn></m:mfrac></m:math> and <m:math><m:mfrac><m:mn>6</m:mn><m:mn>10</m:mn></m:mfrac></m:math>. Now we can add the fractions. Doing so, we get <m:math><m:mfrac><m:mn>11</m:mn><m:mn>10</m:mn></m:mfrac></m:math>.</para><exercise id="eip-337"><problem id="probfhsst_id317245">
+      <para id="id2793436776">Simplify the following expression: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math> </para>
+      </problem>
+      <solution id="solfhsst_id3132478"> <list id="listfhsst_id343178" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Factorise numerators and denominators </label>
+      <equation id="id279353872"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+<m:mo>-</m:mo>
+<m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+      </item> <item> <label> Make the denominators the same </label><para id="id79242">We make all the denominators the same so that we can add or subtract the fractions. The lowest common denominator is <m:math><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:math>.</para>
+      <equation id="id27943653977"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>
+(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+</m:mfrac>
+<m:mo>-</m:mo>
+<m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+      </item> <item> <label>Write all the fractions as one</label><para id="id639247">Since the fractions all have the same denominator we can write them all as one fraction with the appropriate operator</para>
+     <equation id="id653977"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>
+(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+      
+      </item> 
+<item><label>Simplify the numerator</label><equation id="id9657"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>
++</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+</item>
+<item><label>Write the final answer</label>
+<equation id="id65677"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>
++</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+</item></list> </solution>
+</exercise></section><section id="eip-755"><title>Two interesting mathematical proofs</title><para id="id76534">We can use the concepts learnt in this chapter to demonstrate two interesting mathematical proofs. The first proof states that <m:math><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:math> is even for all <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>. The second proof states that <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> is divisible by 6 for all <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>. Before we demonstrate that these two laws are true, we first need to note some other mathematical rules.
+</para>
+<para id="id736">If we multiply an even number by an odd number, we get an even number. Similarly if we multiply an odd number by an even number we get an even number. Also, an even number multiplied by an even number is even and an odd number multiplied by an odd number is odd. This result is shown in the following table:
+
+</para>
+<table id="eip-556" summary="multiplying numbers">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry/>
+    <entry><emphasis effect="bold">Odd number</emphasis></entry>
+    <entry><emphasis effect="bold">Even number</emphasis></entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Odd number</emphasis></entry>
+    <entry>Odd</entry>
+    <entry>Even</entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Even number</emphasis></entry>
+    <entry>Even</entry>
+    <entry>Even</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table><para id="id697">If we take three consecutive numbers and multiply them together, the resulting number is always divisible by three. This should be obvious since if we have any three consecutive numbers, one of them will be divisible by 3.
+</para>
+<para id="id67354">Now we are ready to demonstrate that <m:math><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:math> is even for all <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>. If we factorise this expression we get:
+<m:math><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:math>. If <m:math><m:mi>n</m:mi></m:math> is even, than <m:math><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:math> is odd. If <m:math><m:mi>n</m:mi></m:math> is odd, than <m:math><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:math> is even. Since we know that if we multiply an even number with an odd number or an odd number with an even number, we get an even number, we have demonstrated that <m:math><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:math> is always even. Try this for a few values of <m:math><m:mi>n</m:mi></m:math> and you should find that this is true.
+</para>
+<para id="id67744">To demonstrate that <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> is divisible by 6 for all <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>, we first note that the factors of 6 are 3 and 2. So if we show that <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> is divisible by both 3 and 2, then we have shown that it is also divisible by 6! If we factorise this expression we get:
+<m:math><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:math>. Now we note that we are multiplying three consecutive numbers together (we are taking <m:math><m:mi>n</m:mi></m:math> and then adding 1 or subtracting 1. This gives us the two numbers on either side of <m:math><m:mi>n</m:mi></m:math>.) For example, if <m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:math>, then <m:math><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>5</m:mn></m:math> and <m:math><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>3</m:mn></m:math>. But we know that when we multiply three consecutive numbers together, the resulting number is always divisible by 3. So we have demonstrated that <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> is always divisible by 3. To demonstrate that it is also divisible by 2, we can also show that it is even. We have shown that <m:math><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:math> is always even. So now we recall what we said about multiplying even and odd numbers. Since one number is always even and the other can be either even or odd, the result of multiplying these numbers together is always even. And so we have demonstrated that <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> is divisible by 6 for all <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>.
+</para>
+</section><section id="eip-735"><title>Summary</title><list id="uid0812"><item>A binomial is a mathematical expression with two terms. The product of two identical binomials is known as the square of the binomial. The difference of two squares is when we multiply
+                <m:math> <m:mrow><m:mo>(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow></m:math></item>
+<item>Factorising is the opposite of expanding the brackets. You can use common factors or the difference of two squares to help you factorise expressions.</item>
+<item>The distributive law (<m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>C</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>D</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>E</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>C</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>D</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>E</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>C</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>D</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>E</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>) helps us to multiply a binomial and a trinomial.</item>
+<item>The sum of cubes is: <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>y</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mi>x</m:mi>
+              <m:mi>y</m:mi>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>y</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math> and the difference of cubes is: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>=</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:math></item>
+<item>To factorise a quadratic we find the two binomials that were multiplied together to give the quadratic.</item>
+<item>We can also factorise a quadratic by grouping. This is where we find a common factor in the quadratic and take it out and then see what is left over.</item>
+<item>We can simplify fractions by using the methods we have learnt to factorise expressions.</item>
+<item>Fractions can be added or subtracted. To do this the denominators of each fraction must be the same.</item></list></section><section id="cid8">
+      <title>End of Chapter Exercises</title>
+      <list id="id281011" display="block" list-type="enumerated"><item id="uid55">Factorise:
+<list id="id281026" list-type="enumerated" number-style="lower-alpha">
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>9</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>36</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>9</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>81</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>16</m:mn><m:msup><m:mi>b</m:mi><m:mn>6</m:mn></m:msup><m:mo>-</m:mo><m:mn>25</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>9</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>-</m:mo><m:mn>5</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>16</m:mn><m:mi>b</m:mi><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:mo>-</m:mo><m:mn>81</m:mn><m:mi>b</m:mi></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>10</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>25</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>16</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>56</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>49</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>12</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>144</m:mn><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup><m:mo>+</m:mo><m:mn>48</m:mn><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></item>
+</list><link window="new" class="fullmarks" url="http://www.fhsst.org/liM">Click here for the
+solution</link></item>
+<item id="id632">Factorise completely: <list id="id6423" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>16</m:mn><m:mi>−</m:mi><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mn>7x</m:mn><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14x</m:mn></m:mrow><m:mo>+</m:mo><m:mn>7xy</m:mn></m:mrow><m:mo>−</m:mo><m:mn>14y</m:mn></m:mrow></m:math>
+</item>
+<item><m:math><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7y</m:mn></m:mrow><m:mo>−</m:mo><m:mn>30</m:mn></m:mrow></m:math>
+</item>
+<item><m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math>
+</item>
+<item><m:math><m:mrow><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>p</m:mi></m:mrow><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:math></item>
+</list><link class="fullmarks" window="new" url="http://www.fhsst.org/lTY">Click here for the solution</link>
+</item>
+<item>Simplify the following:
+<list id="eip-id1166762435067" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:math></item>
+<item><m:math><m:mo>(</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>25</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>20</m:mn><m:mi>ab</m:mi><m:mo>+</m:mo><m:mn>16</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:math></item>
+<item><m:math><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:math></item>
+<item><m:math><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>c</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>)</m:mo></m:math></item>
+</list><link window="new" class="fullmarks" url="http://www.fhsst.org/lTg">Click here for the
+solution</link>
+</item>
+<item>Simplify the following:
+<list id="eip-id1153" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>p</m:mi></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>pq</m:mi></m:mrow></m:mfrac></m:math></item>
+<item><m:math><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mfrac></m:math></item>
+</list><link window="new" class="fullmarks" url="http://www.fhsst.org/lT4">Click here for the
+solution</link>
+</item>
+        <item id="uid56">Show that <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> can be simplified to <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lib">Click here for the
+solution</link>
+</item>
+        <item id="uid57">What must be added to <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math><space/>to make it equal to <m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/liT">Click here for the
+solution</link>
+</item>
+      </list>
+    </section>
+  </content>
+</document>

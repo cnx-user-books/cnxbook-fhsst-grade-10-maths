@@ -1,0 +1,128 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Summary &amp; Exercises</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39167</md:content-id>
+  <md:title>Summary &amp; Exercises</md:title>
+  <md:abstract/>
+  <md:uuid>3a5cc4ec-83f1-4df3-bf4d-73c02f32c7ea</md:uuid>
+</metadata>
+
+<content><section id="fs-id5760712">
+<title>Analytical Geometry; Summary and Exercises</title>
+<para id="fs-id1165371842904">
+<list id="eip-966"><item>Figures can be represented on the Cartesian plane</item>
+<item>The formula for finding the distance between two points is: <equation id="eid9734"><m:math overflow="scroll"><m:mi>Distance</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:math></equation></item>
+<item>The formula for finding the gradient of a line is: <equation id="edi6342"><m:math overflow="scroll"><m:mrow><m:mi>Gradient</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation></item>
+<item>The formula for finding the midpoint between two points is: <equation id="eid6743"><m:math>
+                  <m:mrow>
+                    <m:mi>S</m:mi>
+                    <m:mfenced separators="" open="(" close=")">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>+</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mo>;</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>+</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mfenced>
+                  </m:mrow>
+          </m:math></equation>
+</item>
+<item> If two lines are parallel then they will have the same gradient, i.e. <m:math><m:msub><m:mi>m</m:mi><m:mi>AB</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>CD</m:mi></m:msub></m:math>. If two lines are perpendicular than we have: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>AB</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>CD</m:mi></m:msub></m:mrow></m:math></item></list>
+</para>
+</section><section id="secfhsst_id2370"><title>End of Chapter exercises</title>
+        <list id="id69671" display="block" list-type="enumerated"><item id="uid43466">
+Represent the following figures on the Cartesian plane: <list id="id6549695" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid4746">
+Triangle DEF with D(1;2), E(3;2) and F(2;4) 
+</item><item id="uid4548">Quadrilateral GHIJ with G(2;-1), H(0;2), I(-2;-2) and J(1;-3)
+</item><item id="uid4549"> Quadrilateral MNOP with M(1;1), N(-1;3), O(-2;3) and P(-4;1) 
+</item><item id="uid5450"> Quadrilateral WXYZ with W(1;-2), X(-1;-3), Y(2;-4) and Z(3;-2)
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lgv">Click here for the solution</link></item>
+<item id="uid46">
+In the diagram given the vertices of a quadrilateral are F(2;0), G(1;5), H(3;7) and I(7;2).
+<figure id="id69688"><media id="id69688_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_021.png" id="id69688_onlineimage" width="509"><!-- NOTE: attribute width changes image size online (pixels). original width is 509. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_021.eps" id="id69688_printimage"/></media></figure><list id="id69695" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid47">
+What are the lengths of the opposite sides of FGHI?
+</item><item id="uid48">Are the opposite sides of FGHI parallel?
+</item><item id="uid49"> Do the diagonals of FGHI bisect each other?
+</item><item id="uid50"> Can you state what type of quadrilateral FGHI is? Give reasons for your answer.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/liZ">Click here for the solution</link></item>
+          <item id="uid51">
+A quadrialteral ABCD with vertices A(3;2), B(1;7), C(4;5) and D(1;3) is given.
+<list id="id69770" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid52"> Draw the quadrilateral.
+</item><item id="uid53"> Find the lengths of the sides of the quadrilateral.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/liB">Click here for the solution</link></item>
+          <item id="uid54">ABCD is a quadrilateral with verticies A(0;3), B(4;3), C(5;-1) and D(-1;-1).
+<list id="id69816" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid55">Show that:
+<list id="id69834" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid56">AD = BC
+</item><item id="uid57">AB <m:math overflow="scroll"><m:mo>âˆ¥</m:mo></m:math> DC
+</item></list></item><item id="uid58">What name would you give to ABCD?
+</item><item id="uid59">Show that the diagonals AC and BD do not bisect each other.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lac">Click here for the solution</link></item>
+          <item id="uid60">P, Q, R and S are the points (-2;0), (2;3), (5;3), (-3;-3) respectively.
+<list id="id69919" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid61">Show that:
+<list id="id69937" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid62">SR = 2PQ
+</item><item id="uid63">SR <m:math overflow="scroll"><m:mo>âˆ¥</m:mo></m:math> PQ
+</item></list></item><item id="uid64">Calculate:
+<list id="id69993" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid65">PS
+</item><item id="uid66">QR
+</item></list></item><item id="uid67">What kind of a quadrilateral is PQRS? Give reasons for your answers.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lax">Click here for the solution</link></item>
+          <item id="uid68">EFGH is a parallelogram with verticies E(-1;2), F(-2;-1) and G(2;0). Find the co-ordinates of H by using the fact that the diagonals of a parallelogram bisect each other.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laa">Click here for the solution</link>
+</item>
+  <item> 
+PQRS is a quadrilateral with points P(0; âˆ’3) ; Q(âˆ’2;5) ; R(3;2) and S(3;â€“2)  in the Cartesian plane.
+<list id="id0812312" display="block" list-type="enumerated" number-style="lower-alpha"><item id="id08123">Find the length of QR.</item>                        
+<item id="id981221">Find the gradient of PS.</item>                          
+<item id="id08213">Find the midpoint of PR.</item>                               
+<item id="id9871293">Is PQRS a parallelogram?  Give reasons for your answer. </item>
+</list><link class="fullmarks" window="new" url="http://www.fhsst.org/laY">Click here for the solution</link></item>
+
+<item>A(â€“2;3) and B(2;6) are points in the Cartesian plane.  C(a;b) is the midpoint of AB. Find the values of a and b.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lag">Click here for the solution</link>
+</item>   
+
+<item>
+Consider: Triangle ABC with vertices A (1; 3) B (4; 1) and C (6; 4):
+<list id="id9173123" display="block" list-type="enumerated" number-style="lower-alpha">
+<item>Sketch triangle ABC on the Cartesian plane. </item>
+<item>Show that ABC is an isoceles triangle.</item>
+<item>Determine the co-ordinates of M, the midpoint of AC.</item>
+<item>Determine the gradient of AB.</item>
+<item>Show that the following points are collinear: A, B and D(7;-1)</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/la4">Click here for the solution</link>
+</item>
+
+<item>In the diagram, A is the point (-6;1) and B is the point (0;3)
+<figure id="id740344"><media id="id740344_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_5.png" id="id740344_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_5-10e2.eps" id="id740344_printimage"/></media></figure><list id="id982373" display="block" list-type="enumerated" number-style="lower-alpha"><item>Find the equation of line AB </item>
+<item>Calculate the length of AB</item>
+<item> Aâ€™ is the image of A and Bâ€™ is the image of B. Both these images are obtain by applying the transformation: (x;y)<m:math overflow="scroll"><m:mo>â†’</m:mo></m:math>(x-4;y-1). Give the coordinates of both Aâ€™ and Bâ€™</item>
+<item>Find the equation of Aâ€™Bâ€™</item>
+<item>Calculate the length of Aâ€™Bâ€™</item>
+<item>Can you state with certainty that AA'B'B is a parallelogram? Justify your answer.</item></list> <link class="fullmarks" window="new" url="http://www.fhsst.org/l4o">Click here for the solution</link></item>      </list>
+        
+</section>
+      
+</content>
+
+</document>

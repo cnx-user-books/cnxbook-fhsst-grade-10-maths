@@ -1,0 +1,59 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Summary and exercises</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39240</md:content-id>
+  <md:title>Summary and exercises</md:title>
+  <md:abstract/>
+  <md:uuid>77ae7f27-50a0-44d3-862d-017e149680f5</md:uuid>
+</metadata>
+
+<content>
+<section id="eip-479"><title>Average Gradient: Summary and exercises</title>
+<list id="eip-922"><item>The average gradient between two points is: <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:math></item>
+<item>The average gradient of a straight-line function is the same over any two intervals on the function</item>
+<item>The average gradient of a parabolic function depends on the interval and is the gradient of a straight line that passes through the points on the interval</item>
+<item>We can extend the concept of average gradient to any function</item>
+</list></section><section id="cid5"><title>End of Chapter Exercises</title><list id="id191703" display="block" list-type="enumerated"><item id="uid9">An object moves according to the function <m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> , where <m:math overflow="scroll"><m:mi>d</m:mi></m:math> is the distance in metres and <m:math overflow="scroll"><m:mi>t</m:mi></m:math> the time in seconds. Calculate the average speed of the object between 2 and 3 seconds. The speed is the gradient of the function <m:math overflow="scroll"><m:mi>d</m:mi></m:math><newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/llP">Click here for the solution</link>
+</item>
+        <item id="uid10">Given: <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math>.
+Determine the average gradient between the points where <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>.<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/llE">Click here for the solution</link>
+</item>
+<item id="uid111">Find the average gradient of each of the following functions between the points where <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>
+<list id="id62342" list-type="enumerated" number-style="lower-alpha"><item><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math></item>
+</list><link window="new" class="fullmarks" url="http://www.fhsst.org/lT5">Click here for the solution</link>
+</item>
+</list>
+    </section>
+  </content>
+</document>

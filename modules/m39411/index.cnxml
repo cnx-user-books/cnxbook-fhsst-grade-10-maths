@@ -1,0 +1,937 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>The trig functions for any angle and applications</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39411</md:content-id>
+  <md:title>The trig functions for any angle and applications</md:title>
+  <md:abstract/>
+  <md:uuid>12885bb3-91a3-4dd5-922f-73236677cdf5</md:uuid>
+</metadata>
+
+<content>
+<section id="eip-945"><title>The trig functions for any angle</title><para id="eip-156">So far we have defined the trig functions using right angled triangles. We can now extend these definitions to any angle. We do this by noting that the definitions do not rely on the lengths of the sides of the triangle, but only on the angle. So if we plot any point on the Cartesian plane and then draw a line from the origin to that point, we can work out the angle of that line. In <link target-id="id63458"/> points P and Q have been plotted. A line from the origin to each point is drawn. The dotted lines show how we can construct right angle triangles for each point. Now we can find the angles A and B.
+</para><para id="eip-970"><figure id="id63458"><media id="id63458_media" alt="">
+            <image mime-type="image/png" src="../../media/trigfunc1.png" id="id63458_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/trigfunc1.eps" id="id63458_printimage"/>
+            </media>
+            </figure></para><para id="eip-9">You should find the angle A is <m:math overflow="scroll"><m:mrow><m:mn>63</m:mn><m:mo>,</m:mo><m:msup><m:mn>43</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. For angle B, you first work out x (<m:math overflow="scroll"><m:mrow><m:mn>33</m:mn><m:mo>,</m:mo><m:msup><m:mn>69</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>) and then B is <m:math overflow="scroll"><m:mrow><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mrow><m:mn>33</m:mn><m:mo>,</m:mo><m:msup><m:mn>69</m:mn><m:mo>∘</m:mo></m:msup></m:mrow><m:mo>=</m:mo><m:mrow><m:mn>146</m:mn><m:mo>,</m:mo><m:msup><m:mn>31</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mrow></m:math>. But what if we wanted to do this without working out these angles and figuring out whether to add or subtract 180 or 90? Can we use the trig functions to do this? Consider point P in <link target-id="id63458"/>. To find the angle you would have used one of the trig functions, e.g. <m:math overflow="scroll"><m:mi>tan</m:mi><m:mspace width="1pt"/><m:mi>θ</m:mi></m:math>. You should also have noted that the side adjacent to the angle was just the x-co-ordinate and that the side opposite the angle was just the y-co-ordinate. But what about the hypotenuse? Well, you can find that using Pythagoras since you have two sides of a right angled triangle. If we were to draw a circle centered on the origin, then the length from the origin to point P is the radius of the circle, which we denote r. Now we can rewrite all our trig functions in terms of x, y and r. But how does this help us to find angle B? Well, we know that from point Q to the origin is r, and we have the co-ordinates of Q. So we simply use the newly defined trig functions to find angle B! (Try it for yourself and confirm that you get the same answer as before.) One final point to note is that when we go anti-clockwise around the Cartesian plane the angles are positive and when we go clockwise around the Cartesian plane, the angles are negative. </para><para id="eip-634">So we get the following definitions for the trig functions:
+</para><equation id="eip-169"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">tan</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math></equation><para id="eip-102">But what if the x- or y-co-ordinate is negative? Do we ignore that, or is there some way to take that into account? The answer is that we do not ignore it. The sign in front of the x- or y-co-ordinate tells us whether or not sin, cos and tan are positive or negative. We divide the Cartesian plane into quadrants and then we can use <link target-id="id63358"/> to tell us whether the trig function is positive or negative. This diagram is known as the CAST diagram.</para><para id="eip-216"><figure id="id63358"><media id="id63358_media" alt="">
+            <image mime-type="image/png" src="../../media/CAST.png" id="id63358_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/CAST.eps" id="id63358_printimage"/>
+            </media>
+            </figure></para><para id="eip-927">We can also extend the definitions of the reciprocals in the same way:
+<equation id="id89342">
+<m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">cosec</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">sec</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">cot</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+</equation></para><exercise id="eip-986"><title>Finding the angle</title><problem id="probfhsst_id182">
+        <para id="id8189">Points R(-1;-3) and point S(3;-3) are plotted in the diagram below. Find the angles <m:math overflow="scroll"><m:mi>α</m:mi></m:math> and <m:math overflow="scroll"><m:mi>β</m:mi></m:math>. </para>
+        <para id="id8128">
+          <figure id="id8199"><media id="id8199_media" alt="">
+              <image mime-type="image/png" src="../../media/qtrig.png" id="id8199_onlineimage" width="203"><!-- NOTE: attribute width changes image size online (pixels). original width is 303. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/qtrig.eps" id="id8199_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id194"> <list id="listfhsst_id194" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Write down what is given and what is required </label>
+        <para id="id81936">We have the co-ordinates of the points R and S. We are required to find two angles. Angle <m:math overflow="scroll"><m:mi>β</m:mi></m:math> is positive and angle <m:math overflow="scroll"><m:mi>α</m:mi></m:math> is negative.</para>
+        </item> <item> <label> Calculate <m:math overflow="scroll"><m:mi>β</m:mi></m:math></label>
+        <para id="id8267">We use tan to find <m:math overflow="scroll"><m:mi>β</m:mi></m:math>, since we are only given x and y. We note that we are in the third quadrant, where tan is positive.</para>
+        <equation id="id82128"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>β</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                      <m:mi>y</m:mi>
+                      <m:mi>x</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>β</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+</m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd><m:mi>β</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup>
+<m:mo form="prefix">tan</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup>
+                    <m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd><m:mi>β</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:mn>71</m:mn><m:mo>,</m:mo><m:msup><m:mn>57</m:mn><m:mo>∘</m:mo></m:msup></m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Calculate <m:math overflow="scroll"><m:mi>α</m:mi></m:math></label>
+<para id="id9732">We use tan to calculate <m:math overflow="scroll"><m:mi>α</m:mi></m:math>, since we are only given x and y. We also note that we are in the fourth quadrant, where tan is positive.
+</para>
+        <equation id="id8254"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>α</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                      <m:mi>y</m:mi>
+                      <m:mi>x</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>α</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow>
+</m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd><m:mi>α</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup>
+<m:mo form="prefix">tan</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup>
+                    <m:mo>(</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd><m:mi>α</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup><m:mrow><m:mo>-</m:mo><m:mn>45</m:mn></m:mrow><m:mo>∘</m:mo></m:msup></m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer</label>
+        <para id="id827"> Angle <m:math overflow="scroll"><m:mi>α</m:mi></m:math> is <m:math><m:mrow><m:msup><m:mrow><m:mo>-</m:mo><m:mn>45</m:mn></m:mrow><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and angle <m:math overflow="scroll"><m:mi>β</m:mi></m:math> is <m:math><m:mrow><m:mn>71</m:mn><m:mo>,</m:mo><m:msup><m:mn>57</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>
+ </para>
+        </item> </list> </solution>
+</exercise><note id="eip-94">You should observe that in the worked example above, the angle <m:math overflow="scroll"><m:mi>α</m:mi></m:math> is simply the angle that line OS makes with the x-axis. So if you are asked to find out what angle a line makes with the x- or y-axes, then you can use trigonometry!</note><note id="eip-797">The CAST diagram can be generalized to a very powerful tool for solving trigonometric functions by hand (that is, without a calculator) called <emphasis effect="italics">the unit circle</emphasis>. You may or may not touch on this in Grade 11 or 12.</note></section><section id="eip-822"><title>Solving simple trigonometric equations</title><para id="eip-361">
+Using what we have learnt about trig functions we can now solve some simple trig equations. We use the principles from <link document="m38372" window="new">Equations and Inequalities</link> to help us solve trig equations. 
+</para><note id="eip-301">It is important to note that in general <m:math><m:mn>2</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>≠</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo>)</m:mo></m:math>. In other words doubling (or multiplying by 2) has a different effect from doubling the angle.</note><exercise id="eip-618"><problem id="eip-440">
+  <para id="eip-811">
+   Solve the following trig equation: <m:math><m:mn>3</m:mn><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>2</m:mn></m:math>
+  </para>
+</problem>
+
+<solution id="eip-616">
+ <list id="id987324" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Rearrange the equation</label>
+<equation id="id0832"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>3</m:mn><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>-</m:mo><m:mn>3</m:mn></m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>107</m:mn><m:mo>,</m:mo><m:msup><m:mn>46</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>2</m:mn><m:mi>x</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>107</m:mn><m:mo>,</m:mo><m:msup><m:mn>46</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>2</m:mn><m:mi>x</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>69</m:mn><m:mo>,</m:mo><m:msup><m:mn>46</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd columnalign="right">
+                 <m:mi>x</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>34</m:mn><m:mo>,</m:mo><m:msup><m:mn>73</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math></equation>
+</item>
+<item><label>Write the final answer</label>
+<m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mrow><m:mn>34</m:mn><m:mo>,</m:mo><m:msup><m:mn>73</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>
+</item>
+
+</list>
+</solution>
+</exercise><note id="eip-858" type="aside">In grade 11 and 12, you will learn more about solving trig equations. </note></section><section id="cid6">
+      <title>Simple Applications of Trigonometric Functions</title>
+      <para id="id81626">Trigonometry was probably invented in ancient civilisations to solve practical problems such as building construction and navigating by the stars. In this section we will show how trigonometry can be used to solve some other practical problems.</para>
+      <section id="uid25">
+        <title>Height and Depth</title>
+        <figure id="uid26">
+          <media id="uid26_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_012.png" id="uid26_onlineimage" width="201"><!-- NOTE: attribute width changes image size online (pixels). original width is 201. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_012.eps" id="uid26_printimage"/>
+          </media>
+          <caption>Determining the height of a building using trigonometry.</caption>
+        </figure>
+        <para id="id81653">One simple task is to find the height of a building by using trigonometry. We could just use a tape measure lowered from the roof, but this is impractical (and dangerous) for tall buildings. It is much more sensible to measure a distance along the ground and use trigonometry to find the height of the building.</para>
+        <para id="id81658"><link target-id="uid26"/> shows a building whose height we do not know. We have walked 100 m away from the building and measured the angle from the ground up to the top of the building. This angle is found to be <m:math overflow="scroll"><m:mrow><m:mn>38</m:mn><m:mo>,</m:mo><m:msup><m:mn>7</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. We call this angle the <emphasis effect="italics">angle of elevation</emphasis>. As you can see from <link target-id="uid26"/>, we now have a right-angled triangle. As we know the length of one side and an angle, we can calculate the height of the triangle, which is the height of the building we are trying to find.</para>
+        <para id="id81702">If we examine the figure, we see that we have the <emphasis effect="italics">opposite</emphasis> and the <emphasis effect="italics">adjacent</emphasis> of the angle of elevation and we can write:</para>
+        <equation id="id81717"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mn>38</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi> opposite </m:mi>
+                    <m:mi> adjacent </m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi> height </m:mi>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mspace width="0.166667em"/>
+                      <m:mi mathvariant="normal">m</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> height </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mrow>
+                      <m:mn>38</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>7</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>80</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<exercise id="secfhsst_id1381"><title> Height of a tower </title>
+        <problem id="probfhsst_id1382">
+        <para id="id81869">A block of flats is 100m away from a cellphone tower. Someone stands at <m:math overflow="scroll"><m:mi>B</m:mi></m:math>. They measure the angle from <m:math overflow="scroll"><m:mi>B</m:mi></m:math> up to the top of the tower <m:math overflow="scroll"><m:mi>E</m:mi></m:math> to be 62 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. This is the angle of elevation. They then measure the angle from <m:math overflow="scroll"><m:mi>B</m:mi></m:math> down to the bottom of the tower at <m:math overflow="scroll"><m:mi>C</m:mi></m:math> to be 34 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. This is the angle of depression.What is the height of the cellph one tower correct to 1 decimal place?</para>
+        <para id="id81948">
+          <figure id="id81949"><media id="id81949_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C15_013.png" id="id81949_onlineimage" width="303"><!-- NOTE: attribute width changes image size online (pixels). original width is 303. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_013.eps" id="id81949_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id1394"> <list id="listfhsst_id1394" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Identify a strategy </label>
+        <para id="id81976">To find the height of the tower, all we have to do is find the length of <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math>. We see that <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>B</m:mi><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>B</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:math> are both right-angled triangles. For each of the triangles, we have an angle and we have the length <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi></m:mrow></m:math>. Thus we can calculate the sides of the triangles.</para>
+        </item> <item> <label> Calculate <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> </label>
+        <para id="id82067">We are given that the length <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> is 100m. <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>D</m:mi></m:mrow></m:math> is a rectangle so <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi><m:mspace width="4pt"/><m:mo>=</m:mo><m:mspace width="4pt"/><m:mi>A</m:mi><m:mi>C</m:mi><m:mspace width="4pt"/><m:mo>=</m:mo><m:mspace width="4pt"/><m:mn>100</m:mn><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.</para>
+        <equation id="id82138">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>D</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>C</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mi>C</m:mi>
+                    <m:mi>D</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>D</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>D</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:msup>
+                      <m:mn>34</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id82283">Use your calculator to find that <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:msup><m:mn>34</m:mn><m:mo>∘</m:mo></m:msup><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>6745</m:mn></m:mrow></m:math>. Using this, we find that <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>67</m:mn><m:mo>,</m:mo><m:mn>45</m:mn></m:mrow></m:math>m</para>
+        </item> <item> <label> Calculate <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math> </label>
+        <equation id="id82354">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>D</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>D</m:mi>
+                      <m:mi>E</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mi>D</m:mi>
+                    <m:mi>E</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>D</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>D</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:msup>
+                      <m:mn>62</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>188</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>07</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Combine the previous answers </label>
+        <para id="id82527">We have that the height of the tower
+<m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>D</m:mi><m:mo>+</m:mo><m:mi>D</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>67</m:mn><m:mo>,</m:mo><m:mn>45</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>+</m:mo><m:mn>188</m:mn><m:mo>,</m:mo><m:mn>07</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>=</m:mo><m:mn>255</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+      </section>
+      <section id="uid27">
+        <title>Maps and Plans</title>
+        <para id="id82626">Maps and plans are usually scale drawings. This means that they are an exact copy of the real thing, but are usually smaller. So, only lengths are changed, but all angles are the same. We can use this idea to make use of maps and plans by adding information from the real world.</para>
+<exercise id="secfhsst_id1596"><title> Scale Drawing </title>
+        <problem id="probfhsst_id1597">
+        <para id="id82645">A ship approaching Cape Town Harbour reaches point A on the map, due south of Pretoria and due east of Cape Town. If the distance from Cape Town to Pretoria is 1000km, use trigonometry to find out how far east the ship is from Cape Town, and hence find the scale of the map.</para>
+        <para id="id82652">
+          <figure id="id82657">
+            <media id="id82657_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C15_014.png" id="id82657_onlineimage" width="301"><!-- NOTE: attribute width changes image size online (pixels). original width is 301. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_014.eps" id="id82657_printimage" print-width="1">
+                <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+              </image>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id1611"> <list id="listfhsst_id1611" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Identify what happens in the question </label>
+        <para id="id82688">We already know the distance between Cape Town and <m:math overflow="scroll"><m:mi>A</m:mi></m:math> in blocks from the given map (it is 5 blocks). Thus if we work out how many kilometers this same distance is, we can calculate how many kilometers each block represents, and thus we have the scale of the map.</para>
+        </item> <item> <label> Identify given information </label>
+        <para id="id82707">Let us denote Cape Town with <m:math overflow="scroll"><m:mi>C</m:mi></m:math> and Pretoria with <m:math overflow="scroll"><m:mi>P</m:mi></m:math>.
+We can see that triangle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>P</m:mi><m:mi>C</m:mi></m:mrow></m:math> is a right-angled triangle. Furthermore, we see that the distance <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> and distance <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>P</m:mi></m:mrow></m:math> are both 5 blocks. Thus it is an isoceles triangle, and so <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mover accent="true"><m:mi>P</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>45</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>.</para>
+        </item> <item> <label> Carry out the calculation </label>
+        <equation id="id82816">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mi>A</m:mi>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mi>P</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>C</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>P</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mn>1000</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mn>45</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1000</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi> km </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id82923">To work out the scale, we see that</para>
+        <equation id="id82929">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mspace width="4pt"/>
+                    <m:mtext>blocks</m:mtext>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1000</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mtext>km</m:mtext>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="4pt"/>
+                    <m:mtext>block</m:mtext>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>200</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mtext>km</m:mtext>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1745"><title> Building plan </title>
+        <problem id="probfhsst_id1746">
+        <para id="id83053">Mr Nkosi has a garage at his house, and he decides that he wants to add a corrugated iron roof to the side of the garage. The garage is 4m high, and his sheet for the roof is 5m long. If he wants the roof to be at an angle of <m:math overflow="scroll"><m:msup><m:mn>5</m:mn><m:mo>∘</m:mo></m:msup></m:math>, how high must he build the wall <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi></m:mrow></m:math>, which is holding up the roof? Give the answer to 2 decimal places.</para>
+        <para id="id83089">
+          <figure id="id83090">
+            <media id="id83090_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C15_015.png" id="id83090_onlineimage" width="222"><!-- NOTE: attribute width changes image size online (pixels). original width is 222. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_015.eps" id="id83090_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id1758"> <list id="listfhsst_id1758" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Set out strategy </label>
+        <para id="id83116">We see that the triangle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> is a right-angled triangle. As we have one side and an angle of this triangle, we can calculate <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math>. The height of the wall is then the height of the garage minus <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math>.</para>
+        </item> <item> <label> Execute strategy </label>
+        <para id="id83164">If <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>=5m, and angle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, then</para>
+        <equation id="id83209">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>C</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0871</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mn>4358</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id83338">Thus we have that the height of the wall <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>4358</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>56</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1847"><title> Applications of Trigonometric Functions </title>
+        <list id="id83420" display="block" list-type="enumerated"><item id="uid28">A boy flying a kite is standing 30 m from a point directly under the
+kite. If the string to the kite is 50 m long, find the angle of
+elevation of the kite.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lcY">Click here for the solution.</link>
+</item>
+          <item id="uid29">What is the angle of elevation of the sun when a tree 7,15 m tall
+casts a shadow 10,1 m long?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lcr">Click here for the solution.</link>
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

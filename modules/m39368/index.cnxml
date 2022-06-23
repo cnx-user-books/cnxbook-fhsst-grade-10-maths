@@ -1,0 +1,648 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Polygons</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39368</md:content-id>
+  <md:title>Polygons</md:title>
+  <md:abstract/>
+  <md:uuid>d8f46eca-bc8f-4cbf-99ff-8752a41a57f6</md:uuid>
+</metadata>
+
+<content>
+    
+    
+    
+    
+    <section id="cid5">
+      <title>Polygons</title>
+      <para id="id317435">If you take some lines and join them such that the end point of the first line meets the starting point of the last line, you will get a <emphasis effect="italics">polygon</emphasis>. Each line that makes up the polygon is known as a <emphasis effect="italics">side</emphasis>. A polygon has interior angles. These are the angles that are inside the polygon. The number of sides of a polygon equals the number of interior angles. If a polygon has equal length sides and equal interior angles, then the polygon is called a <emphasis effect="italics">regular polygon</emphasis>. Some examples of polygons are shown in <link target-id="uid37"/>.</para>
+      <figure id="uid37"><media id="uid37_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C13_0221.png" id="uid37_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 87. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_0221.eps" id="uid37_printimage"/>
+        </media>
+        
+      <caption>Examples of polygons. They are all regular, except for the one marked *</caption></figure>
+      <section id="uid38"><title>Triangles</title><para id="id317485">A triangle is a three-sided polygon. Triangles are usually split into three categories: equilateral, isosceles, and scalene, depending on how many of the sides are of equal length. A fourth category, right-angled triangle (or simply 'right triangle') is used to refer to triangles with one right angle. Note that all right-angled triangles are also either isosceles (if the other two sides are equal) or scalene (it should be clear why you cannot have an equilateral right triangle!). The properties of these triangles are summarised in <link target-id="uid39"/>.</para>
+        <table id="uid39" summary="Summary of triangles" pgwide="1">
+<tgroup cols="3"><tbody>
+              <row>
+                <entry>Name</entry>
+                <entry>Diagram</entry>
+                <entry>Properties</entry>
+              </row>
+              <row>
+                <entry>equilateral</entry>
+                <entry>
+                  <figure id="id317558">
+                    <media id="id317558_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C13_023.png" id="id317558_onlineimage" width="160"><!-- NOTE: attribute width changes image size online (pixels). original width is 110. --></image>
+                      <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_023.eps" id="id317558_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>All three sides are equal in length (denoted by the short lines drawn through all the sides of equal length) and all three angles are equal.</entry>
+              </row>
+              <row>
+                <entry>isosceles</entry>
+                <entry>
+                  <figure id="id317593">
+                    <media id="id317593_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C13_024.png" id="id317593_onlineimage" width="117"><!-- NOTE: attribute width changes image size online (pixels). original width is 67. --></image>
+                      <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_024.eps" id="id317593_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>Two sides are equal in length. The angles opposite the equal sides are equal.</entry>
+              </row>
+              <row>
+                <entry>right-angled</entry>
+                <entry>
+                  <figure id="id317628">
+                    <media id="id317628_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C13_025.png" id="id317628_onlineimage" width="131"><!-- NOTE: attribute width changes image size online (pixels). original width is 81. --></image>
+                      <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_025.eps" id="id317628_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>This triangle has one right angle. The side opposite this angle is called the <emphasis effect="italics">hypotenuse</emphasis>.</entry>
+              </row>
+              <row>
+                <entry>scalene (non-syllabus)</entry>
+                <entry>
+                  <figure id="id317668">
+                    <media id="id317668_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C13_026.png" id="id317668_onlineimage" width="118"><!-- NOTE: attribute width changes image size online (pixels). original width is 68. --></image>
+                      <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_026.eps" id="id317668_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>All sides and angles are different.</entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup><caption>Types of Triangles</caption>
+</table>
+        <para id="id317683">We use the notation <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> to refer to a triangle with corners labeled <m:math overflow="scroll"><m:mi>A</m:mi></m:math>, <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, and <m:math overflow="scroll"><m:mi>C</m:mi></m:math>.</para>
+        <section id="uid40">
+          <title>Properties of Triangles</title>
+<section id="secfhsst_id655"><title> Investigation : Sum of the angles in a triangle </title>
+          <list id="id317720" display="block" list-type="enumerated">
+            <item id="uid41">Draw on a piece of paper a triangle of any size and shape
+</item>
+            <item id="uid42">Cut it out and label the angles <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math>, <m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math> and <m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math> on both sides of the paper
+</item>
+            <item id="uid43">Draw dotted lines as shown and cut along these lines to get three pieces of paper
+</item>
+            <item id="uid44">Place them along your ruler as shown to see that <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>+</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mo>+</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+          </list>
+          <para id="id317868"><figure id="id317874"><media id="id317874_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_027.png" id="id317874_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 710. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_027.eps" id="id317874_printimage"/></media></figure><figure id="id317886"><media id="id317886_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_028.png" id="id317886_onlineimage" width="300"><!-- NOTE: attribute width changes image size online (pixels). original width is 1026. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_028.eps" id="id317886_printimage"/></media></figure>
+
+
+ </para>
+</section>
+<note id="notfhsst_id670" type="tip">The sum of the angles in a triangle is 180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>.</note>
+          <figure id="uid45">
+            <media id="uid45_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_029.png" id="uid45_onlineimage" width="172"><!-- NOTE: attribute width changes image size online (pixels). original width is 172. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_029.eps" id="uid45_printimage"/>
+            </media>
+            <caption>In any triangle, <m:math overflow="scroll"><m:mrow><m:mi>∠</m:mi><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>∠</m:mi><m:mi>B</m:mi><m:mo>+</m:mo><m:mi>∠</m:mi><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></caption>
+          </figure>
+<note id="notfhsst_id678" type="tip">Any exterior angle of a triangle is equal to the sum of the two opposite interior angles. An exterior angle is formed by extending any one of the sides.</note>
+          <figure id="uid46">
+            <media id="uid46_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_030.png" id="uid46_onlineimage" width="398"><!-- NOTE: attribute width changes image size online (pixels). original width is 398. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_030.eps" id="uid46_printimage"/>
+            </media>
+            <caption>In any triangle, any exterior angle is equal to the sum of the two opposite interior angles.</caption>
+          </figure>
+        </section>
+        <section id="uid47">
+          <title>Congruent Triangles</title>
+          <para id="eip-370">Two triangles are called congruent if one of them can be superimposed, that is moved on top of to exactly cover, the other. In other words, if both triangles have all of the same angles and sides, then they are called congruent. To decide whether two triangles are congruent, it is not necessary to check every side and angle. The following list describes various requirements that are sufficient to know when two triangles are congruent.</para><table id="id317997" summary="Congruent triangles">
+<tgroup cols="3"><tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">Label</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Description</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Diagram</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>RHS</entry>
+                  <entry>If the hypotenuse and one side of a right-angled triangle are equal to the hypotenuse and the respective side of another triangle, then the triangles are congruent.</entry>
+                  <entry>
+                    <figure id="id318071"><media id="id318071_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_031.png" id="id318071_onlineimage" width="212"><!-- NOTE: attribute width changes image size online (pixels). original width is 212. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_031.eps" id="id318071_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+                <row>
+                  <entry>SSS</entry>
+                  <entry>If three sides of a triangle are equal in length to the same sides of another triangle, then the two triangles are congruent</entry>
+                  <entry>
+                    <figure id="id318107"><media id="id318107_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_032.png" id="id318107_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 250. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_032.eps" id="id318107_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+                <row>
+                  <entry>SAS</entry>
+                  <entry>If two sides and the included angle of one triangle are equal to the same two sides and included angle of another triangle, then the two triangles are congruent.</entry>
+                  <entry>
+                    <figure id="id318143"><media id="id318143_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_033.png" id="id318143_onlineimage" width="245"><!-- NOTE: attribute width changes image size online (pixels). original width is 245. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_033.eps" id="id318143_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+                <row>
+                  <entry>AAS</entry>
+                  <entry>If one side and two angles of one triangle are equal to the same one side and two angles of another triangle, then the two triangles are congruent.</entry>
+                  <entry>
+                    <figure id="id318178"><media id="id318178_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_034.png" id="id318178_onlineimage" width="238"><!-- NOTE: attribute width changes image size online (pixels). original width is 238. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_034.eps" id="id318178_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+              </tbody>
+            
+</tgroup>
+</table>
+        </section>
+        <section id="uid48">
+          <title>Similar Triangles</title>
+          <para id="eip-665">Two triangles are called similar if it is possible to proportionally shrink or stretch one of them to a triangle congruent to the other. Congruent triangles are similar triangles, but similar triangles are only congruent if they are the same size to begin with.</para><table id="id318196" summary="similar triangles">
+<tgroup cols="2"><tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">Description</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Diagram</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>If all three pairs of corresponding angles of two triangles are equal, then the triangles are similar.</entry>
+                  <entry>
+                    <figure id="id318251"><media id="id318251_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_035.png" id="id318251_onlineimage" width="247"><!-- NOTE: attribute width changes image size online (pixels). original width is 197. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_035.eps" id="id318251_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+                <row>
+                  <entry>If all pairs of corresponding sides of two triangles are in proportion, then the triangles are similar.</entry>
+                  <entry>
+                    <figure id="id318279"><media id="id318279_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_036.png" id="id318279_onlineimage" width="196"><!-- NOTE: attribute width changes image size online (pixels). original width is 146. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_036.eps" id="id318279_printimage"/>
+                      </media>
+                    </figure>
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mi>x</m:mi>
+                          <m:mi>p</m:mi>
+                        </m:mfrac>
+                        <m:mo>=</m:mo>
+                        <m:mfrac>
+                          <m:mi>y</m:mi>
+                          <m:mi>q</m:mi>
+                        </m:mfrac>
+                        <m:mo>=</m:mo>
+                        <m:mfrac>
+                          <m:mi>z</m:mi>
+                          <m:mi>r</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                </row>
+              </tbody>
+            
+</tgroup>
+</table>
+        </section>
+        <section id="uid49">
+          <title>The theorem of Pythagoras</title>
+          <para id="id318328"><figure id="id318334"><media id="id318334_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_037.png" id="id318334_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 150. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_037.eps" id="id318334_printimage"/></media></figure>
+
+
+
+If <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC is right-angled (<m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>) then
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><!--empty paragraphs get left behind.--><newline/><emphasis effect="bold">Converse:</emphasis>
+If <m:math overflow="scroll"><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, then
+<m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC is right-angled (<m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>).
+
+</para>
+<exercise id="eip-693"><title>Triangles</title><problem id="eip-221">
+  <para id="eip-154">
+   In the following figure, determine if the two triangles are congruent, then use the result to help you find the unknown letters.
+<figure id="id5433">
+            <media id="id5433_media" alt="">
+            <image mime-type="image/png" src="../../media/triangle1.png" id="id5433_onlineimage" width="350"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/triangle1.eps" id="id5433_printimage"/>
+            </media>
+            </figure>
+  </para>
+</problem>
+
+<solution id="eip-477">
+  <list id="eip-156" list-type="enumerated" number-style="arabic" class="stepwise">
+    <item><label>Determine congruency</label><para id="id65234"><m:math><m:mi>D</m:mi><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">ˆ</m:mo></m:mover><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mi>B</m:mi><m:mover accent="true"><m:mi>A</m:mi><m:mo stretchy="false">ˆ</m:mo></m:mover><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>55</m:mn><m:mi>°</m:mi></m:msup></m:math><space/>(angles in a triangle add up to 
+<m:math><m:msup><m:mn>180</m:mn><m:mi>°</m:mi></m:msup></m:math>).</para>
+      <para id="id1166232344812"><m:math><m:mi>A</m:mi><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">ˆ</m:mo></m:mover><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi><m:mover accent="true"><m:mi>D</m:mi><m:mo stretchy="false">ˆ</m:mo></m:mover><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>90</m:mn><m:mi>°</m:mi></m:msup></m:math><space/> (given)</para>
+      <para id="id1166233687055"><m:math><m:mtext>DE</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>AB</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:math><space/> (given)</para>
+      <equation id="id1166230595268">
+        <m:math>
+                    <m:mo>∴</m:mo>
+                    <m:mi>Δ</m:mi>
+                      <m:mtext>ABC</m:mtext>
+                      <m:mo stretchy="false">≡</m:mo>
+                      <m:mi>Δ</m:mi>
+                    <m:mtext>CDE</m:mtext>
+        </m:math>
+      </equation></item>
+ <item><label>Find the unknown variables</label><para id="id6543">We use Pythagoras to find x: 
+      <equation id="id1166232298669"><m:math>
+    <m:mtable>
+<m:mtr>
+       <m:mtd columnalign="right"><m:msup>
+                        <m:mtext>CE</m:mtext>
+                            <m:mn>2</m:mn>
+                      </m:msup></m:mtd>
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:msup>
+                          <m:mtext>DE</m:mtext>
+                              <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mtext>DC</m:mtext>
+
+                              <m:mn>2</m:mn>
+</m:msup>
+                            </m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mn>5</m:mn>
+                            <m:mn>2</m:mn>
+                      </m:msup></m:mtd><m:mtd>
+                      <m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:msup>
+                          <m:mn>3</m:mn>
+                              <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                              <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right">
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                              <m:mn>2</m:mn>
+                        </m:msup></m:mtd><m:mtd>
+                        <m:mo stretchy="false">=</m:mo></m:mtd><m:mtd columnalign="left">
+                        <m:mn>16</m:mn>
+                      </m:mtd></m:mtr><m:mtr>
+<m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd> 
+                      <m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable>
+        </m:math>
+      </equation></para>
+      <para id="id1166229837179"><m:math><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>35</m:mn><m:mi>°</m:mi></m:msup></m:math><space/>(angles in a triangle)</para>
+      <para id="id1166228117285"><m:math><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:math><space/>(congruent triangles, 
+<m:math><m:mtext>AC</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>CE</m:mtext></m:math>)</para></item>
+  </list>
+</solution>
+</exercise><section id="secfhsst_id824"><title> Triangles </title>
+          <list id="id318528" display="block" list-type="enumerated"><item id="uid50">Calculate the unknown variables in each of the following figures. All
+lengths are in mm.
+<figure id="id318548"><media id="id318548_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_038.png" id="id318548_onlineimage" width="700"><!-- NOTE: attribute width changes image size online (pixels). original width is 1488. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_038.eps" id="id318548_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/lxz">Click here for the solution</link></item>
+            <item id="uid51">State whether or not the following pairs of triangles are congruent or not.
+Give reasons for your answers. If there is not enough information to make a
+descision, say why.
+<figure id="id318571"><media id="id318571_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_039.png" id="id318571_onlineimage" width="700"><!-- NOTE: attribute width changes image size online (pixels). original width is 1497. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_039.eps" id="id318571_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/lxu">Click here for the solution</link></item>
+          </list>
+          
+</section>
+        </section>
+  
+      
+      <section id="eip-75"><title>Quadrilaterals</title><para id="eip-366">
+A quadrilateral is a four sided figure. There are some special quadrilaterals (trapezium, parallelogram, kite, rhombus, square, rectangle) which you will learn about in <link document="m38381">Geometry</link>. 
+</para></section><section id="uid91">
+        <title>Other polygons</title>
+        <para id="id319439">There are many other polygons, some of which are given in the table below.</para>
+        <table id="uid92" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>Sides</entry>
+                <entry>Name</entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>pentagon</entry>
+              </row>
+              <row>
+                <entry>6</entry>
+                <entry>hexagon</entry>
+              </row>
+              <row>
+                <entry>7</entry>
+                <entry>heptagon</entry>
+              </row>
+              <row>
+                <entry>8</entry>
+                <entry>octagon</entry>
+              </row>
+              <row>
+                <entry>10</entry>
+                <entry>decagon</entry>
+              </row>
+              <row>
+                <entry>15</entry>
+                <entry>pentadecagon</entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table of some polygons and their number of sides.</caption>
+        </table>
+        <figure id="uid93">
+          <media id="uid93_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C13_046.png" id="uid93_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_046.eps" id="uid93_printimage"/>
+          </media>
+          <caption>Examples of other polygons.</caption>
+        </figure>
+      </section><section id="eip-210"><title>Angles of Regular Polygons</title><para id="id319627">Polygons need not have all sides the same. When they do, they are called regular polygons. You can calculate the size of the interior angle of a regular polygon by using:</para>
+          <equation id="uid96">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mfrac>
+                <m:mo>×</m:mo>
+                <m:msup>
+                  <m:mn>180</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id319678">where <m:math overflow="scroll"><m:mi>n</m:mi></m:math> is the number of sides and <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math> is any angle.</para><exercise id="eip-804"><problem id="eip-708">
+  <para id="eip-618">
+    Find the size of the interior angles of a regular octagon.
+  </para>
+</problem>
+
+<solution id="eip-937">
+<list id="id7432" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Write down the number of sides in an octagon</label>
+An octagon has 8 sides.
+</item>
+<item><label>Use the formula</label>
+<equation id="id7344">
+<m:math overflow="scroll" mode="display"><m:mtable>
+              <m:mtr><m:mtd columnalign="right"><m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover></m:mrow></m:mtd>
+                <m:mtd><m:mo>=</m:mo></m:mtd>
+                <m:mtd columnalign="left"><m:mfrac>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mfrac>
+                <m:mo>×</m:mo>
+                <m:msup>
+                  <m:mn>180</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover></m:mrow></m:mtd>
+                <m:mtd><m:mo>=</m:mo></m:mtd>
+                <m:mtd columnalign="left"><m:mfrac>
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mn>8</m:mn>
+                </m:mfrac>
+                <m:mo>×</m:mo>
+                <m:msup>
+                  <m:mn>180</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover></m:mrow></m:mtd>
+                <m:mtd><m:mo>=</m:mo></m:mtd>
+                <m:mtd columnalign="left"><m:mfrac>
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                  <m:mi>2</m:mi>
+                </m:mfrac>
+                <m:mo>×</m:mo>
+                <m:msup>
+                  <m:mn>180</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup></m:mtd></m:mtr>
+<m:mtr>
+<m:mtd columnalign="right"><m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover></m:mrow></m:mtd>
+                <m:mtd><m:mo>=</m:mo></m:mtd>
+                <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mn>135</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup></m:mtd></m:mtr>
+              
+</m:mtable>
+            </m:math>
+</equation>
+</item>
+</list>
+</solution>
+</exercise></section>
+       </section></section>
+    <section id="eip-514"><title>Summary</title><list id="eip-439"><item>Make sure you know what the following terms mean: quadrilaterals, vertices, sides, angles, parallel lines, perpendicular lines,diagonals, bisectors and transversals.</item>
+<item>The properties of triangles has been covered.</item>
+<item>Congruency and similarity of triangles</item>
+<item>Angles can be classified as acute, right, obtuse, straight, reflex or revolution</item>
+<item>Theorem of Pythagoras which is used to calculate the lengths of sides of a right-angled triangle</item>
+<item>Angles: <list id="id98732"><item>Acute angle: An angle <m:math overflow="scroll"><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:math> and <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Right angle: An angle measuring <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Obtuse angle: An angle <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math> and <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Straight angle: An angle measuring <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Reflex angle: An angle <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math> and <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Revolution: An angle measuring <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math></item></list></item>
+<item>There are several properties of angles and some special names for these</item>
+<item>There are four types of triangles: Equilateral, isoceles, right-angled and scalene</item>
+<item>The angles in a triangle add up to <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math></item></list></section><section id="cid6"><title>Exercises</title><list id="id320135" display="block" list-type="enumerated"><item id="uid112">Find all the pairs of parallel lines in the following figures, giving reasons in each case.
+
+<list id="eip-78" list-type="enumerated" number-style="lower-alpha">
+        <item id="uid113">
+          <figure id="id320164">
+            <media id="id320164_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_054.png" id="id320164_onlineimage" width="145"><!-- NOTE: attribute width changes image size online (pixels). original width is 145. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_054.eps" id="id320164_printimage"/>
+            </media>
+          </figure>
+        </item>
+        <item id="uid114">
+          <figure id="id320183">
+            <media id="id320183_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_055.png" id="id320183_onlineimage" width="196"><!-- NOTE: attribute width changes image size online (pixels). original width is 196. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_055.eps" id="id320183_printimage"/>
+            </media>
+          </figure>
+        </item>
+        <item id="uid115">
+          <figure id="id320201">
+            <media id="id320201_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_056.png" id="id320201_onlineimage" width="228"><!-- NOTE: attribute width changes image size online (pixels). original width is 228. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_056.eps" id="id320201_printimage"/>
+            </media>
+          </figure>
+        </item>
+
+</list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lxh">Click here for the solution</link></item>
+ 
+<item id="uid116">Find angles <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"> <m:mi>b</m:mi></m:math>, <m:math overflow="scroll"><m:mi>c</m:mi></m:math> and <m:math overflow="scroll"><m:mi>d</m:mi></m:math> in each case, giving reasons.
+<list id="id320255" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid117"><figure id="id320271"><media id="id320271_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_057.png" id="id320271_onlineimage" width="100"><!-- NOTE: attribute width changes image size online (pixels). original width is 93. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_057.eps" id="id320271_printimage"/></media></figure></item><item id="uid118"><figure id="id320290"><media id="id320290_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_058.png" id="id320290_onlineimage" width="105"><!-- NOTE: attribute width changes image size online (pixels). original width is 105. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_058.eps" id="id320290_printimage"/></media></figure></item><item id="uid119"><figure id="id320310"><media id="id320310_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_059.png" id="id320310_onlineimage" width="106"><!-- NOTE: attribute width changes image size online (pixels). original width is 106. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_059.eps" id="id320310_printimage"/></media></figure></item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/laq">Click here for the solution</link>
+</item>
+
+<item id="uid126">Say which of the following pairs of triangles are congruent with reasons.
+<list id="id320498" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid127"><figure id="id320512"><media id="id320512_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_060.png" id="id320512_onlineimage" width="198"><!-- NOTE: attribute width changes image size online (pixels). original width is 198. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_060.eps" id="id320512_printimage"/></media></figure></item><item id="uid128"><figure id="id320530"><media id="id320530_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_061.png" id="id320530_onlineimage" width="196"><!-- NOTE: attribute width changes image size online (pixels). original width is 196. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_061.eps" id="id320530_printimage"/></media></figure></item>
+<item id="uid129"><figure id="id320548"><media id="id320548_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_062.png" id="id320548_onlineimage" width="237"><!-- NOTE: attribute width changes image size online (pixels). original width is 237. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_062.eps" id="id320548_printimage"/></media></figure></item>
+
+<item id="uid130"><figure id="id320565"><media id="id320565_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_063.png" id="id320565_onlineimage" width="255"><!-- NOTE: attribute width changes image size online (pixels). original width is 255. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_063.eps" id="id320565_printimage"/></media></figure></item></list>
+
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lai">Click here for the solution</link></item>
+
+
+
+<item id="uid131">Identify the types of angles shown below (e.g. acute/obtuse etc):
+
+          <figure id="id401231"><media id="id401231_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_066.png" id="id401231_onlineimage" width="500"><!--   NOTE: attribute width changes image size online (pixels). original width is 145. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_066.eps" id="id401231_printimage"/>
+            </media>
+          </figure>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lTb">Click here for the solution</link>
+</item>
+
+<item id="uid140">Calculate the size of the third angle (x) in each of the diagrams below:
+
+          <figure id="id401232"><media id="id401232_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_067.png" id="id401232_onlineimage" width="200"><!--   NOTE: attribute width changes image size online (pixels). original width is 289. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_067.eps" id="id401232_printimage"/>
+            </media>
+          </figure>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lTj">Click here for the solution</link>
+</item>
+
+
+<item id="uid141">Name each of the shapes/polygons, state how many sides each has and whether it is regular (equiangular and equilateral) or not:
+
+          <figure id="id401233"><media id="id401233_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_068.png" id="id401233_onlineimage" width="300"><!--   NOTE: attribute width changes image size online (pixels). original width is 200. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_068.eps" id="id401233_printimage"/>
+            </media>
+          </figure>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lTD">Click here for the solution</link>
+</item>
+
+<item id="uid142">Assess whether the following statements are true or false. If the statement is false, explain why:
+<list id="id401234" display="block" list-type="enumerated" number-style="lower-alpha">
+<item>An angle is formed when two straight lines meet at a point.	</item>
+<item>The smallest angle that can be drawn is 5°.</item>
+<item>An angle of 90° is called a square angle.</item>
+<item>Two angles whose sum is 180° are called supplementary angles.</item>
+<item>Two parallel lines will never intersect.</item>
+<item>A regular polygon has equal angles but not equal sides.</item>
+<item>An isoceles triangle has three equal sides.</item>
+<item>If three sides of a triangle are equal in length to the same sides of another triangle, then the two triangles are incongruent.</item>
+<item>If three pairs of corresponding angles in two triangles are equal, then the triangles are similar.</item>
+</list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lTZ">Click here for the solution</link>
+</item>
+
+<item id="uid143">Name the type of angle (e.g. acute/obtuse etc) based on it's size:
+<list id="id401235" display="block" list-type="enumerated" number-style="lower-alpha">
+<item> 30°</item>	
+<item> 47°</item>
+<item> 90°</item>
+<item> 91°</item>
+<item> 191°</item>
+<item> 360°</item>
+<item> 180°</item>
+</list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lTB">Click here for the solution</link>
+</item>
+
+<item id="uid144">Using Pythagoras' theorem for right-angled triangles, calculate the length of x:
+
+          <figure id="id401236"><media id="id401236_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_070.png" id="id401236_onlineimage" width="250"><!--   NOTE: attribute width changes image size online (pixels). original width is 200. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_070.eps" id="id401236_printimage"/>
+            </media>
+          </figure>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lTK">Click here for the solution</link>
+</item>
+
+</list>
+      <section id="uid132">
+        <title>Challenge Problem</title>
+        <list id="id320611" display="block" list-type="enumerated"><item id="uid133">Using the figure below, show that the sum of the three angles in a triangle is 180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. Line <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math><space/> is parallel to <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>.
+<figure id="id320668"><media id="id320668_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_065.png" id="id320668_onlineimage" width="350"><!-- NOTE: attribute width changes image size online (pixels). original width is 350. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_065.eps" id="id320668_printimage"/></media></figure><newline/><link window="new" url="http://www.fhsst.org/laO" class="fullmarks">Click here for the solution</link></item>
+        </list>
+      </section>
+    </section>
+  </content>
+</document>

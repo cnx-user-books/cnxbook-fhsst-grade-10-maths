@@ -1,0 +1,892 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Introduction and recap</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39383</md:content-id>
+  <md:title>Introduction and recap</md:title>
+  <md:abstract/>
+  <md:uuid>f177e9b5-bfad-4f43-b217-b89cc0ef203b</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id266780">In this chapter you will learn how to work with algebraic expressions. You will recap some of the work on factorisation and multiplying out expressions that you learnt in earlier grades. This work will then be extended upon for Grade 10.</para>
+    </section>
+    <section id="cid3">
+      <title>Recap of Earlier Work</title>
+      <para id="id266794">The following should be familiar. Examples are given as reminders.</para>
+      <section id="uid1">
+        <title>Parts of an Expression</title>
+        <para id="id267144">Mathematical expressions are just like sentences and their parts have special names. You should be familiar with the following names used to describe the parts of a mathematical expression.</para>
+        <equation id="uid2">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mi>k</m:mi>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mi>m</m:mi>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>p</m:mi>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>e</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>f</m:mi>
+                    <m:mo>≤</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <table id="uid3" summary="maths terms">
+<tgroup cols="2"><tbody>
+              <row>
+                <entry><emphasis effect="bold">Name</emphasis></entry>
+                <entry><emphasis effect="bold">Examples (separated by commas)</emphasis></entry>
+              </row>
+              <row>
+                <entry>term</entry>
+                <entry><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mi>k</m:mi></m:msup></m:mrow></m:math> ,<m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:msup><m:mi>c</m:mi><m:mi>m</m:mi></m:msup></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>·</m:mo><m:msup><m:mi>y</m:mi><m:mi>p</m:mi></m:msup></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mo>·</m:mo><m:mi>y</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>f</m:mi></m:math><space count="20"/></entry>
+              </row>
+              <row>
+                <entry>expression</entry>
+                <entry><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mi>k</m:mi></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mi>c</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>·</m:mo><m:msup><m:mi>y</m:mi><m:mi>p</m:mi></m:msup><m:mo>+</m:mo><m:mi>e</m:mi><m:mo>·</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>f</m:mi></m:mrow></m:math></entry>
+              </row>
+              <row>
+                <entry>coefficient</entry>
+                <entry><m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math>, <m:math overflow="scroll"><m:mi>d</m:mi></m:math>, <m:math overflow="scroll"><m:mi>e</m:mi></m:math></entry>
+              </row>
+              <row>
+                <entry>exponent (or index)</entry>
+                <entry><m:math overflow="scroll"><m:mi>k</m:mi></m:math>, <m:math overflow="scroll"><m:mi>p</m:mi></m:math></entry>
+              </row>
+              <row>
+                <entry>base</entry>
+                <entry><m:math overflow="scroll"><m:mi>x</m:mi></m:math>, <m:math overflow="scroll"><m:mi>y</m:mi></m:math>, <m:math overflow="scroll"><m:mi>c</m:mi></m:math></entry>
+              </row>
+              <row>
+                <entry>constant</entry>
+                <entry><m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math>, <m:math overflow="scroll"><m:mi>c</m:mi></m:math>, <m:math overflow="scroll"><m:mi>d</m:mi></m:math>, <m:math overflow="scroll"><m:mi>e</m:mi></m:math>, <m:math overflow="scroll"><m:mi>f</m:mi></m:math></entry>
+              </row>
+              <row>
+                <entry>variable</entry>
+                <entry><m:math overflow="scroll"><m:mi>x</m:mi></m:math>, <m:math overflow="scroll"><m:mi>y</m:mi></m:math></entry>
+              </row>
+              <row>
+                <entry>equation</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mi>k</m:mi>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>c</m:mi>
+                        <m:mi>m</m:mi>
+                      </m:msup>
+                      <m:mo>=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>inequality</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>d</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mi>p</m:mi>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>e</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:mi>y</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>f</m:mi>
+                      <m:mo>≤</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>binomial</entry>
+                <entry>expression with two terms</entry>
+              </row>
+              <row>
+                <entry>trinomial</entry>
+                <entry>expression with three terms</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+</tgroup>
+</table>
+      </section>
+      <section id="uid4">
+        <title>Product of Two Binomials</title>
+        <para id="id268015">A <emphasis effect="italics">binomial</emphasis> is a mathematical expression with two terms, e.g. <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>c</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mo>)</m:mo></m:mrow></m:math>. If these two binomials are multiplied, the following is the result:</para>
+        <equation id="id268064"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>c</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>d</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>c</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>d</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>c</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>d</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>c</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mi>d</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>c</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>d</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mi>d</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mi>c</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mi>d</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<exercise id="secfhsst_id342"><title>Product of two binomials </title><problem id="probfhsst_id343">
+        <para id="id268279">Find the product of <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>)</m:mo></m:mrow></m:math> </para>
+        </problem>
+        <solution id="solfhsst_id346"> <list id="listfhsst_id346" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Multiply out and solve </label>
+        <equation id="id268333">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>15</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>24</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>10</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>15</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>14</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+        <para id="id268534">The product of two identical binomials is known as the <emphasis effect="italics">square of the binomial</emphasis> and is written as:</para>
+        <equation id="id268543">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>a</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>a</m:mi>
+              <m:mi>b</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id268608">If the two terms are <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math><space/> and <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>b</m:mi></m:mrow></m:math><space/> then their product is:</para>
+        <equation id="id268642">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id268705">This is known as the <emphasis effect="italics">difference of two squares</emphasis>.</para>
+      </section>
+      <section id="uid5">
+        <title>Factorisation</title>
+        <para id="id268725">Factorisation is the opposite of expanding brackets. For example expanding brackets would require <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> to be written as <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>. Factorisation would be to start with <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math><space/> and to end up with <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math>. In previous grades, you factorised based on common factors and on difference of squares.</para>
+        <section id="uid6">
+          <title>Common Factors</title>
+          <para id="id268808">Factorising based on common factors relies on there being common factors between your terms. For example, <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><space/>can be factorised as follows:</para>
+          <equation id="id268835">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>6</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </equation>
+<section id="secfhsst_id565"><title> Investigation : Common Factors </title>
+          <para id="id268887">Find the highest common factors of the
+following pairs of terms:</para>
+          <table id="id268893" summary="Find the highest common factors">
+<tgroup cols="5"><tbody>
+                <row>
+                  <entry>(a) <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>;</m:mo><m:mn>18</m:mn><m:mi>x</m:mi></m:mrow></m:math></entry>
+                  <entry>(b) <m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>;</m:mo><m:mn>8</m:mn><m:mi>n</m:mi></m:mrow></m:math></entry>
+                  <entry>(c) <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>s</m:mi><m:mi>t</m:mi><m:mo>;</m:mo><m:mn>4</m:mn><m:mi>s</m:mi><m:mi>u</m:mi></m:mrow></m:math></entry>
+                  <entry>(d) <m:math overflow="scroll"><m:mrow><m:mn>18</m:mn><m:mi>k</m:mi><m:mi>l</m:mi><m:mo>;</m:mo><m:mn>9</m:mn><m:mi>k</m:mi><m:mi>p</m:mi></m:mrow></m:math></entry>
+                  <entry>(e) <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>c</m:mi><m:mo>;</m:mo><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></entry>
+                </row>
+                <row>
+                  <entry>(f) <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>;</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mi>z</m:mi></m:mrow></m:math><space count="5"/></entry>
+                  <entry>(g) <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>;</m:mo><m:mn>6</m:mn><m:mi>u</m:mi></m:mrow></m:math></entry>
+                  <entry>(h) <m:math overflow="scroll"><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>;</m:mo><m:mn>15</m:mn><m:mi>x</m:mi><m:mi>z</m:mi></m:mrow></m:math><space count="5"/></entry>
+                  <entry>(i) <m:math overflow="scroll"><m:mrow><m:mn>24</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mi>z</m:mi><m:mo>;</m:mo><m:mn>16</m:mn><m:mi>y</m:mi><m:mi>z</m:mi></m:mrow></m:math><space count="5"/></entry>
+                  <entry>(j) <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>;</m:mo><m:mn>45</m:mn><m:mi>n</m:mi></m:mrow></m:math></entry>
+                </row>
+              </tbody>
+            
+
+</tgroup>
+</table>
+          <!--empty paragraphs get left behind.-->
+          
+</section>
+        </section>
+        <section id="uid7">
+          <title>Difference of Two Squares</title>
+          <para id="id269179">We have seen that:</para>
+          <equation id="uid8">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>a</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>a</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:msup>
+                  <m:mi>b</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id269251">Since <link target-id="uid8"/> is an equation, both sides are always equal. This means that an expression of the form:</para>
+          <equation id="id269262">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:msup>
+                  <m:mi>b</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id269297">can be factorised to</para>
+          <equation id="id269302">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id269338">Therefore,</para>
+          <equation id="id269343">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:msup>
+                  <m:mi>b</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>a</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>a</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id269408">For example, <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>16</m:mn></m:mrow></m:math><space/> can be written as <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow></m:math> which is a difference of two squares. Therefore, the factors of <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>16</m:mn></m:mrow></m:math><space/>are <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+<exercise id="secfhsst_id708"><title> Factorisation </title>
+          <problem id="probfhsst_id709">
+          <para id="id269529">Factorise completely: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> </para>
+          </problem>
+          <solution id="solfhsst_id712"> <list id="listfhsst_id712" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Find the common factors: </label>
+          <equation id="id269591">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mn>5</m:mn>
+                      </m:msup>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mi>a</m:mi>
+                      <m:mi>b</m:mi>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>b</m:mi>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>b</m:mi>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mi>a</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          
+          </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id769"><title> Factorising binomials with a common bracket </title>
+          <problem id="probfhsst_id770">
+          <para id="id269708">Factorise completely: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math> </para>
+          </problem>
+          <solution id="solfhsst_id773"> <list id="listfhsst_id773" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Find the common factors </label>
+          <newline/> <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math> is the common factor 
+          <equation id="id269793">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>a</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>7</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>7</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          
+          </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id823"><title> Factorising using a switch around in brackets </title>
+          <problem id="probfhsst_id824">
+          <para id="id269901">Factorise <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>b</m:mi><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow></m:math> </para>
+          </problem>
+          <solution id="solfhsst_id827"> <list id="listfhsst_id827" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label>  Note that <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math> </label>
+          <equation id="id269994">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mo>[</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>]</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          
+          </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id923"><title> Recap </title>
+          <list id="id270174" display="block" list-type="enumerated"><item id="uid9">Find the products of:
+<table id="id270189" summary=""><tgroup cols="3"><tbody><row><entry>(a) <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry><entry>(b) <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry><entry>(c) <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry></row><row><entry>(d) <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry><entry>(e) <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry><entry>(f) <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry></row></tbody></tgroup></table><newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lxI">Click here for the
+solution</link></item>
+            <item id="uid10">Factorise:
+<list id="id270414" display="block" list-type="enumerated"><item id="uid11"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>w</m:mi></m:mrow></m:math></item><item id="uid12"><m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>32</m:mn><m:mi>y</m:mi></m:mrow></m:math></item><item id="uid13"><m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></item><item id="uid14"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:math></item><item id="uid15"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow></m:math></item></list><newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lqV">Click here for the
+solution</link></item>
+            <item id="uid16">Factorise completely:
+<table id="id270628" summary=""><tgroup cols="3"><tbody><row><entry>(a) <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></entry><entry>(b) <m:math overflow="scroll"><m:mrow><m:mn>20</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>10</m:mn></m:mrow></m:math></entry><entry>(c) <m:math overflow="scroll"><m:mrow><m:mn>18</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mi>c</m:mi></m:mrow></m:math></entry></row><row><entry>(d) <m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mi>k</m:mi><m:mi>j</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:mi>k</m:mi><m:mi>q</m:mi></m:mrow></m:math></entry><entry>(e) <m:math overflow="scroll"><m:mrow><m:mn>16</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>k</m:mi></m:mrow></m:math></entry><entry>(f) <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>18</m:mn></m:mrow></m:math></entry></row><row><entry>(g) <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>24</m:mn></m:mrow></m:math></entry><entry>(h) <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>8</m:mn><m:mi>a</m:mi></m:mrow></m:math></entry><entry>(i) <m:math overflow="scroll"><m:mrow><m:mn>24</m:mn><m:mi>k</m:mi><m:mi>j</m:mi><m:mo>-</m:mo><m:mn>16</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mi>j</m:mi></m:mrow></m:math></entry></row><row><entry>(j) <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>-</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mi>a</m:mi></m:mrow></m:math></entry><entry>(k) <m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mi>j</m:mi><m:mo>+</m:mo><m:mn>24</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>j</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry><entry>(l) <m:math overflow="scroll"><m:mrow><m:mn>72</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi><m:mo>-</m:mo><m:mn>18</m:mn><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry></row><row><entry>(m) <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>k</m:mi><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>-</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry><entry>(n) <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry><entry>(o) <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mi>m</m:mi><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>m</m:mi><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry></row><row><entry>(p) <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry><entry>(q) <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry><entry>(r) <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry></row></tbody></tgroup></table><newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lqE">Click here for the
+solution</link></item>
+          </list>
+          
+</section>
+        </section>
+      </section>
+    </section>
+
+  </content>
+</document>

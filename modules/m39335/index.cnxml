@@ -1,0 +1,993 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Foreign exchange rates</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39335</md:content-id>
+  <md:title>Foreign exchange rates</md:title>
+  <md:abstract/>
+  <md:uuid>e9016081-6e1b-4a80-9960-daa0ff0a0ad1</md:uuid>
+</metadata>
+
+<content>
+<section id="cid3">
+      <title>Foreign Exchange Rates - (Not in CAPS, included for completeness)</title>
+      <para id="id66720">Is $500 ("500 US dollars") per person per night a good deal on a hotel in New York City? The first question you will ask is “How much is that worth in Rands?". A quick call to the local bank or a search on the Internet (for example on <link window="new" url="http://www.x-rates.com">http://www.x-rates.com</link>) for the Dollar/Rand exchange rate will give you a basis for assessing the price.</para>
+      <para id="id66734">A foreign exchange rate is nothing more than the price of one currency in terms of another. For example, the exchange rate of 6,18 Rands/US Dollars means that $1 costs R6,18. In other words, if you have $1 you could sell it for R6,18 - or if you wanted $1 you would have to pay R6,18 for it.</para>
+      <para id="id66739">But what drives exchange rates, and what causes exchange rates to change? And how does this affect you anyway? This section looks at answering these questions.</para>
+      <section id="uid1">
+        <title>How much is R1 really worth?</title>
+        <para id="id66752">We can quote the price of a currency in terms of any other currency, for example, we can quote the Japanese Yen in term of the Indian Rupee. The US Dollar (USD), British Pound Sterling (GBP) and the Euro (EUR) are, however, the most common used market standards. You will notice that the financial news will report the South African Rand exchange rate in terms of these three major currencies.</para>
+        <table id="uid2" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Currency</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Abbreviation</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Symbol</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>South African Rand</entry>
+                <entry>ZAR</entry>
+                <entry>R</entry>
+              </row>
+              <row>
+                <entry>United States Dollar</entry>
+                <entry>USD</entry>
+                <entry>$</entry>
+              </row>
+              <row>
+                <entry>British Pounds Sterling</entry>
+                <entry>GBP</entry>
+                <entry>£</entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Abbreviations and symbols for some common currencies.</caption>
+        </table>
+        <para id="id66888">So the South African Rand, noted ZAR, could be quoted on a certain date as 6,07040 ZAR per USD (i.e. $1,00 costs R6,07040), or 12,2374 ZAR per GBP. So if I wanted to spend $1 000 on a holiday in the United States of America, this would cost me R6 070,40; and if I wanted £1 000 for a weekend in London it would cost me R12 237,40.</para>
+        <para id="id66897">This seems obvious, but let us see how we calculated those numbers:
+The rate is given as ZAR per USD, or ZAR/USD such that $1,00 buys R6,0704. Therefore, we need to multiply by 1 000 to get the number of Rands per $1 000.</para>
+        <para id="id66904">Mathematically,</para>
+        <equation id="id66909"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+<m:mspace width="3.33333pt"/>
+                    <m:mo>×</m:mo>
+<m:mspace width="3.33333pt"/>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+<m:mspace width="3.33333pt"/>
+                    <m:mo>×</m:mo>
+<m:mspace width="3.33333pt"/>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>074</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67034">as expected.</para>
+        <para id="id67039">What if you have saved R10 000 for spending money for the same trip and you wanted to use this to buy USD? How many USD could you get for this? Our rate is in ZAR/USD but we want to know how many USD we can get for our ZAR. This is easy. We know how much $1,00 costs in terms of Rands.</para>
+        <equation id="id67049">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>$</m:mi>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">R</m:mi>
+                      <m:mn>6</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>0740</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>0740</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>164636</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67253">As we can see, the final answer is simply the reciprocal of the ZAR/USD rate. Therefore, for R10 000 will get:</para>
+        <equation id="id67260"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>$</m:mi>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>646</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>36</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67402">We can check the answer as follows:</para>
+        <equation id="id67408"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>646</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>36</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>646</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>36</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <section id="uid3">
+          <title>Six of one and half a dozen of the other</title>
+          <para id="id67548">So we have two different ways of expressing the same exchange rate: Rands per Dollar (ZAR/USD) and Dollar per Rands (USD/ZAR). Both exchange rates mean the same thing and express the value of one currency in terms of another. You can easily work out one from the other - they are just the reciprocals of the other.</para>
+          <para id="id67554">If the South African Rand is our domestic (or home) currency, we call the ZAR/USD rate a “direct" rate, and we call a USD/ZAR rate an “indirect" rate.</para>
+          <para id="id67560">In general, a direct rate is an exchange rate that is expressed as units of home currency per units of foreign currency, i.e., <m:math overflow="scroll"><m:mfrac><m:mrow><m:mi> Domestic Currency </m:mi></m:mrow><m:mrow><m:mi> Foreign Currency </m:mi></m:mrow></m:mfrac></m:math>.</para>
+          <para id="id67583">The Rand exchange rates that we see on the news are usually expressed as direct rates, for example you might see:</para>
+          <table id="uid4" summary="">
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">Currency Abbreviation</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Exchange Rates</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>1 USD</entry>
+                  <entry>R6,9556</entry>
+                </row>
+                <row>
+                  <entry>1 GBP</entry>
+                  <entry>R13,6628</entry>
+                </row>
+                <row>
+                  <entry>1 EUR</entry>
+                  <entry>R9,1954</entry>
+                </row>
+              </tbody>
+            </tgroup>
+            <caption>Examples of exchange rates</caption>
+          </table>
+          <para id="id67685">The exchange rate is just the price of each of the Foreign Currencies (USD, GBP and EUR) in terms of our domestic currency, Rands.</para>
+          <para id="id67689">An indirect rate is an exchange rate expressed as units of foreign currency per units of home currency, i.e. <m:math overflow="scroll"><m:mfrac><m:mrow><m:mi> Foreign Currency </m:mi></m:mrow><m:mrow><m:mi> Domestic Currency </m:mi></m:mrow></m:mfrac></m:math>.</para>
+          <para id="id67712">Defining exchange rates as direct or indirect depends on which currency is defined as the domestic currency. The domestic currency for an American investor would be USD which is the South African investor's foreign currency. So direct rates, from the perspective of the American investor (USD/ZAR), would be the same as the indirect rate from the perspective of the South Africa investor.</para>
+        </section>
+        <section id="uid5">
+          <title>Terminology</title>
+          <para id="id67731">Since exchange rates are simply prices of currencies, movements in exchange rates means that the price or value of the currency has changed. The price of petrol changes all the time, so does the price of gold, and currency prices also move up and down all the time.</para>
+          <para id="id67737">If the Rand exchange rate moved from say R6,71 per USD to R6,50 per USD, what does this mean? Well, it means that $1 would now cost only R6,50 instead of R6,71. The Dollar is now cheaper to buy, and we say that the Dollar has depreciated (or weakened) against the Rand. Alternatively we could say that the Rand has appreciated (or strengthened) against the Dollar.</para>
+          <para id="id67743">What if we were looking at indirect exchange rates, and the exchange rate moved from $0,149 per ZAR (=<m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>71</m:mn></m:mrow></m:mfrac></m:math>) to $0,1538 per ZAR (=<m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>50</m:mn></m:mrow></m:mfrac></m:math>).</para>
+          <para id="id67782">Well now we can see that the R1,00 cost $0,149 at the start, and then cost $0,1538 at the end. The Rand has become more expensive (in terms of Dollars), and again we can say that the Rand has appreciated.</para>
+          <para id="id67787">Regardless of which exchange rate is used, we still come to the same conclusions.</para>
+          <para id="id67791">In general,</para>
+          <list id="id67794" display="block" list-type="bulleted">
+            <item id="uid6">for direct exchange rates, the home currency will appreciate (depreciate) if the exchange rate falls (rises)
+</item>
+            <item id="uid7">For indirect exchange rates, the home currency will appreciate (depreciate) if the exchange rate rises (falls)
+</item>
+          </list>
+          <para id="id67823">As with just about everything in this chapter, do not get caught up in memorising these formulae - doing so is only going to get confusing. Think about what you have and what you want - and it should be quite clear how to get the correct answer.</para>
+<section id="secfhsst_id536"><title> Discussion : Foreign Exchange Rates </title>
+          <para id="id67836">In groups of 5, discuss:</para>
+          <list id="id67841" display="block" list-type="enumerated">
+            <item id="uid8">Why might we need to know exchange rates?
+</item>
+            <item id="uid9">What happens if one country's currency falls drastically vs another country's currency?
+</item>
+            <item id="uid10">When might you use exchange rates?
+</item>
+          </list>
+          
+</section>
+        </section>
+      </section>
+      <section id="uid11">
+        <title>Cross Currency Exchange Rates - (not in CAPS, included for completeness)</title>
+        <para id="id67898">We know that exchange rates are the value of one currency expressed in terms of another currency, and we can quote exchange rates against any other currency. The Rand exchange rates we see on the news are usually expressed against the major currencies, USD, GBP and EUR.</para>
+        <para id="id67904">So if for example, the Rand exchange rates were given as 6,71 ZAR/USD and 12,71 ZAR/GBP, does this tell us anything about the exchange rate between USD and GBP?</para>
+        <para id="id67908">Well I know that if $1 will buy me R6,71, and if £1.00 will buy me R12,71, then surely the GBP is stronger than the USD because you will get more Rands for one unit of the currency, and we can work out the USD/GBP exchange rate as follows:</para>
+        <para id="id67916">Before we plug in any numbers, how can we get a USD/GBP exchange rate from the ZAR/USD and ZAR/GBP exchange rates?</para>
+        <para id="id67920">Well,</para>
+        <equation id="id67923">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> GBP </m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> ZAR </m:mi>
+              </m:mrow>
+              <m:mo>×</m:mo>
+              <m:mrow>
+                <m:mi> ZAR </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> GBP </m:mi>
+              </m:mrow>
+              <m:mo>.</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id67961">Note that the ZAR in the numerator will cancel out with the ZAR in the denominator, and we are left with the USD/GBP exchange rate.</para>
+        <para id="id67965">Although we do not have the USD/ZAR exchange rate, we know that this is just the reciprocal of the ZAR/USD exchange rate.</para>
+        <equation id="id67970">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> ZAR </m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mrow>
+                  <m:mi> ZAR </m:mi>
+                  <m:mo>/</m:mo>
+                  <m:mi> USD </m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id68000">Now plugging in the numbers, we get:</para>
+        <equation id="id68003">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> USD </m:mi>
+                    <m:mo>/</m:mo>
+                    <m:mi> GBP </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> USD </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> ZAR </m:mi>
+                    </m:mrow>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mi> ZAR </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> GBP </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mi> ZAR </m:mi>
+                        <m:mo>/</m:mo>
+                        <m:mi> USD </m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mi> ZAR </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> GBP </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>71</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mn>12</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>71</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>894</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<note id="notfhsst_id696" type="tip">Sometimes you will see exchange rates in the real world that do not appear
+to work exactly like this. This is usually because some financial institutions
+add other costs to the exchange rates, which alter the results. However, if you
+could remove the effect of those extra costs, the numbers would balance again.</note>
+<exercise id="secfhsst_id700"><title> Cross Exchange Rates </title>
+        <problem id="probfhsst_id701">
+        <para id="id68151">If $1 = R 6,40, and £1 = R11,58 what is the $/£ exchange rate (i.e. the number of US$ per £)? </para>
+        </problem>
+        <solution id="solfhsst_id704"> <list id="listfhsst_id704" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given and what is required </label>
+        <para id="id68176">The following are given:</para>
+        <list id="id68180" display="block" list-type="bulleted">
+          <item id="uid12">ZAR/USD rate = R6,40
+</item>
+          <item id="uid13">ZAR/GBP rate = R11,58
+</item>
+        </list>
+        <para id="id68208">The following is required:</para>
+        <list id="id68212" display="block" list-type="bulleted">
+          <item id="uid14">USD/GBP rate
+</item>
+        </list>
+        </item> <item> <label> Determine how to approach the problem </label>
+        <para id="id68233">We know that:</para>
+        <equation id="id68236">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> GBP </m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> ZAR </m:mi>
+              </m:mrow>
+              <m:mo>×</m:mo>
+              <m:mrow>
+                <m:mi> ZAR </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> GBP </m:mi>
+              </m:mrow>
+              <m:mo>.</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Solve the problem </label>
+        <equation id="id68280">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> USD </m:mi>
+                    <m:mo>/</m:mo>
+                    <m:mi> GBP </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> USD </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> ZAR </m:mi>
+                    </m:mrow>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mi> ZAR </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> GBP </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mi> ZAR </m:mi>
+                        <m:mo>/</m:mo>
+                        <m:mi> USD </m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mi> ZAR </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> GBP </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>40</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mn>11</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>58</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>8094</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id68414">$ 1,8094 can be bought for £1. </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id841"><title> Investigation : Cross Exchange Rates - Alternative Method </title>
+        <para id="id68438">If $1 = R
+6,40, and £1 = R11,58 what is the $/£ exchange rate (i.e. the
+number of US$ per £)?</para>
+        <para id="id68445">
+          <emphasis effect="bold">Overview of problem</emphasis>
+        </para>
+        <para id="id68454">You need the $/£ exchange rate, in other words how many dollars must you pay for a pound. So you need £1. From the given information we know that it would cost you R11,58 to buy £1 and that $ 1 = R6,40.</para>
+        <para id="id68463">Use this information to:</para>
+        <list id="id68466" display="block" list-type="enumerated">
+          <item id="uid15">calculate how much R1 is worth in $.
+</item>
+          <item id="uid16">calculate how much R11,58 is worth in $.
+</item>
+        </list>
+        <para id="id68496">Do you get the same answer as in the worked example? </para>
+</section>
+      </section>
+      <section id="uid17">
+        <title>Fluctuating exchange rates</title>
+        <para id="id68515">If everyone wants to buy houses in a certain suburb, then house prices are going to go up - because the buyers will be competing to buy those houses. If there is a suburb where all residents want to move out, then there are lots of sellers and this will cause house prices in the area to fall - because the buyers would not have to struggle as much to find an eager seller.</para>
+        <para id="id68522">This is all about supply and demand, which is a very important section in the study of Economics. You can think about this is many different contexts, like stamp-collecting for example. If there is a stamp that lots of people want (high demand) and few people own (low supply) then that stamp is going to be expensive.</para>
+        <para id="id68528">And if you are starting to wonder why this is relevant - think about currencies. If you are going to visit London, then you have Rands but you need to “buy" Pounds. The exchange rate is the price you have to pay to buy those Pounds.</para>
+        <para id="id68535">Think about a time where lots of South Africans are visiting the United Kingdom, and other South Africans are importing goods from the United Kingdom. That means there are lots of Rands (high supply) trying to buy Pounds. Pounds will start to become more expensive (compare this to the house price example at the start of this section if you are not convinced), and the exchange rate will change. In other words, for R1 000 you will get fewer Pounds than you would have before the exchange rate moved.</para>
+        <para id="id68547">Another context which might be useful for you to understand this: consider what would happen if people in other countries felt that South Africa was becoming a great place to live, and that more people were wanting to invest in South Africa - whether in properties, businesses - or just buying more goods from South Africa. There would be a greater demand for Rands - and the “price of the Rand" would go up. In other words, people would need to use more Dollars, or Pounds, or Euros ... to buy the same amount of Rands. This is seen as a movement in exchange rates.</para>
+        <para id="id68560">Although it really does come down to supply and demand, it is interesting to think about what factors might affect the supply (people wanting to “sell" a particular currency) and the demand (people trying to “buy" another currency). This is covered in detail in the study of Economics, but let us look at some of the basic issues here.</para>
+        <para id="id68568">There are various factors which affect exchange rates, some of which have more economic rationale than others:</para>
+        <list id="id68573" display="block" list-type="bulleted"><item id="uid18">economic factors (such as inflation figures, interest rates, trade deficit information, monetary policy and fiscal policy)
+</item>
+          <item id="uid19">political factors (such as uncertain political environment, or political unrest)
+</item>
+          <item id="uid20">market sentiments and market behaviour (for example if foreign exchange markets perceived a currency to be overvalued and starting selling the currency, this would cause the currency to fall in value - a self-fulfilling expectation).
+</item>
+        </list>
+<para id="id7324">The exchange rate also influences the price we pay for certain goods. All countries import certain goods and export other goods. For example, South Africa has a lot of minerals (gold, platinum, etc.) that the rest of the world wants. So South Africa exports these minerals to the world for a certain price. The exchange rate at the time of export influences how much we can get for the minerals. In the same way, any goods that are imported are also influenced by the exchange rate. The price of petrol is a good example of something that is affected by the exchange rate. 
+</para>
+ </section> </section>
+<section id="secfhsst_id876"><title>Foreign Exchange </title><list id="id68624" display="block" list-type="enumerated"><item id="uid21">I want to buy an IPOD that costs £100, with the exchange rate currently at
+<m:math overflow="scroll"><m:mrow><m:mi>£</m:mi><m:mn>1</m:mn><m:mo>=</m:mo><m:mi>R</m:mi><m:mn>14</m:mn></m:mrow></m:math>. I believe the exchange rate will reach <m:math overflow="scroll"><m:mrow><m:mi>R</m:mi><m:mn>12</m:mn></m:mrow></m:math> in a month.
+<list id="id68677" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid22">How much will the MP3 player cost in Rands, if I buy it now?
+</item><item id="uid23">How much will I save if the exchange rate drops to <m:math overflow="scroll"><m:mrow><m:mi>R</m:mi><m:mn>12</m:mn></m:mrow></m:math>?
+</item><item id="uid24">How much will I lose if the exchange rate moves to <m:math overflow="scroll"><m:mrow><m:mi>R</m:mi><m:mn>15</m:mn></m:mrow></m:math>?
+</item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lc4">Click here for the solution</link></item>
+          <item id="uid25">Study the following exchange rate table:
+<table id="id68755" summary=""><tgroup cols="3"><tbody><row><entry>Country</entry><entry>Currency</entry><entry>Exchange Rate</entry></row><row><entry>United Kingdom (UK)</entry><entry>Pounds(£)</entry><entry><m:math overflow="scroll"><m:mrow><m:mspace width="1.em"/><m:mi>R</m:mi><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>13</m:mn></m:mrow></m:math></entry></row><row><entry>United States (USA)</entry><entry>Dollars ($)</entry><entry><m:math overflow="scroll"><m:mrow><m:mspace width="1.em"/><m:mi>R</m:mi><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>04</m:mn></m:mrow></m:math></entry></row></tbody></tgroup></table><list id="id68888" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid26">In South Africa the cost of a new Honda Civic is <m:math overflow="scroll"><m:mrow><m:mi>R</m:mi><m:mn>173</m:mn><m:mspace width="3.33333pt"/><m:mn>400</m:mn></m:mrow></m:math>. In England the same vehicle costs <m:math overflow="scroll"><m:mrow><m:mi>£</m:mi><m:mn>12</m:mn><m:mspace width="3.33333pt"/><m:mn>200</m:mn></m:mrow></m:math> and in the USA $ <m:math overflow="scroll"><m:mrow><m:mn>21</m:mn><m:mspace width="3.33333pt"/><m:mn>900</m:mn></m:mrow></m:math>. In which country is the car the cheapest when you compare the prices converted to South African Rand ?
+</item><item id="uid27">Sollie and Arinda are waiters in a South African restaurant attracting many tourists from abroad. Sollie gets a <m:math overflow="scroll"><m:mrow><m:mi>£</m:mi><m:mn>6</m:mn></m:mrow></m:math> tip from a tourist and Arinda gets $ 12.
+How many South African Rand did each one get ?
+</item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lc2">Click here for the solution</link></item>
+        </list>
+        
+</section>
+    <section id="cid7"><title>Summary</title><list id="eip-923"><item>There are two types of interest: simple and compound.</item>
+<item>The following table summarises the key definitions that are used in both simple and compound interest.
+<table id="id75382" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>P</m:mi>
+                  </m:math>
+                </entry>
+                <entry>Principal (the amount of money at the starting point of the calculation)</entry>
+              </row>
+             <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>A</m:mi>
+                  </m:math>
+                </entry>
+                <entry>Closing balance (the amount of money at the ending point of the calculation)</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>i</m:mi>
+                  </m:math>
+                </entry>
+                <entry>interest rate, normally the effective rate per annum</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>n</m:mi>
+                  </m:math>
+                </entry>
+                <entry>period for which the investment is made</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+</item><item>For simple interest we use:
+        <equation id="id75453"><m:math overflow="scroll" mode="display">
+ <m:mi mathvariant="normal">A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>i</m:mi>
+                <m:mo>·</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+          </m:math>
+        </equation></item>
+<item> For compound interest we use:
+        <equation id="id75538"><m:math overflow="scroll" mode="display">
+                        <m:mi mathvariant="normal">A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup>
+          </m:math>
+        </equation></item>
+<item>The formulae for simple and compound interest can be applied to many everyday problems.</item>
+<item>A foreign exchange rate is the price of one currency in terms of another.</item></list>
+<note id="notfhsst_id3321" type="tip">Always keep the interest and the time period in the same units of time (e.g. both in years, or both in months etc.).</note>
+     <para id="eip-595">The following three videos provide a summary of how to calculate interest. Take note that although the examples are done using dollars, we can use the fact that dollars are a decimal currency and so are interchangeable (ignoring the exchange rate) with rands. This is what is done in the subtitles.</para><para id="eip-209"><figure id="circuits-1" class="khanacademy-subtitled"><title>Khan academy video on interest - 1</title><media id="yt-media1" display="block" alt="video on interest 1">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/nR-8xYGJM9Q" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para>
+    <para id="eip-20912"><figure id="interest-2" class="khanacademy-subtitled"><title>Khan academy video on interest - 2</title><media id="yt-media2" display="block" alt="video on interest - 2">
+	  <flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/nYO9-wl42JY&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para>
+<para id="eip-20913">Note in this video that at the very end the rule of 72 is mentioned. You will not be using this rule, but will rather be using trial and error to solve the problem posed. 
+
+<figure id="interest-3" class="khanacademy-subtitled">
+	  <title>Khan academy video on interest - 3</title>
+	  <media id="yt-media3" display="block" alt="video on interest - 3">
+	  <flash id="yt-video3" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/whmE_8l0JtA&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para></section>
+    <section id="cid8"><title>End of Chapter Exercises</title><list id="id75641" display="block" list-type="enumerated"><item id="uid79">You are going on holiday to Europe. Your hotel will cost 200 euros per night. How much will you need in Rands to cover your hotel bill, if the exchange rate is 1 euro = R9,20?<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lcK">Click here for the solution</link>
+</item>
+        <item id="uid80">Calculate how much you will earn if you invested R500 for 1 year at the following interest rates:
+<list id="id75671" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid81">6,85% simple interest.
+</item><item id="uid82">4,00% compound interest.
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lck">Click here for the solution</link>
+</item>
+        <item id="uid83">Bianca has R1 450 to invest for 3 years. Bank A offers a savings account which pays simple interest at a rate of 11% per annum, whereas Bank B offers a savings account paying compound interest at a rate of 10,5% per annum. Which account would leave Bianca with the highest accumulated balance at the end of the 3 year period?<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lc0">Click here for the solution</link>
+</item>
+        <item id="uid84">How much simple interest is payable on a loan of R2 000 for a year, if the interest rate is 10%?<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lc8">Click here for the solution</link>
+</item>
+        <item id="uid85">How much compound interest is payable on a loan of R2 000 for a year, if the interest rate is 10%?<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lc9">Click here for the solution</link>
+</item>
+        <item id="uid86">Discuss:
+<list id="id75754" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid87">Which type of interest would you like to use if you are the borrower?
+</item><item id="uid88">Which type of interest would you like to use if you were the banker?
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lcX">Click here for the solution</link>
+</item>
+        <item id="uid89">Calculate the compound interest for the following problems.
+<list id="id75796" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid90">A R2 000 loan for 2 years at 5%.
+</item><item id="uid91">A R1 500 investment for 3 years at 6%.
+</item><item id="uid92">An R800 loan for l year at 16%.
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lcI">Click here for the solution</link>
+</item>
+        <item id="uid93">If the exchange rate for 100 Yen = R 6,2287 and 1 Australian Doller (AUD) = R 5,1094 , determine the exchange rate between the Australian Dollar and the Japanese Yen.<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lc5">Click here for the solution</link>
+</item>
+        <item id="uid94">Bonnie bought a stove for R 3 750. After 3 years she had finished paying for it and the R 956,25 interest that was charged for hire-purchase. Determine the rate of simple interest that was charged.<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lcN">Click here for the solution</link>
+</item>
+      </list>
+    </section>
+  </content>
+</document>

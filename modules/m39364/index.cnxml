@@ -1,0 +1,315 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39364</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>2bb33ea0-f981-438b-ac23-5b5f09060abd</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid1">
+      <title>Introduction</title>
+      <para id="id62175">In earlier grades you saw patterns in the form of pictures and numbers. In this chapter, we learn more about the mathematics of patterns. Patterns are recognisable as repetitive sequences and can be found in nature, shapes, events, sets of numbers and almost everywhere you care to look. For example, seeds in a sunflower, snowflakes, geometric designs on quilts or tiles, the number sequence <m:math><m:mn>0</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>8</m:mn><m:mo>;</m:mo><m:mn>12</m:mn><m:mo>;</m:mo><m:mn>16</m:mn><m:mo>;</m:mo><m:mi>...</m:mi></m:math>.</para>
+<section id="secfhsst_id64"><title> Investigation : Patterns </title>
+      <para id="id62189">Can you spot any patterns in the following lists of numbers?</para>
+      <list id="id62194" display="block" list-type="enumerated"><item id="uid1"><m:math overflow="scroll"><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>;</m:mo><m:mn>8</m:mn><m:mo>;</m:mo><m:mn>10</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:math></item>
+        <item id="uid2"><m:math overflow="scroll"><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>7</m:mn><m:mo>;</m:mo><m:mn>11</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:math>
+</item>
+        <item id="uid3"><m:math overflow="scroll"><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>9</m:mn><m:mo>;</m:mo><m:mn>16</m:mn><m:mo>;</m:mo><m:mn>25</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:math>
+</item>
+        <item id="uid4"><m:math overflow="scroll"><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>10</m:mn><m:mo>;</m:mo><m:mn>20</m:mn><m:mo>;</m:mo><m:mn>40</m:mn><m:mo>;</m:mo><m:mn>80</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:math>
+</item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid2"><title>Common Number Patterns</title><para id="id62635">Numbers can have interesting patterns. Here we list the most common patterns and how they are made.</para>
+      <para id="id62640">Examples:</para>
+      <list id="id62643" display="block" list-type="enumerated"><item id="uid5"><m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>7</m:mn><m:mo>;</m:mo><m:mn>10</m:mn><m:mo>;</m:mo><m:mn>13</m:mn><m:mo>;</m:mo><m:mn>16</m:mn><m:mo>;</m:mo><m:mn>19</m:mn><m:mo>;</m:mo><m:mn>22</m:mn><m:mo>;</m:mo><m:mn>25</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+This sequence has a difference of 3 between each number.
+The pattern is continued by adding 3 to the last number each time.
+</item>
+        <item id="uid6"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>8</m:mn><m:mo>;</m:mo><m:mn>13</m:mn><m:mo>;</m:mo><m:mn>18</m:mn><m:mo>;</m:mo><m:mn>23</m:mn><m:mo>;</m:mo><m:mn>28</m:mn><m:mo>;</m:mo><m:mn>33</m:mn><m:mo>;</m:mo><m:mn>38</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+This sequence has a difference of 5 between each number.
+The pattern is continued by adding 5 to the last number each time.
+</item>
+        <item id="uid7"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>8</m:mn><m:mo>;</m:mo><m:mn>16</m:mn><m:mo>;</m:mo><m:mn>32</m:mn><m:mo>;</m:mo><m:mn>64</m:mn><m:mo>;</m:mo><m:mn>128</m:mn><m:mo>;</m:mo><m:mn>256</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+This sequence has a factor of 2 between each number.
+The pattern is continued by multiplying the last number by 2 each time.
+</item>
+        <item id="uid8"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>9</m:mn><m:mo>;</m:mo><m:mn>27</m:mn><m:mo>;</m:mo><m:mn>81</m:mn><m:mo>;</m:mo><m:mn>243</m:mn><m:mo>;</m:mo><m:mn>729</m:mn><m:mo>;</m:mo><m:mn>2187</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+This sequence has a factor of 3 between each number.
+The pattern is continued by multiplying the last number by 3 each time.
+</item>
+      </list>
+      <section id="uid9"><title>Special Sequences</title><section id="uid10">
+          <title>Triangular Numbers</title>
+          <para id="id62915">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>15</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>21</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>28</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>36</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>45</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math>
+          </para>
+          <para id="id62968">This sequence is generated from a pattern of dots which form a triangle.
+By adding another row of dots (with one more dot in each row than in the previous row) and counting all the dots, we can find the next number of the sequence.</para>
+        </section>
+        <section id="uid11">
+          <title>Square Numbers</title>
+          <para id="id62984">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>9</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>16</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>25</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>36</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>49</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>64</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>81</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math>
+          </para>
+          <para id="id63037">The next number is made by squaring the number of the position in the pattern.
+The second number is 2 squared (<m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup><m:mspace width="3.33333pt"/><m:mi>o</m:mi><m:mi>r</m:mi><m:mspace width="3.33333pt"/><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>2</m:mn></m:mrow></m:math> <space/>). 
+The seventh number is 7 squared (<m:math overflow="scroll"><m:mrow><m:msup><m:mn>7</m:mn><m:mn>2</m:mn></m:msup><m:mspace width="3.33333pt"/><m:mi>o</m:mi><m:mi>r</m:mi><m:mspace width="3.33333pt"/><m:mn>7</m:mn><m:mo>×</m:mo><m:mn>7</m:mn></m:mrow></m:math>  <space/> ) etc.</para>
+        </section>
+        <section id="uid12">
+          <title>Cube Numbers</title>
+          <para id="id63115">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>27</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>64</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>125</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>216</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>343</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>512</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>729</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math>
+          </para>
+          <para id="id63168">The next number is made by cubing the number of the position in the pattern.
+The second number is 2 cubed (<m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="3.33333pt"/><m:mi>o</m:mi><m:mi>r</m:mi><m:mspace width="3.33333pt"/><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>2</m:mn></m:mrow></m:math> <space/>).
+The seventh number is 7 cubed (<m:math overflow="scroll"><m:mrow><m:msup><m:mn>7</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="3.33333pt"/><m:mi>o</m:mi><m:mi>r</m:mi><m:mspace width="3.33333pt"/><m:mn>7</m:mn><m:mo>×</m:mo><m:mn>7</m:mn><m:mo>×</m:mo><m:mn>7</m:mn></m:mrow></m:math><space count="2"/>) etc.</para>
+        </section>
+        <section id="uid13">
+          <title>Fibonacci Numbers</title>
+          <para id="id63254">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>0</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>13</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>21</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>34</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math>
+          </para>
+          <para id="id63490">The next number is found by adding the two numbers before it together.
+The 2 is found by adding the two numbers in front of it (<m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>).
+The 21 is found by adding the two numbers in front of it (<m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:math>).
+The next number in the sequence above would be 55 (<m:math overflow="scroll"><m:mrow><m:mn>21</m:mn><m:mo>+</m:mo><m:mn>34</m:mn></m:mrow></m:math>).</para>
+          <para id="id63538">Can you figure out the next few numbers?</para>
+        </section>
+
+      </section>
+<para id="eip-450"><figure id="numberpatterns-1" class="khanacademy"><title>Khan Academy video on Number Patterns - 1</title><media id="yt-media1" display="block" alt="video on number patterns 1">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/Zj-a_9cd5jc&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><exercise id="secfhsst_id280"><title> Study Table </title>
+      <problem id="probfhsst_id281">
+      <para id="id63645">Say you and 3 friends decide to study for Maths, and you are seated at a square table. A few minutes later, 2 other friends join you and would like to sit at your table and help you study. Naturally, you move another table and add it to the existing one. Now 6 of you sit at the table. Another 2 of your friends join your table, and you take a third table and add it to the existing tables. Now 8 of you can sit comfortably.</para>
+      <figure id="uid14">
+        <media id="uid14_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C7_002.png" id="uid14_onlineimage" width="273"><!-- NOTE: attribute width changes image size online (pixels). original width is 273. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C7_002.eps" id="uid14_printimage"/>
+        </media>
+        <caption>Two more people can be seated for each table added.</caption>
+      </figure>
+      <para id="id63666">Examine how the number of people sitting is related to the number of tables. </para>
+      </problem>
+      <solution id="solfhsst_id292"> <list id="listfhsst_id292" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Tabulate a few terms to see if there is a pattern </label>
+      <table id="id63686" summary="">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Number of Tables</emphasis>, <m:math overflow="scroll"><m:mi>n</m:mi></m:math></entry>
+              <entry>
+                <emphasis effect="bold">Number of people seated</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mo>⋮</m:mo>
+                </m:math>
+              </entry>
+              <entry>               <m:math overflow="scroll"><m:mo>⋮</m:mo></m:math></entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mi>n</m:mi>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      </item> <item> <label> Describe the pattern </label>
+      <para id="id63966">We can see that for 3 tables we can seat 8 people, for 4 tables we can seat 10 people and so on. We started out with 4 people and added two each time. Thus, for each table added, the number of persons increased by 2. </para>
+      </item> </list> </solution>
+</exercise>
+    </section>
+
+  </content>
+</document>

@@ -1,0 +1,810 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Introduction and recap</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39403</md:content-id>
+  <md:title>Introduction and recap</md:title>
+  <md:abstract/>
+  <md:uuid>abc11e74-793a-433c-a483-5da1468ebb15</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id199946">Information in the form of numbers, graphs and tables is all around us; on television, on the radio or in the newspaper. We are exposed to crime rates, sports results, rainfall, government spending, rate of HIV/AIDS infection, population growth and economic growth.</para>
+      
+      <para id="eip-765">This chapter demonstrates how Mathematics can be used to manipulate data, to represent or misrepresent trends and patterns and to provide solutions that are directly applicable to the world around us.
+</para><para id="id199957">Skills relating to the collection, organisation, display, analysis and interpretation of information that were introduced in earlier grades are developed further.</para>
+    </section>
+    <section id="cid3">
+      <title>Recap of Earlier Work</title>
+      <para id="id200309">The collection of data has been introduced in earlier grades as a method of obtaining answers to questions about the world around us. This work will be briefly reviewed.</para>
+      <section id="uid1">
+        <title>Data and Data Collection</title>
+        <section id="uid2">
+          <title>Data</title>
+<definition id="fhsst_id85"><term id="termfhsst_id85"> Data </term> <meaning id="meaningfhsst_id85">
+          <para id="id200337">Data refers to the pieces of information that have been observed and recorded, from an experiment or a survey. There are two types of data: primary and secondary. The word "data" is the plural of the word "datum", and therefore one should say, "the data are" and not "the data is". </para>
+          </meaning></definition>
+          <para id="id200350">Data can be classified as <emphasis effect="italics">primary</emphasis> or <emphasis effect="italics">secondary</emphasis>, and primary or secondary data can be classified as <emphasis effect="italics">qualitative</emphasis> or <emphasis effect="italics">quantitative</emphasis>. <link target-id="uid3"/> summarises the classifications of data.</para>
+          <figure id="uid3">
+            <media id="uid3_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C16_001.png" id="uid3_onlineimage" width="128"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_001.eps" id="uid3_printimage"/>
+            </media>
+            <caption>Classes of data.</caption>
+          </figure>
+          <list id="id200390" display="block" list-type="labeled-item">
+            <item id="uid4"><label>Primary data</label>describes the original data that have been collected. This type of data is also known as <emphasis effect="italics">raw</emphasis> data. Often the primary data set is very large and is therefore summarised or processed to extract meaningful information.
+</item>
+            <item id="uid5"><label>Qualitative data</label>is information that cannot be written as numbers, for example, if you were collecting data from people on how they feel or what their favourite colour is.
+</item>
+            <item id="uid6"><label>Quantitative data</label>is information that can be written as numbers, for example, if you were collecting data from people on their height or weight.
+</item>
+            <item id="uid7"><label>Secondary data</label>is primary data that has been summarised or processed, for example, the set of colours that people gave as favourite colours would be secondary data because it is a summary of responses.
+</item>
+          </list>
+          <para id="id200459">Transforming primary data into secondary data through analysis, grouping or organisation into secondary data is the process of generating information.</para>
+        </section>
+        <section id="uid8">
+          <title>Purpose of Collecting Primary Data</title>
+          <para id="id200473">Data is collected to provide answers that help with understanding a particular situation. Here are examples to illustrate some real world data collections scenarios in the categories of qualitative and quantitative data.</para>
+        </section>
+        <section id="id200480">
+          <title>Qualitative Data</title>
+          <list id="id200486" display="block" list-type="bulleted"><item id="uid9">The local government might want to know how many residents have electricity and might ask the question: "Does your home have a safe, independent supply of electricity?"
+</item>
+            <item id="uid10">A supermarket manager might ask the question: “What flavours of soft drink should be stocked in my supermarket?" The question asked of customers might be “What is your favourite soft drink?” Based on the customers' responses (i.e. which flavours are chosen), the manager can make an informed decision as to what soft drinks to stock.
+</item>
+            <item id="uid11">A company manufacturing medicines might ask “How effective is our pill at relieving a headache?” The question asked of people using the pill for a headache might be: “Does taking the pill relieve your headache?” Based on responses, the company learns how effective their product is.
+</item>
+            <item id="uid12">A motor car company might want to improve their customer service, and might ask their customers: “How can we improve our customer service?”
+</item>
+          </list>
+        </section>
+        <section id="id200551">
+          <title>Quantitative Data</title>
+          <list id="id200557" display="block" list-type="bulleted"><item id="uid13">A cell phone manufacturing company might collect data about how often people buy new cell phones and what factors affect their choice, so that the cell phone company can focus on those features that would make their product more attractive to buyers.
+</item>
+            <item id="uid14">A town councillor might want to know how many accidents have occurred at a particular intersection, to decide whether a robot should be installed. The councillor would visit the local police station to research their records to collect the appropriate data.
+</item>
+            <item id="uid15">A supermarket manager might ask the question: “What flavours of soft drink should be stocked in my supermarket?" The question asked of customers might be “What is your favourite soft drink?” Based on the customers' responses (i.e. the number of customers who liked soft drink A), the manager can make an informed decision as to what soft drinks to stock. 
+</item>
+          </list>
+          <para id="id200605">However, it is important to note that different questions reveal different features of a situation, and that this affects the ability to understand
+the situation. For example, if the first question in the list was re-phrased to be: "Does your home have electricity?" then if you answered yes, but you were getting your electricity from a neighbour, then this would give the wrong impression that you did not need an independent supply of electricity.</para>
+        </section>
+      </section>
+      <section id="uid16">
+        <title>Methods of Data Collection</title>
+        <para id="id200621">The method of collecting the data must be appropriate to the question being asked. Some examples of data collecting methods are:</para>
+        <list id="id200626" display="block" list-type="enumerated">
+          <item id="uid17">Questionnaires, surveys and interviews
+</item>
+          <item id="uid18">Experiments
+</item>
+          <item id="uid19">Other sources (friends, family, newspapers, books, magazines and the Internet)
+</item>
+        </list>
+        <para id="id200664">The most important aspect of each method of data collecting is to clearly formulate the question that is to be answered. The details of the data collection should therefore be structured to take your question into account.</para>
+        <para id="id200670">For example, questionnaires, interviews or surveys would be most appropriate for the list of questions in <link target-id="uid8">"Purpose of Collecting Primary Data"</link>.</para>
+      </section>
+      <section id="uid20">
+        <title>Samples and Populations</title>
+        <para id="id200688">Before the data collecting starts, it is important to decide how much data is needed to make sure that the results give an accurate reflection to the required answers. Ideally, the study should be designed to maximise the amount of information collected while minimising the effort. The concepts of <emphasis effect="italics">populations</emphasis> and <emphasis effect="italics">samples</emphasis> is vital to minimising effort.</para>
+        <para id="id200705">The following terms should be familiar:</para>
+        <list id="id200708" display="block" list-type="labeled-item">
+          <item id="uid21"><label>Population</label>describes the entire group under consideration in a study. For example, if you wanted to know how many learners in your school got the flu each winter, then your population would be all the learners in your school.
+</item>
+          <item id="uid22"><label>Sample</label>describes a group chosen to represent the population under consideration in a study. For example, for the survey on winter flu, you might select a sample of learners, maybe one from each class.
+</item>
+          <item id="uid23"><label>Random sample</label>describes a sample chosen from a population in such a way that each member of the population has an equal chance of being chosen.
+</item>
+        </list>
+        <para id="id200757">
+          <figure id="id200760">
+            <media id="id200760_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C16_002.png" id="id200760_onlineimage" width="231"><!-- NOTE: attribute width changes image size online (pixels). original width is 231. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_002.eps" id="id200760_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id200766">Choosing a representative sample is crucial to obtaining results that are unbiased. For example, if we wanted to determine whether peer pressure affects the decision to start smoking, then the results would be different if only boys were interviewed, compared to if only girls were interviewed, compared to both boys and girls being interviewed.</para>
+        <para id="id200773">Therefore questions like: "How many interviews are needed?" and "How do I select the candidates for the interviews?" must be asked during the design stage of the sampling process.</para>
+        <para id="id200777">The most accurate results are obtained if the entire population is sampled for the survey, but this is expensive and time-consuming. The next best method is to <emphasis effect="italics">randomly</emphasis> select a sample of subjects for the interviews. This means that whatever the method used to select subjects for the interviews, each subject has an equal chance of being selected. There are various methods of doing this for example, names can be picked out of a hat or can be selected by using a random number generator. Most modern scientific calculators have a random number generator or you can find one on a spreadsheet program on a computer.</para>
+        <para id="id200791">So, if you had a total population of 1 000 learners in your school and you randomly selected 100, then that would be the sample that is used to conduct your survey.</para>
+      </section>
+    </section>
+    <section id="cid4">
+      <title>Example Data Sets</title>
+      <para id="id200805">The remainder of this chapter deals with the mathematical details that are required to analyse the data collected.</para>
+      <para id="id200809">The following are some example sets of data which can be used to apply the methods that are being explained.</para>
+      <section id="uid24">
+        <title>Data Set 1: Tossing a Coin</title>
+        <para id="id200822">A fair coin was tossed 100 times and the values on the top face were recorded. The data are recorded in <link target-id="uid25">"Data Set 1: Tossing a coin"</link>.</para>
+        <table id="uid25" summary="">
+          <tgroup cols="10">
+            <tbody>
+              <row>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+              </row>
+              <row>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+              </row>
+              <row>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+              </row>
+              <row>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+              </row>
+              <row>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+              </row>
+              <row>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+              </row>
+              <row>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+              </row>
+              <row>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+              </row>
+              <row>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+              </row>
+              <row>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>T</entry>
+                <entry>H</entry>
+                <entry>T</entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Results of 100 tosses of a fair coin. H means that the coin landed heads-up and T means that the coin landed tails-up.</caption>
+        </table>
+      </section>
+      <section id="uid26">
+        <title>Data Set 2: Casting a die</title>
+        <para id="id201632">A fair die was cast 100 times and the values on the top face were recorded. The data are recorded in <link target-id="uid26">"Data Set 2: Casting a die"</link>.</para>
+        <table id="uid27" summary="">
+          <tgroup cols="20">
+            <tbody>
+              <row>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>5</entry>
+                <entry>5</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>6</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>4</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>4</entry>
+              </row>
+              <row>
+                <entry>4</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>6</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>2</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>1</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>6</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>2</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>5</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>5</entry>
+                <entry>6</entry>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+              </row>
+              <row>
+                <entry>6</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>3</entry>
+                <entry>3</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>2</entry>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>2</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Results of 200 casts of a fair die.</caption>
+        </table>
+      </section>
+      <section id="uid28">
+        <title>Data Set 3: Mass of a Loaf of Bread</title>
+        <para id="id203270">There are regulations in South Africa related to bread production to protect consumers. Here is an excerpt from a report about the legislation:</para>
+        <para id="id203274">"The Trade Metrology Act requires that if a loaf of bread is not labelled, it must weigh 800g, with the leeway of five percent under or 10 percent over. However, an average of 10 loaves must be an exact match to the mass stipulated. - Sunday Tribune of 10 October 2004 on page 10"</para>
+        <para id="id203280">We can use measurements to test if consumers getting value for money. An unlabelled loaf of bread should weigh 800g. The masses of 10 different loaves of bread were measured at a store for 1 week. The data are shown in <link target-id="uid29"/>.</para>
+        <table id="uid29" summary="">
+          <tgroup cols="7">
+            <tbody>
+              <row>
+                <entry>Monday</entry>
+                <entry>Tuesday</entry>
+                <entry>Wednesday</entry>
+                <entry>Thursday</entry>
+                <entry>Friday</entry>
+                <entry>Saturday</entry>
+                <entry>Sunday</entry>
+              </row>
+              <row>
+                <entry>802.39</entry>
+                <entry>787.78</entry>
+                <entry>815.74</entry>
+                <entry>807.41</entry>
+                <entry>801.48</entry>
+                <entry>786.59</entry>
+                <entry>799.01</entry>
+              </row>
+              <row>
+                <entry>796.76</entry>
+                <entry>798.93</entry>
+                <entry>809.68</entry>
+                <entry>798.72</entry>
+                <entry>818.26</entry>
+                <entry>789.08</entry>
+                <entry>805.99</entry>
+              </row>
+              <row>
+                <entry>802.50</entry>
+                <entry>793.63</entry>
+                <entry>785.37</entry>
+                <entry>809.30</entry>
+                <entry>787.65</entry>
+                <entry>801.45</entry>
+                <entry>799.35</entry>
+              </row>
+              <row>
+                <entry>819.59</entry>
+                <entry>812.62</entry>
+                <entry>809.05</entry>
+                <entry>791.13</entry>
+                <entry>805.28</entry>
+                <entry>817.76</entry>
+                <entry>801.01</entry>
+              </row>
+              <row>
+                <entry>801.21</entry>
+                <entry>795.86</entry>
+                <entry>795.21</entry>
+                <entry>820.39</entry>
+                <entry>806.64</entry>
+                <entry>819.54</entry>
+                <entry>796.67</entry>
+              </row>
+              <row>
+                <entry>789.00</entry>
+                <entry>796.33</entry>
+                <entry>787.87</entry>
+                <entry>799.84</entry>
+                <entry>789.45</entry>
+                <entry>802.05</entry>
+                <entry>802.20</entry>
+              </row>
+              <row>
+                <entry>788.99</entry>
+                <entry>797.72</entry>
+                <entry>776.71</entry>
+                <entry>790.69</entry>
+                <entry>803.16</entry>
+                <entry>801.24</entry>
+                <entry>807.32</entry>
+              </row>
+              <row>
+                <entry>808.80</entry>
+                <entry>780.38</entry>
+                <entry>812.61</entry>
+                <entry>801.82</entry>
+                <entry>784.68</entry>
+                <entry>792.19</entry>
+                <entry>809.80</entry>
+              </row>
+              <row>
+                <entry>802.37</entry>
+                <entry>790.83</entry>
+                <entry>792.43</entry>
+                <entry>789.24</entry>
+                <entry>815.63</entry>
+                <entry>799.35</entry>
+                <entry>791.23</entry>
+              </row>
+              <row>
+                <entry>796.20</entry>
+                <entry>817.57</entry>
+                <entry>799.05</entry>
+                <entry>825.96</entry>
+                <entry>807.89</entry>
+                <entry>806.65</entry>
+                <entry>780.23</entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Masses (in g) of 10 different loaves of bread, from the same manufacturer, measured at the same store over a period of 1 week.</caption>
+        </table>
+      </section>
+      <section id="uid30"><title>Data Set 4: Global Temperature</title><para id="id203994">The mean global temperature from 1861 to 1996 is listed in <link target-id="eip-685"/>. The data, obtained from <link url="http://www.cgd.ucar.edu/stats/Data/Climate/" window="new">http://www.cgd.ucar.edu/stats/Data/Climate/</link>, was converted to mean temperature in degrees Celsius.</para><table id="eip-685" summary="table of global temperature">
+<tgroup cols="8"><tbody>
+<row>	<entry><emphasis effect="bold">	Year</emphasis>	</entry>	<entry>	<emphasis effect="bold">Temperature</emphasis>		</entry>	<entry>	<emphasis effect="bold">Year</emphasis>		</entry>	<entry><emphasis effect="bold">	Temperature</emphasis>		</entry>	<entry><emphasis effect="bold">	Year</emphasis>		</entry>	<entry>	<emphasis effect="bold">Temperature</emphasis>		</entry>	<entry>	<emphasis effect="bold">Year</emphasis>		</entry>	<entry>	<emphasis effect="bold">Temperature</emphasis>		</entry>	</row>
+<row>	<entry>	1861	</entry>	<entry>	12.66	</entry>	<entry>	1901	</entry>	<entry>	12.871	</entry>	<entry>	1941	</entry>	<entry>	13.152	</entry>	<entry>	1981	</entry>	<entry>	13.228	</entry>	</row>
+<row>	<entry>	1862	</entry>	<entry>	12.58	</entry>	<entry>	1902	</entry>	<entry>	12.726	</entry>	<entry>	1942	</entry>	<entry>	13.147	</entry>	<entry>	1982	</entry>	<entry>	13.145	</entry>	</row>
+<row>	<entry>	1863	</entry>	<entry>	12.799	</entry>	<entry>	1903	</entry>	<entry>	12.647	</entry>	<entry>	1943	</entry>	<entry>	13.156	</entry>	<entry>	1983	</entry>	<entry>	13.332	</entry>	</row>
+<row>	<entry>	1864	</entry>	<entry>	12.619	</entry>	<entry>	1904	</entry>	<entry>	12.601	</entry>	<entry>	1944	</entry>	<entry>	13.31	</entry>	<entry>	1984	</entry>	<entry>	13.107	</entry>	</row>
+<row>	<entry>	1865	</entry>	<entry>	12.825	</entry>	<entry>	1905	</entry>	<entry>	12.719	</entry>	<entry>	1945	</entry>	<entry>	13.153	</entry>	<entry>	1985	</entry>	<entry>	13.09	</entry>	</row>
+<row>	<entry>	1866	</entry>	<entry>	12.881	</entry>	<entry>	1906	</entry>	<entry>	12.79	</entry>	<entry>	1946	</entry>	<entry>	13.015	</entry>	<entry>	1986	</entry>	<entry>	13.183	</entry>	</row>
+<row>	<entry>	1867	</entry>	<entry>	12.781	</entry>	<entry>	1907	</entry>	<entry>	12.594	</entry>	<entry>	1947	</entry>	<entry>	13.006	</entry>	<entry>	1987	</entry>	<entry>	13.323	</entry>	</row>
+<row>	<entry>	1868	</entry>	<entry>	12.853	</entry>	<entry>	1908	</entry>	<entry>	12.575	</entry>	<entry>	1948	</entry>	<entry>	13.015	</entry>	<entry>	1988	</entry>	<entry>	13.34	</entry>	</row>
+<row>	<entry>	1869	</entry>	<entry>	12.787	</entry>	<entry>	1909	</entry>	<entry>	12.596	</entry>	<entry>	1949	</entry>	<entry>	13.005	</entry>	<entry>	1989	</entry>	<entry>	13.269	</entry>	</row>
+<row>	<entry>	1870	</entry>	<entry>	12.752	</entry>	<entry>	1910	</entry>	<entry>	12.635	</entry>	<entry>	1950	</entry>	<entry>	12.898	</entry>	<entry>	1990	</entry>	<entry>	13.437	</entry>	</row>
+<row>	<entry>	1871	</entry>	<entry>	12.733	</entry>	<entry>	1911	</entry>	<entry>	12.611	</entry>	<entry>	1951	</entry>	<entry>	13.044	</entry>	<entry>	1991	</entry>	<entry>	13.385	</entry>	</row>
+<row>	<entry>	1872	</entry>	<entry>	12.857	</entry>	<entry>	1912	</entry>	<entry>	12.678	</entry>	<entry>	1952	</entry>	<entry>	13.113	</entry>	<entry>	1992	</entry>	<entry>	13.237	</entry>	</row>
+<row>	<entry>	1873	</entry>	<entry>	12.802	</entry>	<entry>	1913	</entry>	<entry>	12.671	</entry>	<entry>	1953	</entry>	<entry>	13.192	</entry>	<entry>	1993	</entry>	<entry>	13.28	</entry>	</row>
+<row>	<entry>	1874	</entry>	<entry>	12.68	</entry>	<entry>	1914	</entry>	<entry>	12.85	</entry>	<entry>	1954	</entry>	<entry>	12.944	</entry>	<entry>	1994	</entry>	<entry>	13.355	</entry>	</row>
+<row>	<entry>	1875	</entry>	<entry>	12.669	</entry>	<entry>	1915	</entry>	<entry>	12.962	</entry>	<entry>	1955	</entry>	<entry>	12.935	</entry>	<entry>	1995	</entry>	<entry>	13.483	</entry>	</row>
+<row>	<entry>	1876	</entry>	<entry>	12.687	</entry>	<entry>	1916	</entry>	<entry>	12.727	</entry>	<entry>	1956	</entry>	<entry>	12.836	</entry>	<entry>	1996	</entry>	<entry>	13.314	</entry>	</row>
+<row>	<entry>	1877	</entry>	<entry>	12.957	</entry>	<entry>	1917	</entry>	<entry>	12.584	</entry>	<entry>	1957	</entry>	<entry>	13.139	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1878	</entry>	<entry>	13.092	</entry>	<entry>	1918	</entry>	<entry>	12.7	</entry>	<entry>	1958	</entry>	<entry>	13.208	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1879	</entry>	<entry>	12.796	</entry>	<entry>	1919	</entry>	<entry>	12.792	</entry>	<entry>	1959	</entry>	<entry>	13.133	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1880	</entry>	<entry>	12.811	</entry>	<entry>	1920	</entry>	<entry>	12.857	</entry>	<entry>	1960	</entry>	<entry>	13.094	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1881	</entry>	<entry>	12.845	</entry>	<entry>	1921	</entry>	<entry>	12.902	</entry>	<entry>	1961	</entry>	<entry>	13.124	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1882	</entry>	<entry>	12.864	</entry>	<entry>	1922	</entry>	<entry>	12.787	</entry>	<entry>	1962	</entry>	<entry>	13.129	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1883	</entry>	<entry>	12.783	</entry>	<entry>	1923	</entry>	<entry>	12.821	</entry>	<entry>	1963	</entry>	<entry>	13.16	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1884	</entry>	<entry>	12.73	</entry>	<entry>	1924	</entry>	<entry>	12.764	</entry>	<entry>	1964	</entry>	<entry>	12.868	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1885	</entry>	<entry>	12.754	</entry>	<entry>	1925	</entry>	<entry>	12.868	</entry>	<entry>	1965	</entry>	<entry>	12.935	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1886	</entry>	<entry>	12.826	</entry>	<entry>	1926	</entry>	<entry>	13.014	</entry>	<entry>	1966	</entry>	<entry>	13.035	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1887	</entry>	<entry>	12.723	</entry>	<entry>	1927	</entry>	<entry>	12.904	</entry>	<entry>	1967	</entry>	<entry>	13.031	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1888	</entry>	<entry>	12.783	</entry>	<entry>	1928	</entry>	<entry>	12.871	</entry>	<entry>	1968	</entry>	<entry>	13.004	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1889	</entry>	<entry>	12.922	</entry>	<entry>	1929	</entry>	<entry>	12.718	</entry>	<entry>	1969	</entry>	<entry>	13.117	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1890	</entry>	<entry>	12.703	</entry>	<entry>	1930	</entry>	<entry>	12.964	</entry>	<entry>	1970	</entry>	<entry>	13.064	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1891	</entry>	<entry>	12.767	</entry>	<entry>	1931	</entry>	<entry>	13.041	</entry>	<entry>	1971	</entry>	<entry>	12.903	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1892	</entry>	<entry>	12.671	</entry>	<entry>	1932	</entry>	<entry>	12.992	</entry>	<entry>	1972	</entry>	<entry>	13.031	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1893	</entry>	<entry>	12.631	</entry>	<entry>	1933	</entry>	<entry>	12.857	</entry>	<entry>	1973	</entry>	<entry>	13.175	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1894	</entry>	<entry>	12.709	</entry>	<entry>	1934	</entry>	<entry>	12.982	</entry>	<entry>	1974	</entry>	<entry>	12.912	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1895	</entry>	<entry>	12.728	</entry>	<entry>	1935	</entry>	<entry>	12.943	</entry>	<entry>	1975	</entry>	<entry>	12.975	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1896	</entry>	<entry>	12.93	</entry>	<entry>	1936	</entry>	<entry>	12.993	</entry>	<entry>	1976	</entry>	<entry>	12.869	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1897	</entry>	<entry>	12.936	</entry>	<entry>	1937	</entry>	<entry>	13.092	</entry>	<entry>	1977	</entry>	<entry>	13.148	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1898	</entry>	<entry>	12.759	</entry>	<entry>	1938	</entry>	<entry>	13.187	</entry>	<entry>	1978	</entry>	<entry>	13.057	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1899	</entry>	<entry>	12.874	</entry>	<entry>	1939	</entry>	<entry>	13.111	</entry>	<entry>	1979	</entry>	<entry>	13.154	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1900	</entry>	<entry>	12.959	</entry>	<entry>	1940	</entry>	<entry>	13.055	</entry>	<entry>	1980	</entry>	<entry>	13.195	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+
+</tbody>
+
+
+
+
+</tgroup><caption>Global temperature changes over the past 135 years. There has been a lot of discussion
+regarding changing weather patterns and a possible link to pollution and greenhouse gasses.</caption>
+</table>
+        <!--Table that contain tables are not converted.-->
+      </section>
+      <section id="uid32">
+        <title>Data Set 5: Price of Petrol</title>
+        <para id="id206845">The price of petrol in South Africa from August 1998 to July 2000 is shown in <link target-id="uid33"/>.</para>
+        <table id="uid33" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>Date</entry>
+                <entry>Price (R/l)</entry>
+              </row>
+              <row>
+                <entry>August 1998</entry>
+                <entry>R 2.37</entry>
+              </row>
+              <row>
+                <entry>September 1998</entry>
+                <entry>R 2.38</entry>
+              </row>
+              <row>
+                <entry>October 1998</entry>
+                <entry>R 2.35</entry>
+              </row>
+              <row>
+                <entry>November 1998</entry>
+                <entry>R 2.29</entry>
+              </row>
+              <row>
+                <entry>December 1998</entry>
+                <entry>R 2.31</entry>
+              </row>
+              <row>
+                <entry>January 1999</entry>
+                <entry>R 2.25</entry>
+              </row>
+              <row>
+                <entry>February 1999</entry>
+                <entry>R 2.22</entry>
+              </row>
+              <row>
+                <entry>March 1999</entry>
+                <entry>R 2.25</entry>
+              </row>
+              <row>
+                <entry>April 1999</entry>
+                <entry>R 2.31</entry>
+              </row>
+              <row>
+                <entry>May 1999</entry>
+                <entry>R 2.49</entry>
+              </row>
+              <row>
+                <entry>June 1999</entry>
+                <entry>R 2.61</entry>
+              </row>
+              <row>
+                <entry>July 1999</entry>
+                <entry>R 2.61</entry>
+              </row>
+              <row>
+                <entry>August 1999</entry>
+                <entry>R 2.62</entry>
+              </row>
+              <row>
+                <entry>September 1999</entry>
+                <entry>R 2.75</entry>
+              </row>
+              <row>
+                <entry>October 1999</entry>
+                <entry>R 2.81</entry>
+              </row>
+              <row>
+                <entry>November 1999</entry>
+                <entry>R 2.86</entry>
+              </row>
+              <row>
+                <entry>December 1999</entry>
+                <entry>R 2.85</entry>
+              </row>
+              <row>
+                <entry>January 2000</entry>
+                <entry>R 2.86</entry>
+              </row>
+              <row>
+                <entry>February 2000</entry>
+                <entry>R 2.81</entry>
+              </row>
+              <row>
+                <entry>March 2000</entry>
+                <entry>R 2.89</entry>
+              </row>
+              <row>
+                <entry>April 2000</entry>
+                <entry>R 3.03</entry>
+              </row>
+              <row>
+                <entry>May 2000</entry>
+                <entry>R 3.18</entry>
+              </row>
+              <row>
+                <entry>June 2000</entry>
+                <entry>R 3.22</entry>
+              </row>
+              <row>
+                <entry>July 2000</entry>
+                <entry>R 3.36</entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Petrol prices</caption>
+        </table>
+      </section>
+    </section>
+    <section id="cid5">
+      <title>Grouping Data</title>
+      <para id="id207418">One of the first steps to processing a large set of raw data is to arrange the data values together into a smaller number of groups, and then count how many of each data value there are in each group. The groups are usually based on some sort of interval of data values, so data values that fall into a specific interval, would be grouped together. The grouped data is often presented graphically or in a frequency table. (Frequency means “how many times”)</para>
+<exercise id="secfhsst_id777"><title> Grouping Data </title>
+      <problem id="probfhsst_id778">
+      <para id="id207443">Group the elements of <link target-id="uid25">Data Set 1</link> to determine how many times the coin landed heads-up and how many times the coin landed tails-up. </para>
+      </problem>
+      <solution id="solfhsst_id781"> <list id="listfhsst_id781" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify the groups </label>
+      <para id="id207467">There are two unique data values: H and T. Therefore there are two groups, one for the H-data values and one for the T-data values.</para>
+      </item> <item> <label> Count how many data values fall into each group. </label>
+      <table id="id207476" summary="">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Data Value</entry>
+              <entry>Frequency</entry>
+            </row>
+            <row>
+              <entry>H</entry>
+              <entry>44</entry>
+            </row>
+            <row>
+              <entry>T</entry>
+              <entry>56</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      </item> <item> <label> Check that the total of the frequency column is equal to the total number of data values. </label>
+      <para id="id207554">There are 100 data values and the total of the frequency column is 44+56=100. </para>
+      </item> </list> </solution>
+</exercise>
+      <section id="uid34">
+        <title>Exercises - Grouping Data</title>
+        <list id="id207578" display="block" list-type="enumerated"><item id="uid35">
+The height of 30 learners are given below. Fill in the grouped data below. (Tally is a convenient way to count in 5's. We use llll to indicate 5.)
+<table id="id207595" summary=""><tgroup cols="10"><tbody><row><entry>142</entry><entry>163</entry><entry>169</entry><entry>132</entry><entry>139</entry><entry>140</entry><entry>152</entry><entry>168</entry><entry>139</entry><entry>150</entry></row><row><entry>161</entry><entry>132</entry><entry>162</entry><entry>172</entry><entry>146</entry><entry>152</entry><entry>150</entry><entry>132</entry><entry>157</entry><entry>133</entry></row><row><entry>141</entry><entry>170</entry><entry>156</entry><entry>155</entry><entry>169</entry><entry>138</entry><entry>142</entry><entry>160</entry><entry>164</entry><entry>168</entry></row></tbody></tgroup></table><table id="id207774" summary=""><tgroup cols="3"><tbody><row><entry>Group</entry><entry>Tally</entry><entry>Frequency</entry></row><row><entry>130 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 140</entry><entry/><entry/></row><row><entry>140 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 150</entry><entry/><entry/></row><row><entry>150 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 160</entry><entry/><entry/></row><row><entry>160 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 170</entry><entry/><entry/></row><row><entry>170 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 180</entry><entry/><entry/></row></tbody></tgroup></table><link window="new" class="fullmarks" url="http://www.fhsst.org/l4k">Click here for the solution</link></item>
+          <item id="uid36">
+An experiment was conducted in class and 50 learners were asked to guess the number of sweets in a jar. The following guesses were recorded.
+<table id="id208211" summary=""><tgroup cols="10"><tbody><row><entry>56</entry><entry>49</entry><entry>40</entry><entry>11</entry><entry>33</entry><entry>33</entry><entry>37</entry><entry>29</entry><entry>30</entry><entry>59</entry></row><row><entry>21</entry><entry>16</entry><entry>38</entry><entry>44</entry><entry>38</entry><entry>52</entry><entry>22</entry><entry>24</entry><entry>30</entry><entry>34</entry></row><row><entry>42</entry><entry>15</entry><entry>48</entry><entry>33</entry><entry>51</entry><entry>44</entry><entry>33</entry><entry>17</entry><entry>19</entry><entry>44</entry></row><row><entry>47</entry><entry>23</entry><entry>27</entry><entry>47</entry><entry>13</entry><entry>25</entry><entry>53</entry><entry>57</entry><entry>28</entry><entry>23</entry></row><row><entry>36</entry><entry>35</entry><entry>40</entry><entry>23</entry><entry>45</entry><entry>39</entry><entry>32</entry><entry>58</entry><entry>22</entry><entry>40</entry></row></tbody></tgroup></table> Draw up a grouped frequency table using intervals 11-20, 21-30, 31-40, etc.<newline/><link window="new" class="fullmarks" url="http://www.fhsst.org/l40">Click here for the solution</link>
+</item>
+        </list>
+      </section>
+    </section>
+    
+
+  </content>
+</document>

@@ -1,0 +1,638 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Linear inequalities</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39254</md:content-id>
+  <md:title>Linear inequalities</md:title>
+  <md:abstract/>
+  <md:uuid>7cc7e931-c85e-43ef-982b-360eeb6d5844</md:uuid>
+</metadata>
+
+<content>
+<section id="cid6">
+      <title>Equations and inequalities: linear inequalities</title>
+<section id="secfhsst_id3912"><title> Investigation : Inequalities on a Number Line </title>
+      <para id="id157128">Represent the following
+on number lines:</para>
+      <list id="id157134" display="block" list-type="enumerated"><item id="uid77">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid78">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>&lt;</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid79">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>â‰¤</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid80">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>â‰¥</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid81">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>&gt;</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+      </list>
+      
+</section>
+      <para id="id157267">A linear inequality is similar to a linear equation in that the largest exponent of a variable is 1. The following are examples of linear inequalities.</para>
+      <equation id="id157271">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>â‰¤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>â‰¥</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>2</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id157374">The methods used to solve linear inequalities are identical to those used to
+solve linear equations. The only difference occurs when there is a
+multiplication or a division that involves a minus sign. For example, we know
+that <m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:mo>&gt;</m:mo><m:mn>6</m:mn></m:mrow></m:math>. If both sides of the inequality are divided by <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math> is not
+greater than <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math>. Therefore, the inequality must switch around, making
+<m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>&lt;</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+<note id="notfhsst_id4041" type="tip">When you divide or multiply both sides of an inequality by any number with
+a minus sign, the direction of the inequality changes. For this reason you cannot divide or multiply by a variable.</note>
+      <para id="id157457">For example, if <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, then <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+      <para id="id157494">In order to compare an inequality to a normal equation, we shall solve an equation first. Solve <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+      <equation id="id157519">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id157620">If we represent this answer on a number line, we get</para>
+      <para id="id157626">
+        <figure id="id157630">
+          <media id="id157630_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_001.png" id="id157630_onlineimage" width="528"><!-- NOTE: attribute width changes image size online (pixels). original width is 528. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_001.eps" id="id157630_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id157636">Now let us solve the inequality <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>â‰¤</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+      <equation id="id157661">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>â‰¤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>â‰¤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>â‰¤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>â‰¤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id157764">If we represent this answer on a number line, we get</para>
+      <para id="id157770">
+        <figure id="id157774">
+          <media id="id157774_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_002.png" id="id157774_onlineimage" width="520"><!-- NOTE: attribute width changes image size online (pixels). original width is 520. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_002.eps" id="id157774_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id157780">As you can see, for the equation, there is only a single value of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> for which the equation is true. However, for the inequality, there is a range of values for which the inequality is true. This is the main difference between an equation and an inequality.</para>
+<para id="eip-441"><figure id="inequalities-1" class="khanacademy">
+	  <title>Khan academy video on inequalities - 1</title>
+	  <media id="yt-media4" display="block" alt="video on inequalities 1">
+	  <flash id="yt-video4" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/y7QLay8wrW8&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><para id="eip-749"><figure id="inequalities-2" class="khanacademy">
+	  <title>Khan academy video on inequalities - 2</title>
+	  <media id="yt-media5" display="block" alt="video on inequalities 2">
+	  <flash id="yt-video5" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/VgDe_D8ojxw&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><exercise id="secfhsst_id4213"><title> Linear Inequalities </title>
+      <problem id="probfhsst_id4214">
+      <para id="id157808">Solve for <m:math overflow="scroll"><m:mi>r</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mo>-</m:mo><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow></m:math> </para>
+      </problem>
+      <solution id="solfhsst_id4217"> <list id="listfhsst_id4217" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Move all constants to the RHS </label>
+      <equation id="id157858">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mi>r</m:mi>
+                  <m:mo>&gt;</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mi>r</m:mi>
+                  <m:mo>&gt;</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Multiply both sides by -1 </label>
+      <para id="id157909">When you multiply by a minus sign, the direction of the inequality changes.</para>
+      <equation id="id157913">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>r</m:mi>
+            <m:mo>&lt;</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Represent answer graphically </label>
+      <para id="id157934">
+        <figure id="id157937"><media id="id157937_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_003.png" id="id157937_onlineimage" width="520"><!-- NOTE: attribute width changes image size online (pixels). original width is 2483. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_003.eps" id="id157937_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id4271"><title> Linear Inequalities </title>
+      <problem id="probfhsst_id4272">
+      <para id="id157972">Solve for <m:math overflow="scroll"><m:mi>q</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mo>(</m:mo><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math> and represent the solution on a number line. </para>
+      </problem>
+      <solution id="solfhsst_id4275"> <list id="listfhsst_id4275" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Expand all brackets </label>
+      <equation id="id158035">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Move all constants to the RHS and all unknowns to the LHS </label>
+      <equation id="id158117">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>6</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>3</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Solve inequality </label>
+      <equation id="id158212"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                  <m:mrow>
+                    <m:mi> Divide both sides by</m:mi><m:mspace width="2pt"/>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd><m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>q</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mtd><m:mtd/>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Represent answer graphically </label>
+      <para id="id158284">
+        <figure id="id158287"><media id="id158287_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_004.png" id="id158287_onlineimage" width="520"><!-- NOTE: attribute width changes image size online (pixels). original width is 828. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_004.eps" id="id158287_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id4447"><title> Compound Linear Inequalities </title>
+      <problem id="probfhsst_id4448">
+      <para id="id158322">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>â‰¤</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn></m:mrow></m:math> and represent solution on a number line. </para>
+      </problem>
+      <solution id="solfhsst_id4451"> <list id="listfhsst_id4451" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Subtract 3 from Left, middle and right of inequalities </label>
+      <equation id="id158378">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>â‰¤</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>&lt;</m:mo>
+                  <m:mn>8</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo>â‰¤</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>&lt;</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Represent answer graphically </label>
+      <para id="id158456">
+        <figure id="id158459"><media id="id158459_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_005.png" id="id158459_onlineimage" width="520"><!-- NOTE: attribute width changes image size online (pixels). original width is 828. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_005.eps" id="id158459_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id4515"><title> Linear Inequalities </title>
+      <list id="id158488" display="block" list-type="enumerated"><item id="uid82">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and represent the solution graphically:
+<list id="id158514" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid83"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>&gt;</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></item><item id="uid84"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>â‰¤</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></item><item id="uid85"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>7</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>&gt;</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></item><item id="uid86"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid87"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>â‰¥</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></item></list><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcJ">Click here for the solution</link>
+</item>
+        <item id="uid88">Solve the following inequalities. Illustrate your answer on a number line if <m:math overflow="scroll"><m:mi>x</m:mi></m:math> is a real number.
+<list id="id158773" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid89"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>â‰¤</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>3</m:mn></m:mrow></m:math>
+</item><item id="uid90"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>â‰¤</m:mo><m:mn>7</m:mn></m:mrow></m:math>
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lcS">Click here for the solution</link>
+</item>
+        <item id="uid91">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>&gt;</m:mo><m:mn>7</m:mn></m:mrow></m:math><space/>Illustrate this answer on a number line.<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lch">Click here for the solution</link>
+</item> 
+      </list>
+      
+</section>
+    </section>
+</content></document>

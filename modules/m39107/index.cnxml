@@ -1,0 +1,455 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Cartesian plane &amp; Distance between two points</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39107</md:content-id>
+  <md:title>Cartesian plane &amp; Distance between two points</md:title>
+  <md:abstract/>
+  <md:uuid>dfd3bcb0-91b6-4403-899f-bc29a4fab8ea</md:uuid>
+</metadata>
+
+<content>
+      <section id="uid36">
+        <title>Introduction</title>
+        <para id="id66769">Analytical geometry, also called co-ordinate geometry and earlier referred to as Cartesian geometry, is the study of geometry using the principles of algebra, and the Cartesian co-ordinate system. It is concerned with defining geometrical shapes in a numerical way, and extracting numerical information from that representation. Some consider that the introduction of analytic geometry was the beginning of modern mathematics.</para>
+      </section>
+      <section id="eip-448"><title>Drawing figures on the Cartesian plane</title><para id="eip-728">If we are given the co-ordinates of the vertices of a figure then we can draw that figure on the Cartesian plane. For example take quadrilateral ABCD with co-ordinates: A(1,1), B(1,3), C(3,3) and D(1,3) and represent it on the Cartesian plane. This is shown in <link target-id="id63458"/>.   
+</para><para id="eip-199"><figure id="id63458"><media id="id63458_media" alt="">
+            <image mime-type="image/png" src="../../media/square.png" id="id63458_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/square.eps" id="id63458_printimage"/>
+            </media>
+            <caption>Quadrilateral ABCD represented on the Cartesian plane</caption></figure>
+</para></section><para id="eip-645">To represent any figure on the Cartesian plane, you place a dot at each given co-ordinate and then connect these points with straight lines. One point to note is in naming a figure. In the above example, we called the quadrilateral ABCD. This tells us that we move from point A, to point B, to point C, to point D and then back to point A again. So when you are asked to draw a figure on the Cartesian plane, you will follow this naming scheme. If you had the same points, and called it, for example, ACBD you would not get a quadrilateral but a pair of triangles instead. This is important. Sometimes you may be given only some of the points and you will then be required to find the other points using the work covered in the rest of this chapter. </para><section id="uid37"><title>Distance between Two Points</title><para id="id66786">One of the simplest things that can be done with analytical geometry is to calculate the distance between two points. <emphasis effect="italics">Distance</emphasis> is a number that describes how far apart two point are. For example, point <m:math><m:mi>P</m:mi></m:math> has co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> and point <m:math><m:mi>Q</m:mi></m:math> has co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math>. How far apart are points <m:math><m:mi>P</m:mi></m:math> and <m:math><m:mi>Q</m:mi></m:math>? In the figure, this means how long is the dashed line?</para>
+        <figure id="uid38">
+          <media id="uid38_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_015.png" id="uid38_onlineimage" width="323"><!-- NOTE: attribute width changes image size online (pixels). original width is 323. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_015.eps" id="uid38_printimage"/>
+          </media>
+        </figure>
+        <para id="id66883">In the figure, it can be seen that the length of the line <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>R</m:mi></m:mrow></m:math> is 3 units and the length of the line <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> is four units. However, the <m:math overflow="scroll"><m:mrow><m:mi>â–µ</m:mi><m:mi>P</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math>, has a right angle at <m:math overflow="scroll"><m:mi>R</m:mi></m:math>. Therefore, the length of the side <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:math> can be obtained by using the Theorem of Pythagoras:</para>
+        <equation id="id66950">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mi>Q</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mi>R</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>Q</m:mi>
+                    <m:msup>
+                      <m:mi>R</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>âˆ´</m:mo>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mi>Q</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>âˆ´</m:mo>
+                    <m:mi>P</m:mi>
+                    <m:mi>Q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mn>3</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:msup>
+                          <m:mn>4</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    </m:msqrt>
+                    <m:mo>=</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67090">The length of <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:math> is the distance between the points <m:math overflow="scroll"><m:mi>P</m:mi></m:math> and <m:math overflow="scroll"><m:mi>Q</m:mi></m:math>.</para>
+        <para id="id67126">In order to generalise the idea, assume <m:math overflow="scroll"><m:mi>A</m:mi></m:math> is any point with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is any other point with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <figure id="uid39"><media id="uid39_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_016.png" id="uid39_onlineimage" width="258"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_016.eps" id="uid39_printimage"/>
+          </media>
+        </figure>
+        <para id="id67214">The formula for calculating the distance between two points is derived as follows. The distance between the points <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is the length of the line <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:math>. According to the Theorem of Pythagoras, the length of <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:math> is given by:</para>
+        <equation id="id67261">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+              <m:mo>=</m:mo>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:msup>
+                    <m:mi>C</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>B</m:mi>
+                  <m:msup>
+                    <m:mi>C</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:msqrt>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id67300">However,</para>
+        <equation id="id67306">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67375">Therefore,</para>
+        <equation id="id67379">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>B</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:msup>
+                        <m:mi>C</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>B</m:mi>
+                      <m:msup>
+                        <m:mi>C</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67499">Therefore, for any two points, <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>, the formula is:</para>
+        <para id="id67561"><m:math overflow="scroll"><m:mi>Distance</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:math></para>
+        <para id="id67630">Using the formula, distance between the points <m:math overflow="scroll"><m:mi>P</m:mi></m:math> and <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> with co-ordinates (2;1) and (-2;-2) is then found as follows. Let the co-ordinates of point <m:math overflow="scroll"><m:mi>P</m:mi></m:math> be <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and the co-ordinates of point <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> be <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>. Then the distance is:</para>
+        <equation id="id67728">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi> Distance </m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>16</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>9</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mn>25</m:mn>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>5</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation><para id="eip-130">The following video provides a summary of the distance formula.
+<figure id="uid99" class="khanacademy">
+ <title>Khan academy video on distance formula</title>
+ <media id="yt-media" display="block" alt="video on distance formula">
+  <flash id="yt-video" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/nyZuite17Pc&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para>
+      </section></content></document>

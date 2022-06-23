@@ -1,0 +1,1055 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability: Part 1</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39377</md:content-id>
+  <md:title>Probability: Part 1</md:title>
+  <md:abstract/>
+  <md:uuid>06751aac-3c6e-4d84-9f9e-d58f706f0ce6</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id109596">We can divide mathematics into pure and applied maths.
+Pure maths is the theory of maths and is very abstract. The work you have
+covered on algebra is mostly pure maths. Applied maths is all about taking the
+theory (or pure maths) and applying it to the real world. To be able to do
+applied maths, you first have to learn pure maths.</para>
+      <para id="eip-870">But what does this have to do with probability? Well,
+just as mathematics can be divided into pure maths and applied maths, so
+statistics can be divided into probability theory and applied statistics. And
+just as you cannot do applied mathematics without knowing any theory, you cannot
+do statistics without beginning with some understanding of probability theory.
+Furthermore, just as it is not possible to describe what arithmetic is without
+describing what mathematics as a whole is, it is not possible to describe what
+probability theory is without some understanding of what statistics as a whole
+is about, and statistics, in its broadest sense, is about
+'processes'.</para><note id="eip-758"><title>Interesting fact</title>Galileo wrote down some ideas about dice games in the seventeenth century. Since then many discussions and papers have been written about probability theory, but it still remains a poorly understood part of mathematics.</note><para id="eip-461">A process is how an object changes over time. For example, consider a coin. Now, the coin by
+itself is not a process; it is simply an object. However, if I was to flip the coin (i.e. putting it through a process), after a certain amount of time (however long it would take to land), it is brought to a
+final state. We usually refer to this final state as 'heads' or 'tails' based on
+which side of the coin landed face up, and it is the 'heads' or 'tails' that the
+statistician (person who studies statistics) is interested in. Without the
+process there is nothing to examine. Of course, leaving the coin stationary is
+also a process, but we already know that its final state is going to be the same
+as its original state, so it is not a particularly interesting process. Usually
+when we speak of a process, we mean one where the outcome is not yet known,
+otherwise there is no real point in analyzing it. With this understanding, it is
+very easy to understand what, precisely, probability theory is.</para><para id="id109602">When we speak of probability theory as a whole, we mean the way in which we quantify the possible outcomes of processes. Then, just
+as 'applied' mathematics takes the methods of 'pure' mathematics and applies
+them to real-world situations, applied statistics takes the means and methods of
+probability theory (i.e. the means and methods used to quantify possible
+outcomes of events) and applies them to real-world events in some way or
+another. For example, we might use probability theory to quantify the possible
+outcomes of the coin-flip above as having a 50% chance of coming up heads and a
+50% chance of coming up tails, and then use statistics to apply it a real-world
+situation by saying that of six coins sitting on a table, the most likely
+scenario is that three coins will come up heads and three coins will come up
+tails. This, of course, may not happen, but if we were only able to bet on ONE
+outcome, we would probably bet on that because it is the most probable. But
+here, we are already getting ahead of ourselves. So let's back up a
+little.</para>
+      <para id="id109608">To quantify results, we may use a variety of methods,
+terms, and notations, but a few common ones are:</para>
+      
+      <list id="id110006" display="block" list-type="bulleted"><item id="uid1">a
+percentage (for example '50%')
+</item>
+        <item id="uid2">a proportion of the total number of outcomes (for
+example, '5/10')
+</item>
+        <item id="uid3">a proportion of 1 (for example, '1/2')
+</item>
+      </list>
+      <para id="id110044">You may notice that all three of the above examples
+represent the same probability, and in fact ANY method of probability is
+fundamentally based on the following procedure:</para><list id="eip-959" list-type="enumerated" number-style="arabic"><item>Define a process.</item>
+
+<item>Define the total measure for all outcomes of the process.</item>
+
+<item>Describe the likelihood of each possible outcome of the process with
+respect to the total measure.</item></list><para id="eip-611">The term 'measure'
+may be confusing, but one may think of it as a ruler. If we take a ruler that is 1 metre long,
+then half of that ruler is 50 centimetres, a quarter of that ruler is
+25 centimetres, etc. However, the thing to remember is that without the
+ruler, it makes no sense to talk about proportions of a ruler! Indeed,
+the three examples above (50%, 5/10, and 1/2) represented the same probability,
+the only difference was how the total measure (ruler) was defined. If we go back
+to thinking about it in terms of a ruler '50%' means '50/100', so it means
+we are using 50 parts of the original 100 parts (centimetres) to quantify the
+outcome in question. '5/10' means 5 parts out of the original 10 parts (10
+centimetre pieces) depict the outcome in question. And in the last example,
+'1/2' means we are dividing the ruler into two pieces and saying that one
+of those two pieces represents the outcome in question. But these are all simply
+different ways to talk about the same 50 centimetres of the original 100
+centimetres! In terms of probability theory, we are only interested in <emphasis effect="italics">proportions of a whole</emphasis>.</para><para id="eip-613">Although there are many ways to define a 'measure', the most common
+and easiest one to generalize is to use '1' as the total measure. So if we
+consider the coin-flip, we would say that (assuming the coin was fair) the
+likelihood of heads is 1/2 (i.e. half of one) and the likelihood of tails is
+1/2. On the other hand, if we consider the event of not flipping the coin, then
+(assuming the coin was originally heads-side-up) the likelihood of heads is now
+1, while the likelihood of tails is 0. But we could have also used '14' as the
+original measure and said that the likelihood of heads or tails on the coin-flip
+was each '7 out of 14', while on the non-coin-flip the likelihood of heads was
+'14 out of 14', and the likelihood of tails was '0 out of 14'. Similarly, if we
+consider the throwing of a (fair) six-sided die, it may be easiest to set the
+total measure to '6' and say that the likelihood of throwing a '4' is '1 out of
+the 6', but usually we simply say that it is 1/6, i.e. '1/6 of 1'.</para>
+    </section>
+ <section id="uid4">
+        <title>Definitions</title>
+        
+        <para id="eip-499">There are three important concepts associated with a
+random experiment: 'outcome', 'sample space', and 'event'. Two examples of
+experiments will be used to familiarize you with these terms:</para><list id="id110091" display="block" list-type="bulleted"><item id="uid5">In Experiment
+1 a single die is thrown and the value of the top face after it has come to rest
+is noted.
+</item>
+          <item id="uid6">In Experiment 2 two dice are thrown at the same time
+and the total of the values of each of the top faces after they have come to
+rest is noted.
+</item>
+        </list>
+        <section id="id110119">
+          <title>Outcome</title>
+          <para id="id110125">An outcome of an experiment is a single result of
+that experiment.</para><list id="eip-733"><item>A possible outcome of Experiment
+1: the value on the top face is '3'</item>
+<item>A possible outcome of Experiment 2: the total value on the top faces is
+'9'</item></list>
+        </section>
+        <section id="id110131">
+          <title>Sample Space</title>
+          <para id="id110137">The sample space of an experiment is the complete
+set of possible outcomes of the experiment.</para>
+          <list id="id110141" display="block" list-type="bulleted"><item id="uid7">Experiment 1: the sample space is 1,2,3,4,5,6
+</item>
+            <item id="uid8">Experiment 2: the sample space is
+2,3,4,5,6,7,8,9,10,11,12
+</item>
+          </list><note id="eip-494"><title>Interesting fact</title>If you roll two die and add the results, the most common outcome is 7. To understand this, think that there is only one way to get 2 as a result (both dice landing with 1) and there is only way to get 12 as a result (both dice landing with 6). The opposite sides of a six sided dice add up to 7. From this you should be able to work out that there are 12 ways to get a 7.</note>
+        </section>
+        <section id="uid9">
+          <title>Event</title>
+          
+          
+          <para id="eip-898">An event is any set of outcomes of an
+experiment.</para><list id="eip-608"><item>A possible event of Experiment 1: an
+even number being on the top face of the die</item>
+<item>A possible event of Experiment 2: the numbers on the top face of each die
+being equal</item></list>
+</section>
+</section>
+   
+    <section id="cid3">
+      <title>Random Experiments</title>
+      <para id="id110059">The term <emphasis effect="italics">random
+experiment</emphasis> or <emphasis effect="italics">statistical
+experiment</emphasis> is used to describe any repeatable process, the results of
+which are analyzed in some way. For example, flipping a coin and noting whether
+or not it lands heads-up is a random experiment because the process is
+repeatable. On the other hand, your reading this sentence for the first time and
+noting whether you understand it is not a random experiment because it is not
+repeatable (though making a number of random people read it and noting which
+ones understand it would turn it into a random experiment).</para>
+      
+     
+<section id="id7342"><title>Venn diagrams</title><para id="id110213">A Venn diagram can be used to show
+the relationship between the possible outcomes of a random experiment and the
+sample space. The Venn diagram in <link target-id="uid12"/> shows the difference
+between the universal set, a sample space and events and outcomes as subsets of
+the sample space.</para>
+          <figure id="uid12">
+            <media id="uid12_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C17_001.png" id="uid12_onlineimage" width="331"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C17_001.eps" id="uid12_printimage"/>
+            </media>
+            <caption>Diagram to show difference between the universal set and
+the sample space. The sample space is made up of all possible outcomes of a
+statistical experiment and an event is a subset of the sample space.</caption>
+          </figure>
+          <para id="eip-451">We can draw Venn diagrams for experiments with two and three events. These are shown in <link target-id="uid1211"/> and <link target-id="uid1222"/>. Venn diagrams for experiments with more than three events are more complex and are not covered at this level. </para>
+<figure id="uid1211">
+            <media id="uid1211_media" alt="">
+              <image mime-type="image/png" src="../../media/venn1.png" id="uid1211_onlineimage" width="331"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/venn1.eps" id="uid1211_printimage"/>
+            </media>
+            <caption>Venn diagram for an experiment with two events</caption>
+          </figure>
+<figure id="uid1222">
+            <media id="uid1222_media" alt="">
+              <image mime-type="image/png" src="../../media/venn2.png" id="uid1222_onlineimage" width="331"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/venn2.eps" id="uid1222_printimage"/>
+            </media>
+            <caption>Venn diagram for an experiment with three events.</caption>
+          </figure>
+          <note id="eip-568"><title>Interesting fact</title>The Greek, Russian and Latin alphabets can be illustrated using Venn diagrams. All these alphabets have some common letters. The Venn diagram is given below:
+<figure id="id7888"><media id="id7888_media" alt="">
+            <image mime-type="image/png" src="../../media/venn_ifact.png" id="id7888_onlineimage" width="200"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/venn_ifact.eps" id="id7888_printimage"/>
+            </media>
+            </figure></note><para id="eip-256">The <emphasis effect="italics">union</emphasis> of
+<m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is the set of all elements in <m:math overflow="scroll"><m:mi>A</m:mi></m:math> or in <m:math overflow="scroll"><m:mi>B</m:mi></m:math> (or in both). <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mspace width="4pt"/><m:mi mathvariant="bold">or</m:mi><m:mspace width="4pt"/><m:mi>B</m:mi></m:mrow></m:math> is also written <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi></m:mrow></m:math>. The <emphasis effect="italics">intersection</emphasis> of <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is the set of all elements in both
+<m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math>. 
+<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mspace width="4pt"/><m:mi mathvariant="bold">and</m:mi><m:mspace width="4pt"/><m:mi>B</m:mi></m:mrow></m:math> is also written as <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:mrow></m:math>.</para><para id="eip-429">Venn diagrams can also be used to indicate the
+union and intersection between events in a sample space (<link target-id="uid13"/> and <link target-id="uid1381"/>).</para>
+<figure id="uid13"><media id="uid13_media" alt="">
+              <image mime-type="image/png" src="../../media/union.png" id="uid13_onlineimage" width="180"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 680. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/union.eps" id="uid13_printimage"/>
+            </media>
+
+            
+          <caption>Venn diagram to show (left) union of two events, <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, in the sample space <m:math overflow="scroll"><m:mi>S</m:mi></m:math>.</caption></figure>
+<figure id="uid1381"><media id="uid1381_media" alt="">
+              <image mime-type="image/png" src="../../media/intersect.png" id="uid1381_onlineimage" width="180"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 680. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/intersect.eps" id="uid1381_printimage"/>
+            </media>
+<caption>Venn diagram to show intersection of two events
+<m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, in the sample space <m:math overflow="scroll"><m:mi>S</m:mi></m:math>. The black region indicates the
+intersection.</caption></figure>
+
+<para id="eip-805">We use <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math> to refer to the number of elements in a set <m:math overflow="scroll"><m:mi>S</m:mi></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>)</m:mo></m:mrow></m:math> for the number of elements in <m:math overflow="scroll"><m:mi>X</m:mi></m:math>, etc.</para><exercise id="secfhsst_id141"><title> Random Experiments </title>
+          <problem id="probfhsst_id142">
+          <para id="id110320">In a box there are pieces of paper with the
+numbers from 1 to 9 written on them. A piece of paper is drawn from the box and
+the number on it is noted. Let <m:math overflow="scroll"><m:mi>S</m:mi></m:math>
+denote the sample space, let <m:math overflow="scroll"><m:mi>P</m:mi></m:math>
+denote the event 'drawing a prime number', and let <m:math overflow="scroll"><m:mi>E</m:mi></m:math> denote the event 'drawing an even
+number'. Using appropriate notation, in how many ways is it possible to draw: i)
+any number? ii) a prime number? iii) an even number? iv) a number that is either
+prime or even? v) a number that is both prime and even?</para>
+          
+          </problem>
+          <solution id="solfhsst_id147"> <list id="listfhsst_id147" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Consider the events: </label>
+          <list id="id110396" display="block" list-type="bulleted"><item id="uid14">Drawing a prime number: <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>7
+</m:mn><m:mo>}</m:mo></m:mrow></m:math></item>
+            <item id="uid15">Drawing an even number: <m:math overflow="scroll"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>;</m:mo><m:mn>8
+</m:mn><m:mo>}</m:mo></m:mrow></m:math></item>
+          </list>
+          </item> <item> <label> Draw a diagram </label>
+          <para id="id110666">
+            <figure id="id110668">
+              <media id="id110668_media" alt="">
+                <image mime-type="image/png" src="../../media/MG10C17_003.png" id="id110668_onlineimage" width="524"><!-- NOTE: attribute width changes image
+size online (pixels). original width is 524. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/MG10C17_003.eps" id="id110668_printimage"/>
+              </media>
+            </figure>
+          </para>
+          </item> <item> <label> Find the union </label>
+          <para id="id110678">The <emphasis effect="italics">union</emphasis> of
+<m:math overflow="scroll"><m:mi>P</m:mi></m:math> and <m:math overflow="scroll"><m:mi>E</m:mi></m:math> is the set of all elements in <m:math overflow="scroll"><m:mi>P</m:mi></m:math> or in <m:math overflow="scroll"><m:mi>E</m:mi></m:math> (or in both). <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>∪</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow>
+</m:mrow></m:math>. </para>
+          </item> <item> <label> Find the intersection </label>
+          <para id="id110808">The <emphasis effect="italics">intersection</emphasis> of <m:math overflow="scroll"><m:mi>P</m:mi></m:math> and <m:math overflow="scroll"><m:mi>E</m:mi></m:math> is the set of all elements in both
+<m:math overflow="scroll"><m:mi>P</m:mi></m:math> and <m:math overflow="scroll"><m:mi>E</m:mi></m:math>. <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>∩</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.
+</para>
+          </item> <item> <label> Find the number in each set </label>
+          
+          <equation id="id110962">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>∴</m:mo>
+                      <m:mspace width="0.166667em"/>
+                      <m:mspace width="0.166667em"/>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>S</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>9</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>4</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>E</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>4</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:mo>∪</m:mo>
+                      <m:mi>E</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>7</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:mo>∩</m:mo>
+                      <m:mi>E</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>2</m:mn>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          
+          </item> </list> </solution>
+</exercise><exercise id="eip-756"><problem id="eip-431">
+  <para id="eip-524">
+100 people were surveyed to find out which fast food chain (Nandos, Debonairs or Steers) they preferred. The following results were obtained:
+<list id="id7536">
+<item>50 liked Nandos </item>
+<item>66 liked Debonairs</item>
+<item>40 liked Steers</item>
+<item>27 liked Nandos and Debonairs but not Steers</item>
+<item>13 liked Debonairs and Steers but not Nandos</item>
+<item>4 liked all three</item>
+<item>94 liked at least one</item></list>
+<list id="id76932" list-type="enumerated" number-style="lower-alpha">
+<item>How many people did not like any of the fast food chains?</item>
+<item>How many people liked Nandos and Steers, but not Debonairs?</item>
+</list>
+  </para>
+</problem>
+
+<solution id="eip-363">
+<list id="id7234" list-type="enumerated" number-style="arabic" class="stepwise"><item><label> Draw a Venn diagram</label>
+The number of people who liked Nandos and Debonairs is 27, so this is the intersection of these two events. The number of people who liked Debonairs and Steers is 13, so the intersection of Debonairs and Steers is 13. We are told that 4 people like all three options, and so this means that there are 4 people in the intersection of all three options. So we can work out that the number of people who like just Debonairs is <m:math><m:mn>66</m:mn><m:mo>–</m:mo><m:mn>4</m:mn><m:mo>–</m:mo><m:mn>27</m:mn><m:mo>-</m:mo><m:mn>13</m:mn><m:mo>=</m:mo><m:mn>22</m:mn></m:math> (This is simply the total number who like Debonairs minus the number of people who like Debonairs and Steers, or Debonairs and Nandos or all three). 
+We draw the following diagram to represent the data:
+<figure id="id1368">
+              <media id="id1368_media" alt="">
+                <image mime-type="image/png" src="../../media/Vennwex1.png" id="id1368_onlineimage" width="324"><!-- NOTE: attribute width changes image
+size online (pixels). original width is 524. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/Vennwex1.eps" id="id1368_printimage"/>
+              </media>
+            </figure>
+</item>
+<item><label> Work out how many people like none</label>
+We are told that there were 100 people and that 94 liked at least one. So the number of people that liked none is: <m:math><m:mn>100</m:mn><m:mo>–</m:mo><m:mn>94</m:mn><m:mo>=</m:mo><m:mn>6</m:mn></m:math>. This is the answer to a).
+</item>
+<item>
+<label>Work out how many like Nandos and Steers but not Debonairs</label>
+We can redraw the part of the Venn diagram that is of interest:
+<figure id="id533">
+              <media id="id533_media" alt="">
+                <image mime-type="image/png" src="../../media/Vennwex2.png" id="id533_onlineimage" width="324"><!-- NOTE: attribute width changes image
+size online (pixels). original width is 524. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/Vennwex2.eps" id="id533_printimage"/>
+              </media>
+            </figure>
+Total people who like Nandos: 50<newline/>
+Of these 27 like both Nandos and Debonairs, and 4 people like all three options. So we find that the total number of people who just like Nandos is: <m:math><m:mn>50</m:mn><m:mo>–</m:mo><m:mn>27</m:mn><m:mo>–</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>19</m:mn></m:math><newline/>
+Total people who like Steers: 40<newline/>
+Of these 13 like both Steers and Debonairs, and 4 like all three options. So we find that the total number of people who like just Steers is: <m:math><m:mn>40</m:mn><m:mo>–</m:mo><m:mn>13</m:mn><m:mo>–</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>23</m:mn></m:math><newline/>
+Now use the identity <m:math><m:mi>n(N or S)</m:mi><m:mo>=</m:mo><m:mi>n(N)</m:mi><m:mo>+</m:mo><m:mi>n(S)</m:mi><m:mo>–</m:mo><m:mi>n(N and S)</m:mi></m:math> to find the number of people who like Nandos and Steers, but not Debonairs.
+<equation id="id734"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>n(N or S)</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mi>n(N)</m:mi><m:mo>+</m:mo><m:mi>n(S)</m:mi><m:mo>–</m:mo><m:mi>n(N and S)</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mn>28</m:mn></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>23</m:mn><m:mo>+</m:mo><m:mn>19</m:mn><m:mo>–</m:mo><m:mi>n(N and S)</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>n(N and S)</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>14</m:mn></m:mtd></m:mtr>
+</m:mtable></m:math></equation>
+The Venn diagram with that represents all this information is given:
+<figure id="id1106">
+              <media id="id1106_media" alt="">
+                <image mime-type="image/png" src="../../media/Vennwex3.png" id="id1106_onlineimage" width="324"><!-- NOTE: attribute width changes image
+size online (pixels). original width is 524. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/Vennwex3.eps" id="id1106_printimage"/>
+              </media>
+            </figure>
+</item>
+</list>
+</solution>
+</exercise></section>
+<section id="eip-796"><title>Activity: Venn diagrams</title><para id="eip-65">Which cellphone networks have you used or are you signed up for (e.g. Vodacom, Mtn or CellC)? Collect this information from your classmates as well. Then use the information to draw a Venn diagram (if you have more than three networks, then choose only the three most popular or draw Venn diagrams for all the combinations). Try to see if you can work out the number of people who use just one network, or the number of people who use all the networks.
+</para></section><section id="secfhsst_id3294"><title>Complement and complementary events</title>
+<para id="eip-442">A final notion that is important to understand is the notion
+of <emphasis effect="italics">complement</emphasis>.
+Just as in geometry when two angles are called 'complementary' if they added up
+to 90 degrees, (the two angles 'complement' each other to make a right angle), the complement of a set of outcomes <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> is the set of all outcomes in the sample space but not in <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>. It is usually denoted
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mo>'</m:mo></m:msup></m:mrow>
+</m:math> (or sometimes <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mo>C</m:mo></m:msup></m:mrow>
+</m:math>), and called 'the complement of <m:math overflow="scroll"><m:mi>A</m:mi></m:math>' or simply '<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>-complement'. Because it refers to the set of everything outside of <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>, it is also often referred to as 'not-<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>'. Thus, by definition, if <m:math overflow="scroll"><m:mi>S</m:mi></m:math> denotes the entire sample space of possible outcomes, and <m:math overflow="scroll"><m:mi>A</m:mi></m:math> is any subset of outcomes that we are interested in (i.e. an <emphasis effect="italics">event</emphasis>), then <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∪</m:mo><m:msup><m:mi>A</m:mi><m:mo>'</m:mo></m:msup> <m:mo>=</m:mo> <m:mi>S</m:mi></m:mrow></m:math> is always
+true, (i.e. <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mo>'</m:mo></m:msup></m:mrow>
+</m:math> <emphasis effect="italics">complements</emphasis> <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> to form the entire
+sample space). So in the exercise above, <m:math overflow="scroll"><m:mrow><m:msup><m:mi>P</m:mi><m:mo>'</m:mo></m:msup></m:mrow><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>}</m:mo></m:math>,
+while <m:math overflow="scroll"><m:mrow><m:msup><m:mi>E</m:mi><m:mo>'</m:mo></m:msup></m:mrow><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>}</m:mo></m:math>. So <m:math><m:mi>n</m:mi><m:mo>(</m:mo><m:msup><m:mi>P</m:mi><m:mo>'</m:mo></m:msup><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:msup><m:mi>E</m:mi><m:mo>'</m:mo></m:msup><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn></m:math></para><para id="eip-324">The probability of a complementary event refers to the
+probability associated with the complement of an event, i.e. the probability that something other than the event in question will occur. For example, if <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>25</m:mn></m:mrow></m:math>,
+then the probability of <m:math overflow="scroll"><m:mi>A</m:mi></m:math> not
+occurring is the probability associated with all other events in <m:math overflow="scroll"><m:mi>S</m:mi></m:math> occurring less the probability of
+<m:math overflow="scroll"><m:mi>A</m:mi></m:math> occurring.</para><para id="eip-788">In
+theory, it is very easy to calculate complements, since the number of elements
+in the complement of a set is just the total number of outcomes in the sample
+space minus the outcomes in that set (in the example above, there were 9
+possible outcomes in the sample space, and 4 possible outcomes in each of the
+sets we were interested in, thus both complements contained 9-4 = 5 elements).
+Similarly, it is easy to calculate probabilities of complements of events since
+they are simply the total probability (e.g. 1 if our total measure is 1) minus the probability of the event in question. So,</para><equation id="eip-936"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msup>
+                <m:mi>A</m:mi>
+                <m:mo>'</m:mo>
+              </m:msup>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>A</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:math>
+      </equation><para id="eip-836">Sometimes it is much easier to decide the probability of an event occurring by instead calculating the probability that the complementary event will NOT occur. For example, if the process in question was rolling three dice, and the event we were interested in was that at least one of the faces is a one, it is definitely much easier to figure out the probability that not getting a one will not occur than to try to figure out all the possible combinations of three dice where a one does occur!</para><exercise id="eip-549"><title>Complementary events</title><problem id="probfhsst_id1112">
+      <para id="id115556">If you throw two dice, one red and one blue, what is
+the probability that at least one of them will be a six? </para>
+      </problem>
+      <solution id="solfhsst_id1115"> <list id="listfhsst_id1115" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Work out probability of event 1 </label>
+      <para id="id115580">To solve that kind of question, work out the
+probability that there will be no six.</para>
+      </item> <item> <label> Work out probability of event 2 </label>
+      <para id="id115588">The probability that the red dice will not be a six is
+5/6, and that the blue one will not be a six is also 5/6.</para>
+      </item> <item> <label> Probability of neither </label>
+      <para id="id115596">So the probability that neither will be a six is
+<m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>/</m:mo><m:mn>6</m:mn><m:mo>×</m:mo><m:mn>5</m:mn><m:mo>/</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>/</m:mo><m:mn>36</m:mn></m:mrow></m:math>.</para>
+      </item> <item> <label> Probability of one </label>
+      <para id="id115636">So the probability that at least one will be a six is
+<m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>25</m:mn><m:mo>/</m:mo><m:mn>36</m:mn><m:mo>=</m:mo><m:mn>11</m:mn><m:mo>/</m:mo><m:mn>36</m:mn></m:mrow></m:math>.
+ </para>
+      </item> </list> </solution>
+</exercise><exercise id="eip-768"><title>Complementary events</title><problem id="probfhsst_id1128">
+      <para id="id115691">A bag contains three red balls, five white balls, two
+green balls and four blue balls:</para>
+      <para id="id115697">1. Calculate the probability that a red ball will be
+drawn from the bag.</para>
+      <para id="id115703">2. Calculate the probability that a ball which is not
+red will be drawn  </para>
+      </problem>
+      <solution id="solfhsst_id1133"> <list id="listfhsst_id1133" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Find event 1 </label>
+      <para id="id115727">Let R be the event that a red ball is drawn:</para>
+      <list id="id115731" display="block" list-type="bulleted">
+        <item id="uid100">P(R)-n(R)/n(S)=3/14
+</item>
+        <item id="uid101">R and R' are complementary events
+</item>
+      </list>
+      </item> <item> <label> Find the probabilitys </label>
+      <para id="id115764"><m:math overflow="scroll"><m:mo>∴</m:mo></m:math>
+P(R') = 1 - P(R) = 1 -3/14 = 11/14</para>
+      </item> <item> <label> Alternate way to solve it </label>
+      <list id="id115780" display="block" list-type="bulleted">
+        <item id="uid102">Alternately P(R') = P(B) + P(W) + P(G)
+</item>
+        <item id="uid103">P(R') = 4/14 + 5/14 + 2/14 = 11/14
+</item>
+      </list>
+      
+      </item> </list> </solution>
+</exercise></section>
+ <section id="cid4">
+      <title>Probability in Everyday Life</title>
+      
+      <para id="id111785">Probability is connected with uncertainty. In any
+statistical experiment, the outcomes that occur may be known, but exactly which
+one might not be known. Mathematically, probability theory formulates incomplete
+knowledge related to the likelihood of an occurrence. For example, a
+meteorologist might say there is a 60% chance that it will rain tomorrow. This
+means that in 6 of every 10 times when the world is in the current state, it
+will rain tomorrow.</para>
+      
+      <para id="id111800">Another way of referring to probabilities is odds. The
+odds of an event is defined as the ratio of the probability that the event
+occurs to the probability that it does not occur. For example, the odds of a
+coin landing on a given side are <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, usually written "1 to 1"
+or "1:1". This means that on average, the coin will land on that side as many
+times as it will land on the other side.</para>
+      <section id="uid36">
+        <title>The Simplest Example: Equally Likely Outcomes</title>
+         <para id="eip-953">We say two outcomes are <emphasis effect="italics">equally likely</emphasis> if they have an equal chance of
+happening. For example when a fair coin is tossed, each outcome in the sample
+space <m:math overflow="scroll"><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mrow><m:mi>h</m:mi><m:mi>e</m:mi><m:mi>a</m:mi><m:mi>d</m:mi><m:mi>s</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>i</m:mi><m:mi>l</m:mi><m:mi>s</m:mi><m:mo>}</m:mo></m:mrow></m:mrow></m:math> is equally likely to occur.</para><para id="eip-594">Probability is a function of events (since it is not possible to have a single event with two different probabilities occurring), so we usually denote the probability <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi></m:mrow></m:math> of some event <m:math overflow="scroll"><m:mrow><m:mi>E</m:mi></m:mrow></m:math> occurring by <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:mrow></m:math>. When all the outcomes are equally likely (in any
+activity), it is fairly straightforward to count the probability of a certain
+event occuring. In this case,</para><para id="eip-56"><m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math></para>
+        <para id="eip-525">For example, when you throw a fair die the sample
+space is <m:math overflow="scroll"><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>}</m:mo></m:mrow></m:math> so the total number of possible outcomes <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>.</para><para id="id111979"><emphasis effect="bold">Event 1: Get a 4</emphasis>
+        </para>
+        <para id="id111985">The only possible outcome is a 
+<m:math overflow="scroll"><m:mrow><m:mn>4</m:mn></m:mrow></m:math>, i.e <m:math overflow="scroll"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>4</m:mn><m:mo>}</m:mo></m:mrow></m:math>. So <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.
+</para>
+        <para id="id111992">Probability of getting a 4: <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mn>1</m:mn><m:mo>/</m:mo><m:mn>6</m:mn></m:mrow></m:math>.</para>
+        <para id="id111998"><emphasis effect="bold">Event 2: Get a number greater than 3</emphasis>
+        </para>
+        <para id="id112007">Favourable outcomes: <m:math overflow="scroll"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>}</m:mo></m:mrow></m:math></para>
+        <para id="id112039">Number of favourable outcomes: <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+        <para id="id112045">Probability of getting a number greater than 3:
+<m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>k</m:mi><m:mo>&gt;</m:mo><m:mn>3</m:mn><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mn>3</m:mn><m:mo>/</m:mo><m:mn>6</m:mn> <m:mo>=</m:mo>
+<m:mn>1</m:mn><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+<exercise id="secfhsst_id319"><problem id="probfhsst_id320">
+        <para id="id112064">A standard deck of cards (without jokers) has 52
+cards. There are four sets of cards, called suits. The suit a card belongs to is
+denoted by a symbol on the card, the four possible symbols being hearts, clubs,
+spades, and diamonds. In each suit there are 13 cards (<m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mspace width="4pt"/><m:mi> suits
+</m:mi><m:mspace width="4pt"/><m:mo>×</m:mo><m:mspace width="4pt"/><m:mn>13</m:mn><m:mspace width="4pt"/><m:mi> cards </m:mi><m:mo>=</m:mo><m:mn>52</m:mn></m:mrow></m:math>) consisting of one each
+of ace, king, queen, jack, and the numbers 2-10.</para>
+        <para id="id112108">If we randomly draw a card from the deck, we can the
+card drawn as a possible outcome. Therefore, there are 52 possible outcomes. We
+can now look at various events and calculate their probabilities:</para>
+        <list id="id112113" display="block" list-type="enumerated"><item id="uid39">Out of the 52 cards, there are 13 clubs. Therefore,
+if the event of interest is drawing a club, there are 13 favourable outcomes,
+what is the probability of this event?
+</item>
+          <item id="uid40">There are 4 kings (one of each suit). The probability
+of drawing a king is?
+</item>
+        <item id="uid41">What is the probability of getting a king or a club?</item></list>
+        
+        </problem>
+        <solution id="solfhsst_id333"> <list id="listfhsst_id333" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> First question </label>
+        <para id="id112177">The probability of this event is <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>13</m:mn><m:mn>52</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>.</para>
+        </item> <item> <label> Second question </label>
+        <para id="id112208"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>52</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>13</m:mn></m:mfrac></m:mrow></m:math>.</para>
+        </item> 
+<item> <label> Third question </label>
+        <para id="id112236">This example is slightly more complicated. We cannot
+simply add together the number of outcomes for each event separately
+(4 + 13 = 17) as this inadvertently counts one of the outcomes twice (the king
+of clubs). Why is this so? Well, mathematically if <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> are two events, it is actually true that 
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math> (a more detailed explanation of this identity is provided below, but for now just assume that it is true). In the results involving the
+throwing of dice, the intersection of any two outcomes was empty (and hence
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>)
+since it is not possible for the top face of a die to have two different values
+simultaneously. However, in this case, a card can be both a club and a king at
+the same time (i.e. <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>).
+Therefore, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>13</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math>. So the correct answer is <m:math overflow="scroll"><m:mfrac><m:mn>16</m:mn><m:mn>52</m:mn></m:mfrac></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id343"><title> Probability Models
+</title>
+        <list id="id112273" display="block" list-type="enumerated"><item id="uid42">A bag contains 6 red, 3 blue, 2 green and 1 white balls. A ball is
+picked at random. What is the probablity that it is:
+<list id="id112289" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid43">red
+</item><item id="uid44">blue or white
+</item><item id="uid45">not green (hint: think 'complement')
+</item><item id="uid46">not green or red?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lqu">Click here for the solution.</link></item>
+          <item id="uid47">A card is selected randomly from a pack of 52. What
+is the probability that it is:
+<list id="id112354" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid48">the 2 of hearts
+</item><item id="uid49">a red card
+</item><item id="uid50">a picture card
+</item><item id="uid51">an ace
+</item><item id="uid52">a number less than 4?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lqJ">Click here for the solution.</link></item>
+          <item id="uid53">Even numbers from 2 -100 are written on cards. What
+is the probability of selecting a multiple of 5, if a card is drawn at
+random?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lqS">Click here for the solution.</link>
+</item>
+        </list>
+        
+</section>
+</section>
+    </section>
+  <section id="cid7"><title>Probability Identities</title><para id="id113940">The following results apply to probabilities, for the sample space
+<m:math overflow="scroll"><m:mi>S</m:mi></m:math> and two events <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, within <m:math overflow="scroll"><m:mi>S</m:mi></m:math>.</para>
+      <equation id="uid57">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>S</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="uid58">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>×</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="uid59">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+<para id="eip-41">We can demonstrate this last result using a Venn diagram. The union of A and B is the set of all elements in A or in B or in both.
+<figure id="id743"><media id="uid743_media" alt="">
+              <image mime-type="image/png" src="../../media/venn1.png" id="uid743_onlineimage" width="180"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 680. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/venn1.eps" id="uid743_printimage"/>
+            </media>
+</figure>
+</para><para id="eip-227">The probability of event A occurring is given by <m:math><m:mi>P(A)</m:mi></m:math> and the probability of event B occurring is given by <m:math><m:mi>P(B)</m:mi></m:math>. However, if we look closely at the circle representing either of these events, we notice that the probability includes a small part of the other event. So event A includes a bit of event B and vice versa. This is shown in the following figure:
+<figure id="id1112"><media id="id1112_media" alt="">
+            <image mime-type="image/png" src="../../media/identity1.png" id="id1112_onlineimage" width="150"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/identity1.eps" id="id1112_printimage"/>
+            </media>
+            </figure>
+And then we observe that this small bit is simply the intersection of the two events.</para><para id="eip-609">So to find the probability of <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo></m:math> we notice the following: <list id="id9324">
+<item>We can add  <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo></m:math> and  <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo></m:math></item>
+<item>Doing this counts the intersection twice, once in <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo></m:math> and once in <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo></m:math>.</item>
+</list>
+So if we simply subtract the probability of the intersection, then we will find the total probability of the union: 
+
+<m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math></para><exercise id="secfhsst_id850"><title>Probabilty identities </title><problem id="probfhsst_id851">
+      <para id="id114130">What is the probability of selecting a black or red
+card from a pack of 52 cards </para>
+      </problem>
+      <solution id="solfhsst_id854"> <list id="listfhsst_id854" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Write the answer </label>
+      <para id="id114154"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>52</m:mn><m:mn>52</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:math> because all cards are black or
+red!
+ </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id860"><title> Probabilty identities </title>
+      <problem id="probfhsst_id861">
+      <para id="id114183">What is the probability of drawing a club or an ace
+with one single pick from a pack of 52 cards </para>
+      </problem>
+      <solution id="solfhsst_id864"> <list id="listfhsst_id864" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify the identity which describes the situation
+</label>
+      <equation id="id114207">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi> club </m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi> ace </m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi> club </m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi> ace </m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>-</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi> club </m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi> ace </m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate the answer </label>
+      <equation id="id114279">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>13</m:mn>
+                  </m:mfrac>
+                  <m:mo>-</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>13</m:mn>
+                    </m:mfrac>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>13</m:mn>
+                  </m:mfrac>
+                  <m:mo>-</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>52</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>16</m:mn>
+                  <m:mn>52</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>4</m:mn>
+                  <m:mn>13</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id114403">Notice how we have used <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∪</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C
+</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∩</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+ </para>
+      </item> </list> </solution>
+</exercise>
+<para id="eip-778">The following video provides a brief summary of some of the
+work covered so far.
+<figure id="uid333" class="khanacademy"><title>Khan academy video on
+probability</title><media id="yt-media" display="block" alt="Video on probability">
+  <flash id="yt-video" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/3ER8OkqBdpE&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para><section id="secfhsst_id985"><title> Probability Identities
+</title>
+      <para id="id114484">Answer the following questions </para>
+      <list id="id114495" display="block" list-type="enumerated"><item id="uid60">Rory is target shooting. His probability of hitting the target is
+<m:math><m:mn>0,7</m:mn></m:math>. He fires five shots. What is the probability
+that all five shots miss the center?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lab">Click here for the
+solution.</link></item>
+        <item id="uid63">An archer is shooting arrows at a bullseye. The
+probability that an arrow hits the bullseye is
+<m:math><m:mn>0,4</m:mn></m:math>. If she fires three arrows, what is the
+probability that all the arrows hit the bullseye?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laj">Click here for the
+solution.</link></item>
+        <item id="uid66">A dice with the numbers 1,3,5,7,9,11 on it is rolled.
+Also a fair coin is tossed. What is the probability that:
+<list id="id114596" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid69">A tail is tossed and a 9 rolled?
+</item><item id="uid70">A head is tossed and a 3 rolled?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laD">Click here for the solution.</link></item>
+        <item id="uid71">Four children take a test. The probability of each one
+passing is as follows. Sarah: <m:math><m:mn>0,8</m:mn></m:math>, Kosma:
+<m:math><m:mn>0,5</m:mn></m:math>, Heather: <m:math><m:mn>0,6</m:mn></m:math>,
+Wendy: <m:math><m:mn>0,9</m:mn></m:math>. What is the probability that:
+<list id="id114667" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid72">all four pass?
+</item><item id="uid73">all four fail?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laW">Click here for the solution.</link></item>
+        <item id="uid75">With a single pick from a pack of 52 cards what is the
+probability that the card will be an ace or a black card?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laZ">Click here for the
+solution.</link>
+</item>
+      </list>
+  </section>  </section>
+    <section id="cid8"><title>Mutually Exclusive Events</title><para id="id114732">Two events are called mutually exclusive if they cannot be
+true at the same time.</para>
+      <para id="id114736">Examples of mutually exclusive events are:</para>
+      <list id="id114740" display="block" list-type="enumerated">
+        <item id="uid76">A die landing on an even number or landing on an odd
+number.
+</item>
+        <item id="uid77">A student passing or failing an exam
+</item>
+        <item id="uid78">A tossed coin landing on heads or landing on tails
+</item>
+      </list>
+      <para id="id114782">This means that if we examine the elements of the sets
+that make up <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> there will be no elements in common.
+Therefore, <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>∅</m:mi></m:mrow></m:math> (where <m:math overflow="scroll"><m:mi>∅</m:mi></m:math> refers to the empty set). Since,
+<m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>,
+equation <link target-id="uid59"/> becomes:</para>
+      <equation id="id114861">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id114906">for mutually exclusive events.</para>
+<para id="eip-366">We can represent mutually exclusive events on a Venn diagram. In this case, the two circles do not touch each other, but are instead completely separate parts of the sample space.
+<figure id="id6899"><media id="id6899_media" alt="">
+            <image mime-type="image/png" src="../../media/mutualexclusive.png" id="id6899_onlineimage" width="150"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/mutualexclusive.eps" id="id6899_printimage"/>
+            </media>
+
+            <caption>Venn diagram for mutually exclusive events</caption></figure>
+</para><section id="secfhsst_id1048"><title>Mutually Exclusive Events </title><list id="id114930" display="block" list-type="enumerated"><item id="uid79">A box contains coloured blocks. The number of each colour is given in
+the following table.
+<table id="id114946" summary=""><tgroup cols="5"><tbody><row><entry>Colour</entry><entry>Purple</entry><entry>Orange</entry><entry>White</entry><entry>Pink</entry></row><row><entry>Number of
+blocks</entry><entry>24</entry><entry>32</entry><entry>41</entry><entry>19</entry></row></tbody></tgroup></table>
+A block is selected randomly. What is the probability that the block will be:
+<list id="id115050" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid80">purple
+</item><item id="uid81">purple or white
+</item><item id="uid82">pink and orange
+</item><item id="uid83">not orange?
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/laB">Click here for the solution.</link></item>
+        <item id="uid84">A small private school has a class with children of
+various ages. The table gies the number of pupils of each age in the class.
+<table id="id115116" summary=""><tgroup cols="6"><tbody><row><entry>3 years
+female</entry><entry>3 years male</entry><entry>4 years female</entry><entry>4
+years male</entry><entry>5 years female</entry><entry>5 years male</entry></row><row><entry>6</entry><entry>2</entry><entry>5</entry><entry>7</entry><entry>4</entry><entry>6</entry></row></tbody></tgroup></table>
+If a pupil is selceted at random what is the probability that the pupil will be:
+<list id="id115236" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid85">a female
+</item><item id="uid86">a 4 year old male
+</item><item id="uid87">aged 3 or 4
+</item><item id="uid88">aged 3 and 4
+</item><item id="uid89">not 5
+</item><item id="uid90">either 3 or female?
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/laK">Click here for the solution.</link></item>
+        <item id="uid91">Fiona has 85 labeled discs, which are numbered from 1
+to 85. If a disc is selected at random what is the probability that the disc
+number:
+<list id="id115326" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid92">ends with 5
+</item><item id="uid93">can be multiplied by 3
+</item><item id="uid94">can be multiplied by 6
+</item><item id="uid95">is number 65
+</item><item id="uid96">is not a multiple of 5
+</item><item id="uid97">is a multiple of 4 or 3
+</item><item id="uid98">is a multiple of 2 and 6
+</item><item id="uid99">is number 1?
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lak">Click here for the solution.</link></item>
+      </list></section>
+    </section>
+    
+<section id="secfhsst_id264"><title> Random Experiments </title>
+          <list id="id111123" display="block" list-type="enumerated"><item id="uid16"> Let <m:math overflow="scroll"><m:mrow><m:mi>S</m:mi></m:mrow></m:math> denote the set of
+whole numbers from 1 to 16,
+<m:math overflow="scroll"><m:mrow><m:mi>X</m:mi></m:mrow></m:math> denote the
+set of even numbers from 1 to 16 and
+<m:math overflow="scroll"><m:mrow><m:mi>Y</m:mi></m:mrow></m:math> denote the
+set of prime numbers from 1 to 16<list id="id111223" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid17">Draw a Venn
+diagram accurately depicting <m:math overflow="scroll"><m:mi>S</m:mi></m:math>,
+<m:math overflow="scroll"><m:mi>X</m:mi></m:math> and <m:math overflow="scroll"><m:mi>Y</m:mi></m:math>.
+</item><item id="uid18">Find <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>Y</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>∪</m:mo><m:mi>Y</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>∩</m:mo><m:mi>Y</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lqe">Click here for the solution.</link></item>
+            <item id="uid19">There are 79 Grade 10 learners at school. All of
+these take either Maths, Geography or History. The number who take Geography is
+41, those who take History is 36, and 30 take Maths. The number who take Maths
+and History is 16; the number who take Geography and History is 6, and there are
+8 who take Maths only and 16 who take only History.
+<list id="id111373" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid20">Draw a Venn diagram to illustrate
+all this information.
+</item><item id="uid21">How many learners take Maths and Geography but not
+History?
+</item><item id="uid22">How many learners take Geography only?
+</item><item id="uid23">How many learners take all three subjects?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lqt">Click here for the solution.</link></item>
+            <item id="uid24">Pieces of paper labelled with the numbers 1 to 12
+are placed in a box and the box is shaken. One piece of paper is taken out and
+then replaced.
+<list id="id111437" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid25">What is the sample space, <m:math overflow="scroll"><m:mi>S</m:mi></m:math>?
+</item><item id="uid26">Write down the set <m:math overflow="scroll"><m:mi>A</m:mi></m:math>, representing the event of taking a
+piece of paper labelled with a factor of 12.
+</item><item id="uid27">Write down the set <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, representing the event of taking a
+piece of paper labelled with a prime number.
+</item><item id="uid28">Represent <m:math overflow="scroll"><m:mi>A</m:mi></m:math>, <m:math overflow="scroll"><m:mi>B</m:mi></m:math> and <m:math overflow="scroll"><m:mi>S</m:mi></m:math> by means of a Venn diagram.
+</item><item id="uid29">Find
+<list id="id111546" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid30"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid31"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid32"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid33"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid34"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math></item></list></item><item id="uid35">Is <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A
+</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math>?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lqz">Click here for the solution.</link></item>
+          </list>
+          
+</section>
+</section>
+
+
+  </content>
+</document>

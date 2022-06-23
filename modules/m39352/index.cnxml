@@ -1,0 +1,629 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Proofs and conjectures</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39352</md:content-id>
+  <md:title>Proofs and conjectures</md:title>
+  <md:abstract/>
+  <md:uuid>b4097a12-6559-48f8-b5be-ff78ae37bcf4</md:uuid>
+</metadata>
+
+<content>
+<section id="secfhsst_id933"><title>Proofs and conjectures in geometry</title><para id="id0723">You have seen how to use geometry and the properties of polygons to help you find unknown lengths and angles in various quadrilaterals and polygons. We will now extend this work to proving some of the properties and to solving riders. A conjecture is the mathematicians way of saying I believe that this is true, but I have no proof. The following worked examples will help make this clearer. 
+</para>
+<exercise id="probfhsst_id072"><title>Proofs - 1</title><problem id="id97832"><para id="id943">Given quadrilateral ABCD, with <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mo>∥</m:mo><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mo>∥</m:mo><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>, prove that <m:math><m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>D</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow>
+                  </m:mrow></m:math> and <m:math>
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow></m:mrow>
+              </m:math>.</para>
+</problem>
+<solution id="solfhsst_id083"><list id="id08324" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Draw a diagram</label>We draw the following diagram and construct the diagonals.
+<figure id="uid310">
+        <media id="id897" alt="">
+          <image mime-type="image/png" src="../../media/geomproof1.png" id="uid310_onlineimage" width="260"><!-- NOTE: attribute width changes image size online (pixels). original width is 260. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/geomproof1.eps" id="uid310_printimage"/>
+        </media>
+      </figure>
+</item>
+<item><label>Write down what you are given and what you need</label>Given: <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mo>∥</m:mo><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mo>∥</m:mo><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>. We need to prove <m:math><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>C</m:mi></m:math> and <m:math><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>D</m:mi></m:math>. In the formal language of maths we say that we are required to prove (RTP) <m:math><m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>D</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow>
+                  </m:mrow></m:math> and <m:math>
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow></m:mrow>
+              </m:math>. </item>
+<item><label>Solve the problem</label><equation id="id3468"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>D</m:mi></m:mrow></m:mrow></m:mtd><m:mtd><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>corresponding angles</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow></m:mrow></m:mtd><m:mtd><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>corresponding angles</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>D</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow>
+                  </m:mrow>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+Similarly we find that: 
+<equation id="id97"><m:math>
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow></m:mrow>
+              </m:math>
+</equation></item>
+</list>
+</solution>
+</exercise>
+
+<exercise id="probfhsst_id073"><label>Proofs - 2</label>
+<problem id="id973452"><para id="id95433">In parallelogram ABCD, the bisectors of the angles (AW, BX, CY and DZ) have been constructed:
+<figure id="uid4140">
+        <media id="uid4140_media" alt="">
+          <image mime-type="image/png" src="../../media/geomproof2.png" id="uid410_onlineimage" width="260"><!-- NOTE: attribute width changes image size online (pixels). original width is 260. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/geomproof2.eps" id="uid4140_printimage"/>
+        </media>
+      </figure>
+You are also given that <m:math><m:mi>AB</m:mi><m:mo>=</m:mo><m:mi>CD</m:mi></m:math>, <m:math><m:mi>AD</m:mi><m:mo>=</m:mo><m:mi>BC</m:mi></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>AB</m:mi><m:mo>∥</m:mo><m:mi>CD</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>AD</m:mi><m:mo>∥</m:mo><m:mi>BC</m:mi></m:mrow></m:math>,  <m:math><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mo>=</m:mo> <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover></m:math>, and <m:math><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mo>=</m:mo> <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover></m:math>. 
+Prove that MNOP is a parallelogram.</para>
+</problem>
+<solution id="solfhsst_id023"><list id="id085424" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Write down what you are given and what you need to prove</label>Given: <m:math><m:mi>AB</m:mi><m:mo>=</m:mo><m:mi>CD</m:mi></m:math>, <m:math><m:mi>AD</m:mi><m:mo>=</m:mo><m:mi>BC</m:mi></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>AB</m:mi><m:mo>∥</m:mo><m:mi>CD</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>AD</m:mi><m:mo>∥</m:mo><m:mi>BC</m:mi></m:mrow></m:math>,  <m:math><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mo>=</m:mo> <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover></m:math>, and <m:math><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mo>=</m:mo> <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover></m:math>. RTP: MNOP is a parallelogram.</item>
+<item><label>Solve the problem</label>
+
+
+
+
+<equation id="id368"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>In</m:mi><m:mspace width="2pt"/> 
+                  <m:mi>▵</m:mi><m:mspace width="2pt"/><m:mi>ADW </m:mi><m:mspace width="2pt"/><m:mi>and</m:mi>
+                  <m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>CBY</m:mi><m:mspace width="2pt"/></m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>W</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Y</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>given</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>given</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>AD</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>BC</m:mi><m:mspace width="2pt"/><m:mi>(given)</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>ADW</m:mi>
+</m:mtd>
+<m:mtd><m:mi>=</m:mi>
+</m:mtd>
+<m:mtd columnalign="left"><m:mi>▵</m:mi>
+<m:mi>CBY</m:mi><m:mspace width="2pt"/><m:mi>(AAS)</m:mi></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>DW</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>BY</m:mi></m:mtd></m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<equation id="id378"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>In</m:mi><m:mspace width="2pt"/> 
+                  <m:mi>▵</m:mi><m:mspace width="2pt"/><m:mi>ABX </m:mi><m:mspace width="2pt"/><m:mi>and</m:mi>
+                  <m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>CDZ</m:mi><m:mspace width="2pt"/></m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Z</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>X</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>given</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>Z</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>X</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>given</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>DC</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>AB</m:mi><m:mspace width="2pt"/><m:mi>(given)</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>ABX</m:mi>
+</m:mtd>
+<m:mtd><m:mi>≡</m:mi>
+</m:mtd>
+<m:mtd columnalign="left"><m:mi>▵</m:mi>
+<m:mi>CDZ</m:mi><m:mspace width="2pt"/><m:mi>(AAS)</m:mi></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>AX</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>CZ</m:mi></m:mtd></m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+
+<equation id="id38868"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>In</m:mi><m:mspace width="2pt"/> 
+                  <m:mi>▵</m:mi><m:mspace width="2pt"/><m:mi>XAM </m:mi><m:mspace width="2pt"/><m:mi>and</m:mi>
+                  <m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>ZCO</m:mi><m:mspace width="2pt"/></m:mrow>
+                </m:mtd>
+              </m:mtr>              
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>X</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>M</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>Z</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>O</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>given</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>X</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>M</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>C</m:mi><m:mover accent="true">
+                    <m:mi>Z</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>O</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>proven above</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>AX</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>CZ</m:mi><m:mspace width="2pt"/><m:mi>(proven above)</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>XAM</m:mi>
+</m:mtd>
+<m:mtd><m:mi>≡</m:mi>
+</m:mtd>
+<m:mtd columnalign="left"><m:mi>▵</m:mi>
+<m:mi>COZ</m:mi><m:mspace width="2pt"/><m:mi>(AAS)</m:mi></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/> <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>O</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>M</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>X</m:mi></m:mrow></m:mtd></m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+
+<equation id="eip-914"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"> <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>M</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>X</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>P</m:mi><m:mover accent="true">
+                    <m:mi>M</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>N</m:mi><m:mspace width="2pt"/><m:mi>(vert. opp. ∠'s)</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"> <m:mrow><m:mi>C</m:mi><m:mover accent="true">
+                    <m:mi>O</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Z</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>N</m:mi><m:mover accent="true">
+                    <m:mi>O</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>P</m:mi><m:mspace width="2pt"/><m:mi>(vert. opp. ∠'s)</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right">
+<m:mo>∴</m:mo><m:mspace width="2pt"/> <m:mrow><m:mi>P</m:mi><m:mover accent="true">
+                    <m:mi>M</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>N</m:mi></m:mrow></m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+               </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow><m:mi>N</m:mi><m:mover accent="true">
+                    <m:mi>O</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>P</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><equation id="id3838"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>In</m:mi><m:mspace width="2pt"/> 
+                  <m:mi>▵</m:mi><m:mspace width="2pt"/><m:mi>BYN </m:mi><m:mspace width="2pt"/><m:mi>and</m:mi>
+                  <m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>DWP</m:mi><m:mspace width="2pt"/></m:mrow>
+                </m:mtd>
+              </m:mtr>  
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>Y</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>N</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>W</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>P</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>given</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>Y</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>N</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>W</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>P</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>proven above</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>DW</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>BY</m:mi><m:mspace width="2pt"/><m:mi>(proven above)</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>YBN</m:mi>
+</m:mtd>
+<m:mtd><m:mi>≡</m:mi>
+</m:mtd>
+<m:mtd columnalign="left"><m:mi>▵</m:mi>
+<m:mi>WDP</m:mi><m:mspace width="2pt"/><m:mi>(AAS)</m:mi></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/> <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>N</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Y</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>P</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>W</m:mi></m:mrow></m:mtd></m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation><equation id="eip-557"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"> <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>P</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>W</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>M</m:mi><m:mover accent="true">
+                    <m:mi>P</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>O</m:mi><m:mspace width="2pt"/><m:mi>(vert. opp. ∠'s)</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"> <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>N</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Y</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>O</m:mi><m:mover accent="true">
+                    <m:mi>N</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>M</m:mi><m:mspace width="2pt"/><m:mi>(vert. opp. ∠'s)</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right">
+<m:mo>∴</m:mo><m:mspace width="2pt"/> <m:mrow><m:mi>M</m:mi><m:mover accent="true">
+                    <m:mi>P</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>O</m:mi></m:mrow></m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+               </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow><m:mi>O</m:mi><m:mover accent="true">
+                    <m:mi>N</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>M</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><para id="eip-519"><m:math><m:mo>∴</m:mo></m:math> MNOP is a parallelogram (both pairs opp. <m:math><m:mi>∠</m:mi></m:math>'s <m:math><m:mo>=</m:mo></m:math>, and therefore both pairs opp. sides parallel too)</para>
+
+</item></list>
+</solution>
+</exercise>
+<note id="id97342" type="warning">It is very important to note that a single counter example disproves a conjecture. Also numerous specific supporting examples do not prove a conjecture. 
+</note>
+</section>  
+
+
+  </content>
+</document>

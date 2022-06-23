@@ -1,0 +1,659 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Parabolic and other functions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39223</md:content-id>
+  <md:title>Parabolic and other functions</md:title>
+  <md:abstract/>
+  <md:uuid>3464d45e-3730-47ca-a230-a6cfeb02bbd5</md:uuid>
+</metadata>
+
+<content>
+<section id="cid4">
+      <title>Average Gradient: Parabolic and other functions</title>
+<section id="secfhsst_id252"><title> Investigation : Average Gradient - Parabolic Function </title>
+      <para id="id190208">Fill in the table by calculating the average gradient over the indicated
+intervals for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>:</para>
+      <table id="id190240" summary="">
+        <tgroup cols="6">
+          <tbody>
+            <row>
+              <entry/>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>A-B</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>B-C</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>C-D</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>D-E</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>E-F</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>F-G</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id190636">
+What do you notice about the average gradient over each interval? What can you
+say about the average gradients between A and D compared to the average
+gradients between D and G?</para>
+      <para id="id190641">
+        <figure id="id190642">
+          <media id="id190642_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C12_002.png" id="id190642_onlineimage" width="265"><!-- NOTE: attribute width changes image size online (pixels). original width is 265. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C12_002.eps" id="id190642_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+</section>
+      <para id="id190657">The average gradient of a parabolic function depends on the interval and is the gradient of a straight line that passes through the points on the interval.</para>
+      <para id="id190661">For example, in <link target-id="uid3"/> the various points have been joined by straight-lines. The average gradients between the joined points are then the gradients of the straight lines that pass through the points.</para>
+      <figure id="uid3">
+        <media id="uid3_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C12_003.png" id="uid3_onlineimage" width="401"><!-- NOTE: attribute width changes image size online (pixels). original width is 401. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C12_003.eps" id="uid3_printimage"/>
+        </media>
+        <caption>The average gradient between two points on a curve is the gradient of the straight line that passes through the points.</caption>
+      </figure>
+      <section id="uid4">
+        <title>Method: Average Gradient</title>
+        <para id="id190691">Given the equation of a curve and two points (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math>, <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>):</para>
+        <list id="id190722" display="block" list-type="enumerated">
+          <item id="uid5">Write the equation of the curve in the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>...</m:mo></m:mrow></m:math>.
+</item>
+          <item id="uid6">Calculate <m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:math> by substituting <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> into the equation for the curve.
+</item>
+          <item id="uid7">Calculate <m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:math> by substituting <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math> into the equation for the curve.
+</item>
+          <item id="uid8">Calculate the average gradient using:
+<equation id="id189188"><m:math overflow="scroll" mode="display"><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></equation></item>
+        </list>
+<exercise id="secfhsst_id408"><title> Average Gradient </title>
+        <problem id="probfhsst_id409">
+        <para id="id191077">Find the average gradient of the curve <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math> between the points <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> </para>
+        </problem>
+        <solution id="solfhsst_id412"> <list id="listfhsst_id412" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Label points </label>
+        <para id="id191151">Label the points as follows:</para>
+        <equation id="id191154">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mo>-</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id191178">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id191200">to make it easier to calculate the gradient.</para>
+        </item> <item> <label> Calculate the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> coordinates </label>
+        <para id="id191219">We use the equation for the curve to calculate the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-value at <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> and <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>.</para>
+        <equation id="id191259">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msubsup>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msubsup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>41</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <equation id="id191371">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msubsup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msubsup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>41</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Calculate the average gradient </label>
+        <equation id="id191486">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>41</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>41</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>0</m:mn>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>0</m:mn>
+                    <m:mn>6</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id191621">The average gradient between <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> on the curve <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math> is 0.
+ </para>
+        </item> </list> </solution>
+</exercise>
+      </section>
+    </section>
+<section id="secfhsst356"><title>Average gradient for other functions</title>
+<para id="id7342">We can extend the concept of average gradient to any function. The average gradient for any function also depends on the interval chosen and is the gradient of a straight line that passes through the two points. So we can use the formula that we found for the average gradient of parabolic functions and apply it to any function. We will consider the average gradient of just two functions here: exponential functions and hyperbolic functions.
+</para>
+<section id="cid452"><title>Average gradient of exponential functions</title>
+<para id="id734">For example, if we were asked to find the average gradient of the function <m:math overflow="scroll"><m:mi>g(x)</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:math> between the points <m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mi>2,2</m:mi><m:mo>)</m:mo></m:math> and <m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>0,6</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:math>. This is shown in <link target-id="uid31"/>. 
+<figure id="uid31">
+        <media id="uid31_media" alt="">
+          <image mime-type="image/png" src="../../media/exponent.png" id="uid31_onlineimage" width="401"><!-- NOTE: attribute width changes image size online (pixels). original width is 401. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/exponent.eps" id="uid31_printimage"/>
+        </media>
+        <caption>The average gradient for an exponential function.</caption>
+      </figure>
+Using the formula we find:
+ <equation id="id193486">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>2,2</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                       <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>0,6</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1,8</m:mn>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>0,6</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1,8</m:mn>
+                    <m:mn>5,2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0,35</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+</para>
+</section>
+<section id="cid442"><title>Average gradient of hyperbolic functions</title>
+<para id="id67324">For example, if we were asked to find the average gradient of the function <m:math overflow="scroll"><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mn>2</m:mn></m:math> between the points <m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>2,5</m:mn><m:mo>)</m:mo></m:math> and <m:math><m:mo>(</m:mo><m:mn>0,5</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:math> and <m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>2,2</m:mn><m:mo>)</m:mo></m:math> and <m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>0,6</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:math>. This is shown in <link target-id="uid32"/>.
+<figure id="uid32">
+        <media id="uid32_media" alt="">
+          <image mime-type="image/png" src="../../media/hyperbola.png" id="uid32_onlineimage" width="401"><!-- NOTE: attribute width changes image size online (pixels). original width is 401. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/hyperbola.eps" id="uid32_printimage"/>
+        </media>
+        <caption>The average gradient for a hyperbolic function.</caption>
+      </figure></para>
+<para id="id2322"> For the first point we would get:
+ <equation id="id196486"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                       <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>2,5</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>0,5</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac><m:mrow>
+                   <m:mo>-</m:mo>
+                      <m:mn>3,5</m:mn></m:mrow>
+<m:mrow>
+                    <m:mo>-</m:mo>
+                      <m:mn>4,5</m:mn>
+</m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0,78</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+Similarly for the second points we would find that the average gradient is: <m:math><m:mn>0,53</m:mn></m:math>
+</para>
+</section>
+</section>
+</content></document>
