@@ -553,9 +553,9 @@
                     </m:msup>
                     <m:mrow>
                       <m:mo>(</m:mo>
-                      <m:mi mathvariant="sans-serif">corresponds</m:mi>
-                      <m:mi mathvariant="sans-serif">to</m:mi>
-                      <m:mi mathvariant="sans-serif">H</m:mi>
+                      <m:mi mathvariant="bold-sans-serif">corresponds</m:mi>
+                      <m:mi mathvariant="bold-sans-serif">to</m:mi>
+                      <m:mi mathvariant="bold-sans-serif">H</m:mi>
                       <m:mo>)</m:mo>
                     </m:mrow>
                   </m:mrow>
@@ -576,9 +576,9 @@
                     </m:msup>
                     <m:mrow>
                       <m:mo>(</m:mo>
-                      <m:mi mathvariant="sans-serif">corresponds</m:mi>
-                      <m:mi mathvariant="sans-serif">to</m:mi>
-                      <m:mi mathvariant="sans-serif">D</m:mi>
+                      <m:mi mathvariant="bold-sans-serif">corresponds</m:mi>
+                      <m:mi mathvariant="bold-sans-serif">to</m:mi>
+                      <m:mi mathvariant="bold-sans-serif">D</m:mi>
                       <m:mo>)</m:mo>
                     </m:mrow>
                   </m:mrow>
@@ -599,9 +599,9 @@
                     </m:msup>
                     <m:mrow>
                       <m:mo>(</m:mo>
-                      <m:mi mathvariant="sans-serif">corresponds</m:mi>
-                      <m:mi mathvariant="sans-serif">to</m:mi>
-                      <m:mi mathvariant="sans-serif">E</m:mi>
+                      <m:mi mathvariant="bold-sans-serif">corresponds</m:mi>
+                      <m:mi mathvariant="bold-sans-serif">to</m:mi>
+                      <m:mi mathvariant="bold-sans-serif">E</m:mi>
                       <m:mo>)</m:mo>
                     </m:mrow>
                   </m:mrow>
